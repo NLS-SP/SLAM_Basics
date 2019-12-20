@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Lab_SLAM"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\opencv3.4.5\;CMake Files\..\..\..\..\..\usr\local\opencv3.4.5\share\;CMake Files\..\..\..\..\..\usr\local\opencv3.4.5\share\OpenCV\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\Sophus\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/gatsby/CV_Program/SLAM_Demo/Lab_SLAM/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/gatsby/CV_Program/SLAM_Demo/Lab_SLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gatsby/CV_Program/SLAM_Demo/Lab_SLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gatsby/CV_Program/SLAM_Demo/Lab_SLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gatsby/CV_Program/SLAM_Demo/Lab_SLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/gatsby/CV_Program/SLAM_Demo/Lab_SLAM/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/gatsby/CV_Program/SLAM_Demo/Lab_SLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gatsby/CV_Program/SLAM_Demo/Lab_SLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gatsby/CV_Program/SLAM_Demo/Lab_SLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gatsby/CV_Program/SLAM_Demo/Lab_SLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/gatsby/CV_Program/SLAM_Demo/Lab_SLAM/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/gatsby/CV_Program/SLAM_Demo/Lab_SLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gatsby/CV_Program/SLAM_Demo/Lab_SLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gatsby/CV_Program/SLAM_Demo/Lab_SLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gatsby/CV_Program/SLAM_Demo/Lab_SLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab_SLAM">
+				<Option output="/Users/gatsby/CV_Program/SLAM_Demo/Lab_SLAM/cmake-build-debug/libLab_SLAM.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gatsby/CV_Program/SLAM_Demo/Lab_SLAM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/local/lib/cmake/Sophus/../../../include"/>
+					<Add directory="/Users/gatsby/CV_Program/SLAM_Demo/Lab_SLAM"/>
+					<Add directory="/Users/gatsby/CV_Program/SLAM_Demo/Lab_SLAM/include"/>
+					<Add directory="/usr/local/opencv3.4.5/include"/>
+					<Add directory="/usr/local/opencv3.4.5/include/opencv"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/gatsby/CV_Program/SLAM_Demo/Lab_SLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab_SLAM"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gatsby/CV_Program/SLAM_Demo/Lab_SLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gatsby/CV_Program/SLAM_Demo/Lab_SLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gatsby/CV_Program/SLAM_Demo/Lab_SLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab_SLAM/fast">
+				<Option output="/Users/gatsby/CV_Program/SLAM_Demo/Lab_SLAM/cmake-build-debug/libLab_SLAM.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gatsby/CV_Program/SLAM_Demo/Lab_SLAM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/local/lib/cmake/Sophus/../../../include"/>
+					<Add directory="/Users/gatsby/CV_Program/SLAM_Demo/Lab_SLAM"/>
+					<Add directory="/Users/gatsby/CV_Program/SLAM_Demo/Lab_SLAM/include"/>
+					<Add directory="/usr/local/opencv3.4.5/include"/>
+					<Add directory="/usr/local/opencv3.4.5/include/opencv"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/gatsby/CV_Program/SLAM_Demo/Lab_SLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab_SLAM/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gatsby/CV_Program/SLAM_Demo/Lab_SLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gatsby/CV_Program/SLAM_Demo/Lab_SLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gatsby/CV_Program/SLAM_Demo/Lab_SLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/gatsby/CV_Program/SLAM_Demo/Lab_SLAM/src/Camera.cpp">
+			<Option target="Lab_SLAM"/>
+		</Unit>
+		<Unit filename="/Users/gatsby/CV_Program/SLAM_Demo/Lab_SLAM/src/TestCase.cpp">
+			<Option target="Lab_SLAM"/>
+		</Unit>
+		<Unit filename="/Users/gatsby/CV_Program/SLAM_Demo/Lab_SLAM/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/gatsby/CV_Program/SLAM_Demo/Lab_SLAM/../../../../../usr/local/opencv3.4.5/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opencv3.4.5\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/Users/gatsby/CV_Program/SLAM_Demo/Lab_SLAM/../../../../../usr/local/opencv3.4.5/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opencv3.4.5\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/Users/gatsby/CV_Program/SLAM_Demo/Lab_SLAM/../../../../../usr/local/opencv3.4.5/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opencv3.4.5\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/Users/gatsby/CV_Program/SLAM_Demo/Lab_SLAM/../../../../../usr/local/opencv3.4.5/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opencv3.4.5\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/Users/gatsby/CV_Program/SLAM_Demo/Lab_SLAM/../../../../../usr/local/lib/cmake/Sophus/SophusConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Sophus\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

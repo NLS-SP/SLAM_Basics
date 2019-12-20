@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="vector_study"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\List\;CMake Files\Vector\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Vector"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Vector/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Vector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Vector/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Vector/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vectorLIB">
+				<Option output="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Vector/libvectorLIB.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Vector"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/Vector/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Vector/Makefile&quot;  VERBOSE=1 vectorLIB"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Vector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Vector/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Vector/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vectorLIB/fast">
+				<Option output="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Vector/libvectorLIB.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Vector"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/Vector/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Vector/Makefile&quot;  VERBOSE=1 vectorLIB/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Vector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Vector/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Vector/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vector_test">
+				<Option output="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Vector/vector_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Vector"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/Vector/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Vector/Makefile&quot;  VERBOSE=1 vector_test"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Vector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Vector/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Vector/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vector_test/fast">
+				<Option output="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Vector/vector_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Vector"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/Vector/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Vector/Makefile&quot;  VERBOSE=1 vector_test/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Vector/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Vector/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Vector/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/Vector/src">
+			<Option target="vector_test"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/Vector/src/Vector.cpp">
+			<Option target="vectorLIB"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/Vector/vector_test.cpp">
+			<Option target="vector_test"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/List/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\List\"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/Vector/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Vector\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

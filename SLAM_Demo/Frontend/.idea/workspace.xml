@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="SLAM_FRONTED" targetName="HelloPangolinOffScreen" />
+      <config projectName="SLAM_FRONTED" targetName="Map_Build" />
+      <config projectName="SLAM_FRONTED" targetName="HelloPangolinThreads" />
+      <config projectName="SLAM_FRONTED" targetName="ORB_main" />
+      <config projectName="SLAM_FRONTED" targetName="opcv_poseEstimation3d3d" />
+      <config projectName="SLAM_FRONTED" targetName="HelloPangolin" />
+      <config projectName="SLAM_FRONTED" targetName="opcv_poseEstimation2d3d" />
+      <config projectName="SLAM_FRONTED" targetName="opcv_poseEstimation2d2d" />
+      <config projectName="SLAM_FRONTED" targetName="SIFT_Compute" />
+      <config projectName="SLAM_FRONTED" targetName="ORB_Compute" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1103687f-b906-4195-b2b6-41c4a7330beb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ICP_Basic/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rotation/.idea/Rotation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/CPP/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/CPP/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/CPP/Vector/include/vector_merge.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/CPP/Vector/include/vector_merge.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/CPP/Vector/vector_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/CPP/Vector/vector_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/CPP/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/CPP/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/CPP/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/CPP/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/CPP/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/CPP/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/CPP/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/CPP/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/CPP/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/CPP/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/CPP/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/CPP/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/CPP/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/CPP/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/CPP/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/CPP/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/CPP/cmake-build-debug/Vector/CMakeFiles/vectorLIB.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/CPP/cmake-build-debug/Vector/CMakeFiles/vectorLIB.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/CPP/cmake-build-debug/Vector/CMakeFiles/vector_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/CPP/cmake-build-debug/Vector/CMakeFiles/vector_test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/CPP/cmake-build-debug/Vector/CMakeFiles/vector_test.dir/vector_test.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/CPP/cmake-build-debug/Vector/CMakeFiles/vector_test.dir/vector_test.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/CPP/cmake-build-debug/Vector/vector_study.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/CPP/cmake-build-debug/Vector/vector_study.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/CPP/cmake-build-debug/Vector/vector_test" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/CPP/cmake-build-debug/Vector/vector_test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/CPP/cmake-build-debug/basic_algorithm.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/CPP/cmake-build-debug/basic_algorithm.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algorithm/CPP/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithm/CPP/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP_Basic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ICP_Basic/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/ICP_Basic.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/ICP_Basic.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/ICP_Basic.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/ICP_Basic.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/ICP_Basic.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/ICP_Basic.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/ICP_Basic.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/ICP_test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/ICP_test.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/ICP_test.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/ICP_test.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/ICP_test.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/ICP_test.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/ICP_test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/ICP_test.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/ICP_test.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/ICP_test.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/myICP.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/ICP_Basic/cmake-build-debug/myICP.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP_Basic/include/ICP.h" beforeDir="false" afterPath="$PROJECT_DIR$/ICP_Basic/include/ICP.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP_Basic/include/kdtree.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ICP_Basic/src/ICP_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ICP_Basic/src/ICP_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Viewer/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Viewer/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Viewer/helloPangolinThreads.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Viewer/helloPangolinThreads.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Features/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Features/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Features/CMakeFiles/ORB_Compute.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Features/CMakeFiles/ORB_Compute.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Features/CMakeFiles/ORB_Compute.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Features/CMakeFiles/ORB_Compute.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Features/CMakeFiles/ORB_Compute.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Features/CMakeFiles/ORB_Compute.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Features/CMakeFiles/ORB_Compute.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Features/CMakeFiles/ORB_Compute.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Features/CMakeFiles/ORB_Compute.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Features/CMakeFiles/ORB_Compute.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Features/CMakeFiles/SIFT_Compute.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Features/CMakeFiles/SIFT_Compute.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Features/CMakeFiles/SIFT_Compute.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Features/CMakeFiles/SIFT_Compute.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Features/CMakeFiles/SIFT_Compute.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Features/CMakeFiles/SIFT_Compute.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Features/CMakeFiles/SIFT_Compute.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Features/CMakeFiles/SIFT_Compute.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Features/CMakeFiles/SIFT_Compute.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Features/CMakeFiles/SIFT_Compute.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Features/Features.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Features/Features.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Features/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Features/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Features/ORB_Compute" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Features/ORB_Compute" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Map/3DMap.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Map/3DMap.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Map/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Map/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Map/CMakeFiles/Map_Build.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Map/CMakeFiles/Map_Build.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Map/CMakeFiles/Map_Build.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Map/CMakeFiles/Map_Build.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Map/CMakeFiles/Map_Build.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Map/CMakeFiles/Map_Build.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Map/CMakeFiles/Map_Build.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Map/CMakeFiles/Map_Build.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Map/CMakeFiles/Map_Build.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Map/CMakeFiles/Map_Build.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Map/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Map/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/OpenCV_ORB/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/OpenCV_ORB/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/OpenCV_ORB/CMakeFiles/ORB_main.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/OpenCV_ORB/CMakeFiles/ORB_main.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/OpenCV_ORB/CMakeFiles/ORB_main.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/OpenCV_ORB/CMakeFiles/ORB_main.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/OpenCV_ORB/CMakeFiles/ORB_main.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/OpenCV_ORB/CMakeFiles/ORB_main.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/OpenCV_ORB/CMakeFiles/ORB_main.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/OpenCV_ORB/CMakeFiles/ORB_main.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/OpenCV_ORB/CMakeFiles/ORB_main.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/OpenCV_ORB/CMakeFiles/ORB_main.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/OpenCV_ORB/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/OpenCV_ORB/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/OpenCV_ORB/ORB_Main.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/OpenCV_ORB/ORB_Main.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Pose_Estimation/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Pose_Estimation/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Pose_Estimation/CMakeFiles/opcv_poseEstimation2d2d.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Pose_Estimation/CMakeFiles/opcv_poseEstimation2d2d.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Pose_Estimation/CMakeFiles/opcv_poseEstimation2d2d.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Pose_Estimation/CMakeFiles/opcv_poseEstimation2d2d.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Pose_Estimation/CMakeFiles/opcv_poseEstimation2d2d.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Pose_Estimation/CMakeFiles/opcv_poseEstimation2d2d.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Pose_Estimation/CMakeFiles/opcv_poseEstimation2d2d.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Pose_Estimation/CMakeFiles/opcv_poseEstimation2d2d.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Pose_Estimation/CMakeFiles/opcv_poseEstimation2d2d.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Pose_Estimation/CMakeFiles/opcv_poseEstimation2d2d.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Pose_Estimation/CMakeFiles/opcv_poseEstimation2d3d.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Pose_Estimation/CMakeFiles/opcv_poseEstimation2d3d.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Pose_Estimation/CMakeFiles/opcv_poseEstimation2d3d.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Pose_Estimation/CMakeFiles/opcv_poseEstimation2d3d.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Pose_Estimation/CMakeFiles/opcv_poseEstimation2d3d.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Pose_Estimation/CMakeFiles/opcv_poseEstimation2d3d.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Pose_Estimation/CMakeFiles/opcv_poseEstimation2d3d.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Pose_Estimation/CMakeFiles/opcv_poseEstimation2d3d.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Pose_Estimation/CMakeFiles/opcv_poseEstimation2d3d.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Pose_Estimation/CMakeFiles/opcv_poseEstimation2d3d.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Pose_Estimation/CMakeFiles/opcv_poseEstimation3d3d.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Pose_Estimation/CMakeFiles/opcv_poseEstimation3d3d.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Pose_Estimation/CMakeFiles/opcv_poseEstimation3d3d.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Pose_Estimation/CMakeFiles/opcv_poseEstimation3d3d.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Pose_Estimation/CMakeFiles/opcv_poseEstimation3d3d.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Pose_Estimation/CMakeFiles/opcv_poseEstimation3d3d.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Pose_Estimation/CMakeFiles/opcv_poseEstimation3d3d.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Pose_Estimation/CMakeFiles/opcv_poseEstimation3d3d.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Pose_Estimation/CMakeFiles/opcv_poseEstimation3d3d.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Pose_Estimation/CMakeFiles/opcv_poseEstimation3d3d.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Pose_Estimation/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Pose_Estimation/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Pose_Estimation/Pose_Estimation.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Pose_Estimation/Pose_Estimation.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/SLAM_FRONTED.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/SLAM_FRONTED.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolin.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolin.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolin.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolin.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolin.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolin.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolin.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolin.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolin.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolin.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolin.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolin.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolin.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolin.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolin.dir/helloPangolin.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolin.dir/helloPangolin.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolin.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolin.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolinOffScreen.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolinOffScreen.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolinOffScreen.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolinOffScreen.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolinOffScreen.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolinOffScreen.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolinOffScreen.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolinOffScreen.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolinOffScreen.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolinOffScreen.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolinOffScreen.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolinOffScreen.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolinOffScreen.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolinOffScreen.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolinOffScreen.dir/helloPangolinOffScreen.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolinOffScreen.dir/helloPangolinOffScreen.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolinOffScreen.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolinOffScreen.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolinThreads.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolinThreads.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolinThreads.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolinThreads.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolinThreads.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolinThreads.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolinThreads.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolinThreads.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolinThreads.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolinThreads.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolinThreads.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolinThreads.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolinThreads.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolinThreads.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolinThreads.dir/helloPangolinThreads.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolinThreads.dir/helloPangolinThreads.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolinThreads.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Viewer/CMakeFiles/HelloPangolinThreads.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Viewer/HelloPangolin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Viewer/HelloPangolin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Viewer/HelloPangolinOffScreen" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Viewer/HelloPangolinOffScreen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Viewer/HelloPangolinThreads" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Viewer/HelloPangolinThreads" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Viewer/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Viewer/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Viewer/Window_Viewer.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Viewer/Window_Viewer.cbp" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectId" id="1UyoXHMM8NMDpk92etvDMmxbxDg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Lab_SLAM/include" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cmake-build-debug/OpenCV_ORB" />
+      <recent name="$PROJECT_DIR$/cmake-build-debug/Features" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="CMake Application.SIFT_Compute">
+    <configuration name="HelloPangolin" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SLAM_FRONTED" TARGET_NAME="HelloPangolin" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SLAM_FRONTED" RUN_TARGET_NAME="HelloPangolin">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloPangolinOffScreen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SLAM_FRONTED" TARGET_NAME="HelloPangolinOffScreen" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SLAM_FRONTED" RUN_TARGET_NAME="HelloPangolinOffScreen">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Map_Build" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SLAM_FRONTED" TARGET_NAME="Map_Build" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SLAM_FRONTED" RUN_TARGET_NAME="Map_Build">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SIFT_Compute" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SLAM_FRONTED" TARGET_NAME="ORB_Compute" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SLAM_FRONTED" RUN_TARGET_NAME="ORB_Compute">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SLAM_FRONTTED" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SLAM_FRONTED" TARGET_NAME="HelloPangolinThreads" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SLAM_FRONTED" RUN_TARGET_NAME="HelloPangolinThreads">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="opcv_poseEstimation2d2d" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SLAM_FRONTED" TARGET_NAME="opcv_poseEstimation2d2d" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SLAM_FRONTED" RUN_TARGET_NAME="opcv_poseEstimation2d2d">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="opcv_poseEstimation2d3d" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SLAM_FRONTED" TARGET_NAME="opcv_poseEstimation2d3d" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SLAM_FRONTED" RUN_TARGET_NAME="opcv_poseEstimation2d3d">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="opcv_poseEstimation3d3d" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SLAM_FRONTED" TARGET_NAME="opcv_poseEstimation3d3d" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SLAM_FRONTED" RUN_TARGET_NAME="opcv_poseEstimation3d3d">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.SLAM_FRONTTED" />
+      <item itemvalue="CMake Application.SIFT_Compute" />
+      <item itemvalue="CMake Application.Map_Build" />
+      <item itemvalue="CMake Application.opcv_poseEstimation2d2d" />
+      <item itemvalue="CMake Application.opcv_poseEstimation2d3d" />
+      <item itemvalue="CMake Application.opcv_poseEstimation3d3d" />
+      <item itemvalue="CMake Application.HelloPangolin" />
+      <item itemvalue="CMake Application.HelloPangolinOffScreen" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1103687f-b906-4195-b2b6-41c4a7330beb" name="Default Changelist" comment="" />
+      <created>1549122793745</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549122793745</updated>
+      <workItem from="1549122796826" duration="777000" />
+      <workItem from="1549452518237" duration="696000" />
+      <workItem from="1549454683680" duration="1070000" />
+      <workItem from="1549626249815" duration="2923000" />
+      <workItem from="1549678507692" duration="3575000" />
+      <workItem from="1549848437888" duration="236000" />
+      <workItem from="1549851082647" duration="3733000" />
+      <workItem from="1549940410067" duration="6541000" />
+      <workItem from="1550027609106" duration="9232000" />
+      <workItem from="1550200693407" duration="3625000" />
+      <workItem from="1550220463094" duration="4629000" />
+      <workItem from="1550282867142" duration="6752000" />
+      <workItem from="1550578744720" duration="779000" />
+      <workItem from="1550579738952" duration="316000" />
+      <workItem from="1550799966627" duration="2182000" />
+      <workItem from="1550803590676" duration="75000" />
+      <workItem from="1550804083817" duration="74000" />
+      <workItem from="1550804178933" duration="86000" />
+      <workItem from="1550804877441" duration="4527000" />
+      <workItem from="1551085703023" duration="1154000" />
+      <workItem from="1551142179134" duration="5748000" />
+      <workItem from="1551188423356" duration="4156000" />
+      <workItem from="1551277840626" duration="3489000" />
+      <workItem from="1551339588903" duration="190000" />
+      <workItem from="1551339953846" duration="543000" />
+      <workItem from="1551345566423" duration="1630000" />
+      <workItem from="1551504018218" duration="216000" />
+      <workItem from="1551793348833" duration="609000" />
+      <workItem from="1551797547687" duration="327000" />
+      <workItem from="1551833092550" duration="223000" />
+      <workItem from="1551835111760" duration="2525000" />
+      <workItem from="1551837742331" duration="319000" />
+      <workItem from="1551838068531" duration="839000" />
+      <workItem from="1551860343842" duration="409000" />
+      <workItem from="1551862731217" duration="289000" />
+      <workItem from="1552276382567" duration="53000" />
+      <workItem from="1552543213874" duration="183000" />
+      <workItem from="1552553040574" duration="41000" />
+      <workItem from="1553323241185" duration="114000" />
+      <workItem from="1553348975347" duration="616000" />
+      <workItem from="1554176795648" duration="714000" />
+      <workItem from="1555501646144" duration="130000" />
+      <workItem from="1557727669388" duration="3198000" />
+      <workItem from="1557732470416" duration="851000" />
+      <workItem from="1557745026294" duration="327000" />
+      <workItem from="1557745710272" duration="985000" />
+      <workItem from="1576338234494" duration="1047000" />
+      <workItem from="1576502501161" duration="259000" />
+      <workItem from="1576596656654" duration="491000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Features/ORB_Compute.cpp</url>
+          <line>369</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

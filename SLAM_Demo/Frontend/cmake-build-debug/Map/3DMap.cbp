@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="3DMap"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Map\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\usr\local\share\octomap\;CMake Files\..\..\..\..\..\usr\local\share\sophus\;CMake Files\..\..\..\..\..\usr\local\share\sophus\cmake\;CMake Files\..\..\..\..\..\usr\local\opencv3.4.8\;CMake Files\..\..\..\..\..\usr\local\opencv3.4.8\share\;CMake Files\..\..\..\..\..\usr\local\opencv3.4.8\share\OpenCV\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\Pangolin\;CMake Files\Features\;CMake Files\OpenCV_ORB\;CMake Files\Pose_Estimation\;CMake Files\Viewer\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/cmake-build-debug/Map"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/cmake-build-debug/Map/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/cmake-build-debug/Map/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/cmake-build-debug/Map/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/cmake-build-debug/Map/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Map_Build">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/cmake-build-debug/Map/Map_Build" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/cmake-build-debug/Map"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/opencv3.4.8/include"/>
+					<Add directory="/usr/local/opencv3.4.8/include/opencv"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/cmake-build-debug/Map/Makefile&quot;  VERBOSE=1 Map_Build"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/cmake-build-debug/Map/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/cmake-build-debug/Map/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/cmake-build-debug/Map/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Map_Build/fast">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/cmake-build-debug/Map/Map_Build" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/cmake-build-debug/Map"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/opencv3.4.8/include"/>
+					<Add directory="/usr/local/opencv3.4.8/include/opencv"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/cmake-build-debug/Map/Makefile&quot;  VERBOSE=1 Map_Build/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/cmake-build-debug/Map/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/cmake-build-debug/Map/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/cmake-build-debug/Map/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/Map/mapBuilt.cpp">
+			<Option target="Map_Build"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/Map/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Map\"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/../../../../../usr/local/share/octomap/octomap-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\octomap\"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/../../../../../usr/local/share/octomap/octomap-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\octomap\"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/../../../../../usr/local/share/octomap/octomap-targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\octomap\"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/../../../../../usr/local/share/octomap/octomap-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\octomap\"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/../../../../../usr/local/share/sophus/cmake/SophusConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\sophus\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/../../../../../usr/local/share/sophus/cmake/SophusConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\sophus\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/../../../../../usr/local/share/sophus/cmake/SophusTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\sophus\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/../../../../../usr/local/opencv3.4.8/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opencv3.4.8\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/../../../../../usr/local/opencv3.4.8/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opencv3.4.8\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/../../../../../usr/local/opencv3.4.8/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opencv3.4.8\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/../../../../../usr/local/opencv3.4.8/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opencv3.4.8\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/../../../../../usr/local/lib/cmake/Pangolin/PangolinConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Pangolin\"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/../../../../../usr/local/lib/cmake/Pangolin/PangolinConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Pangolin\"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/../../../../../usr/local/lib/cmake/Pangolin/PangolinTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Pangolin\"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/../../../../../usr/local/lib/cmake/Pangolin/PangolinTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Pangolin\"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/Features/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Features\"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/OpenCV_ORB/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\OpenCV_ORB\"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/Pose_Estimation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Pose_Estimation\"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/Viewer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Viewer\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
