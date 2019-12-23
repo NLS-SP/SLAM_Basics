@@ -1,13 +1,15 @@
 cmake_minimum_required(VERSION 2.8)
 project(GUI_TOOL)
 
+include_directories(include)
+
 set(GLEW_H /usr/local/Cellar/glew/2.1.0/include)
-set(GLFW_H /usr/local/Cellar/glfw/3.2.1/include)
+set(GLFW_H /usr/local/Cellar/glfw/3.3/include)
 set(GLAD_H /usr/local/include)
 include_directories(${GLEW_H} ${GLFW_H} ${GLAD_H})
 
 set(GLEW_LINK /usr/local/Cellar/glew/2.1.0/lib/libGLEW.2.1.dylib)
-set(GLFW_LINK /usr/local/Cellar/glfw/3.2.1/lib/libglfw.3.dylib)
+set(GLFW_LINK /usr/local/Cellar/glfw/3.3/lib/libglfw.3.dylib)
 link_libraries(${OpenGL} ${GLEW_LINK} ${GLFW_LINK})
 
 set(CMAKE_BUILD_TYPE DEBUG)

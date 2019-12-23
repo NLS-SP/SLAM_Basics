@@ -1,4 +1,4 @@
-# Install script for directory: /Users/gatsby/SLAM_Basic/SLAM_Demo/OpenGL_Study
+# Install script for directory: /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/gatsby/SLAM_Basic/SLAM_Demo/OpenGL_Study/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
