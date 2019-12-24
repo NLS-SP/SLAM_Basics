@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named helloTriangle
+
+# Build rule for target.
+helloTriangle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 helloTriangle
+.PHONY : helloTriangle
+
+# fast build rule for target.
+helloTriangle/fast:
+	$(MAKE) -f CMakeFiles/helloTriangle.dir/build.make CMakeFiles/helloTriangle.dir/build
+.PHONY : helloTriangle/fast
+
+#=============================================================================
+# Target rules for targets named helloWindow
+
+# Build rule for target.
+helloWindow: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 helloWindow
+.PHONY : helloWindow
+
+# fast build rule for target.
+helloWindow/fast:
+	$(MAKE) -f CMakeFiles/helloWindow.dir/build.make CMakeFiles/helloWindow.dir/build
+.PHONY : helloWindow/fast
+
+#=============================================================================
 # Target rules for targets named OpenGL_test
 
 # Build rule for target.
@@ -156,6 +182,8 @@ src/glad.o: src/glad.c.o
 
 # target to build an object file
 src/glad.c.o:
+	$(MAKE) -f CMakeFiles/helloTriangle.dir/build.make CMakeFiles/helloTriangle.dir/src/glad.c.o
+	$(MAKE) -f CMakeFiles/helloWindow.dir/build.make CMakeFiles/helloWindow.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_test.dir/build.make CMakeFiles/OpenGL_test.dir/src/glad.c.o
 .PHONY : src/glad.c.o
 
@@ -165,6 +193,8 @@ src/glad.i: src/glad.c.i
 
 # target to preprocess a source file
 src/glad.c.i:
+	$(MAKE) -f CMakeFiles/helloTriangle.dir/build.make CMakeFiles/helloTriangle.dir/src/glad.c.i
+	$(MAKE) -f CMakeFiles/helloWindow.dir/build.make CMakeFiles/helloWindow.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_test.dir/build.make CMakeFiles/OpenGL_test.dir/src/glad.c.i
 .PHONY : src/glad.c.i
 
@@ -174,8 +204,64 @@ src/glad.s: src/glad.c.s
 
 # target to generate assembly for a file
 src/glad.c.s:
+	$(MAKE) -f CMakeFiles/helloTriangle.dir/build.make CMakeFiles/helloTriangle.dir/src/glad.c.s
+	$(MAKE) -f CMakeFiles/helloWindow.dir/build.make CMakeFiles/helloWindow.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_test.dir/build.make CMakeFiles/OpenGL_test.dir/src/glad.c.s
 .PHONY : src/glad.c.s
+
+src/helloTriangle.o: src/helloTriangle.cpp.o
+
+.PHONY : src/helloTriangle.o
+
+# target to build an object file
+src/helloTriangle.cpp.o:
+	$(MAKE) -f CMakeFiles/helloTriangle.dir/build.make CMakeFiles/helloTriangle.dir/src/helloTriangle.cpp.o
+.PHONY : src/helloTriangle.cpp.o
+
+src/helloTriangle.i: src/helloTriangle.cpp.i
+
+.PHONY : src/helloTriangle.i
+
+# target to preprocess a source file
+src/helloTriangle.cpp.i:
+	$(MAKE) -f CMakeFiles/helloTriangle.dir/build.make CMakeFiles/helloTriangle.dir/src/helloTriangle.cpp.i
+.PHONY : src/helloTriangle.cpp.i
+
+src/helloTriangle.s: src/helloTriangle.cpp.s
+
+.PHONY : src/helloTriangle.s
+
+# target to generate assembly for a file
+src/helloTriangle.cpp.s:
+	$(MAKE) -f CMakeFiles/helloTriangle.dir/build.make CMakeFiles/helloTriangle.dir/src/helloTriangle.cpp.s
+.PHONY : src/helloTriangle.cpp.s
+
+src/helloWindow.o: src/helloWindow.cpp.o
+
+.PHONY : src/helloWindow.o
+
+# target to build an object file
+src/helloWindow.cpp.o:
+	$(MAKE) -f CMakeFiles/helloWindow.dir/build.make CMakeFiles/helloWindow.dir/src/helloWindow.cpp.o
+.PHONY : src/helloWindow.cpp.o
+
+src/helloWindow.i: src/helloWindow.cpp.i
+
+.PHONY : src/helloWindow.i
+
+# target to preprocess a source file
+src/helloWindow.cpp.i:
+	$(MAKE) -f CMakeFiles/helloWindow.dir/build.make CMakeFiles/helloWindow.dir/src/helloWindow.cpp.i
+.PHONY : src/helloWindow.cpp.i
+
+src/helloWindow.s: src/helloWindow.cpp.s
+
+.PHONY : src/helloWindow.s
+
+# target to generate assembly for a file
+src/helloWindow.cpp.s:
+	$(MAKE) -f CMakeFiles/helloWindow.dir/build.make CMakeFiles/helloWindow.dir/src/helloWindow.cpp.s
+.PHONY : src/helloWindow.cpp.s
 
 # Help Target
 help:
@@ -185,6 +271,8 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... helloTriangle"
+	@echo "... helloWindow"
 	@echo "... OpenGL_test"
 	@echo "... src/OpenGL_test.o"
 	@echo "... src/OpenGL_test.i"
@@ -192,6 +280,12 @@ help:
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"
+	@echo "... src/helloTriangle.o"
+	@echo "... src/helloTriangle.i"
+	@echo "... src/helloTriangle.s"
+	@echo "... src/helloWindow.o"
+	@echo "... src/helloWindow.i"
+	@echo "... src/helloWindow.s"
 .PHONY : help
 
 

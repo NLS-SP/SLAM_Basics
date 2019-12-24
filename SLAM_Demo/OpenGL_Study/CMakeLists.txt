@@ -21,3 +21,9 @@ set(Third_PARTY_LIBS "-framework OpenGL" "-framework GLUT")
 
 add_executable(OpenGL_test src/OpenGL_test.cpp ${SOURCE_FILES})
 target_link_libraries(OpenGL_test ${Third_PARTY_LIBS})
+
+add_executable(helloWindow src/helloWindow.cpp ${SOURCE_FILES})
+target_link_libraries(helloWindow ${Third_PARTY_LIBS})
+
+add_executable(helloTriangle src/helloTriangle.cpp ${SOURCE_FILES})
+target_link_libraries(helloTriangle ${Third_PARTY_LIBS})
