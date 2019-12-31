@@ -1,0 +1,11 @@
+# Ignore build
+build/
+cmake-build-debug/
+cmake-build-release/
+.idea/
+
+# Python
+.pyc
+
+# Clion Files
+.idea
