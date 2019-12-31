@@ -137,6 +137,19 @@ helloWindow/fast:
 .PHONY : helloWindow/fast
 
 #=============================================================================
+# Target rules for targets named helloRectangle
+
+# Build rule for target.
+helloRectangle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 helloRectangle
+.PHONY : helloRectangle
+
+# fast build rule for target.
+helloRectangle/fast:
+	$(MAKE) -f CMakeFiles/helloRectangle.dir/build.make CMakeFiles/helloRectangle.dir/build
+.PHONY : helloRectangle/fast
+
+#=============================================================================
 # Target rules for targets named OpenGL_test
 
 # Build rule for target.
@@ -184,6 +197,7 @@ src/glad.o: src/glad.c.o
 src/glad.c.o:
 	$(MAKE) -f CMakeFiles/helloTriangle.dir/build.make CMakeFiles/helloTriangle.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/helloWindow.dir/build.make CMakeFiles/helloWindow.dir/src/glad.c.o
+	$(MAKE) -f CMakeFiles/helloRectangle.dir/build.make CMakeFiles/helloRectangle.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_test.dir/build.make CMakeFiles/OpenGL_test.dir/src/glad.c.o
 .PHONY : src/glad.c.o
 
@@ -195,6 +209,7 @@ src/glad.i: src/glad.c.i
 src/glad.c.i:
 	$(MAKE) -f CMakeFiles/helloTriangle.dir/build.make CMakeFiles/helloTriangle.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/helloWindow.dir/build.make CMakeFiles/helloWindow.dir/src/glad.c.i
+	$(MAKE) -f CMakeFiles/helloRectangle.dir/build.make CMakeFiles/helloRectangle.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_test.dir/build.make CMakeFiles/OpenGL_test.dir/src/glad.c.i
 .PHONY : src/glad.c.i
 
@@ -206,8 +221,36 @@ src/glad.s: src/glad.c.s
 src/glad.c.s:
 	$(MAKE) -f CMakeFiles/helloTriangle.dir/build.make CMakeFiles/helloTriangle.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/helloWindow.dir/build.make CMakeFiles/helloWindow.dir/src/glad.c.s
+	$(MAKE) -f CMakeFiles/helloRectangle.dir/build.make CMakeFiles/helloRectangle.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_test.dir/build.make CMakeFiles/OpenGL_test.dir/src/glad.c.s
 .PHONY : src/glad.c.s
+
+src/helloRectangle.o: src/helloRectangle.cpp.o
+
+.PHONY : src/helloRectangle.o
+
+# target to build an object file
+src/helloRectangle.cpp.o:
+	$(MAKE) -f CMakeFiles/helloRectangle.dir/build.make CMakeFiles/helloRectangle.dir/src/helloRectangle.cpp.o
+.PHONY : src/helloRectangle.cpp.o
+
+src/helloRectangle.i: src/helloRectangle.cpp.i
+
+.PHONY : src/helloRectangle.i
+
+# target to preprocess a source file
+src/helloRectangle.cpp.i:
+	$(MAKE) -f CMakeFiles/helloRectangle.dir/build.make CMakeFiles/helloRectangle.dir/src/helloRectangle.cpp.i
+.PHONY : src/helloRectangle.cpp.i
+
+src/helloRectangle.s: src/helloRectangle.cpp.s
+
+.PHONY : src/helloRectangle.s
+
+# target to generate assembly for a file
+src/helloRectangle.cpp.s:
+	$(MAKE) -f CMakeFiles/helloRectangle.dir/build.make CMakeFiles/helloRectangle.dir/src/helloRectangle.cpp.s
+.PHONY : src/helloRectangle.cpp.s
 
 src/helloTriangle.o: src/helloTriangle.cpp.o
 
@@ -273,6 +316,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... helloTriangle"
 	@echo "... helloWindow"
+	@echo "... helloRectangle"
 	@echo "... OpenGL_test"
 	@echo "... src/OpenGL_test.o"
 	@echo "... src/OpenGL_test.i"
@@ -280,6 +324,9 @@ help:
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"
+	@echo "... src/helloRectangle.o"
+	@echo "... src/helloRectangle.i"
+	@echo "... src/helloRectangle.s"
 	@echo "... src/helloTriangle.o"
 	@echo "... src/helloTriangle.i"
 	@echo "... src/helloTriangle.s"

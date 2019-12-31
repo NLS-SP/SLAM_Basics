@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/gatsby/SLAM_Basic/SLAM_Demo/Thread_Study/tutorial_1.cpp" "/Users/gatsby/SLAM_Basic/SLAM_Demo/Thread_Study/cmake-build-debug/CMakeFiles/tutorial01.dir/tutorial_1.cpp.o"
+  "/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/tutorial_1.cpp" "/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/CMakeFiles/tutorial01.dir/tutorial_1.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

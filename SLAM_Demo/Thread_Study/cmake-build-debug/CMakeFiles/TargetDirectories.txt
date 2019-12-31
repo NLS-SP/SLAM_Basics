@@ -1,3 +1,4 @@
-/Users/gatsby/SLAM_Basic/SLAM_Demo/Thread_Study/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/gatsby/SLAM_Basic/SLAM_Demo/Thread_Study/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/gatsby/SLAM_Basic/SLAM_Demo/Thread_Study/cmake-build-debug/CMakeFiles/tutorial01.dir
+/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/CMakeFiles/thread_function.dir
+/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/CMakeFiles/machine_thread.dir

@@ -27,3 +27,6 @@ target_link_libraries(helloWindow ${Third_PARTY_LIBS})
 
 add_executable(helloTriangle src/helloTriangle.cpp ${SOURCE_FILES})
 target_link_libraries(helloTriangle ${Third_PARTY_LIBS})
+
+add_executable(helloRectangle src/helloRectangle.cpp ${SOURCE_FILES})
+target_link_libraries(helloRectangle ${Third_PARTY_LIBS})
