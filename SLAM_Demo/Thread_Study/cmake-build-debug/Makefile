@@ -111,6 +111,58 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named hello_function_object
+
+# Build rule for target.
+hello_function_object: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello_function_object
+.PHONY : hello_function_object
+
+# fast build rule for target.
+hello_function_object/fast:
+	$(MAKE) -f CMakeFiles/hello_function_object.dir/build.make CMakeFiles/hello_function_object.dir/build
+.PHONY : hello_function_object/fast
+
+#=============================================================================
+# Target rules for targets named hello_lambda_function
+
+# Build rule for target.
+hello_lambda_function: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello_lambda_function
+.PHONY : hello_lambda_function
+
+# fast build rule for target.
+hello_lambda_function/fast:
+	$(MAKE) -f CMakeFiles/hello_lambda_function.dir/build.make CMakeFiles/hello_lambda_function.dir/build
+.PHONY : hello_lambda_function/fast
+
+#=============================================================================
+# Target rules for targets named hello_detach
+
+# Build rule for target.
+hello_detach: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello_detach
+.PHONY : hello_detach
+
+# fast build rule for target.
+hello_detach/fast:
+	$(MAKE) -f CMakeFiles/hello_detach.dir/build.make CMakeFiles/hello_detach.dir/build
+.PHONY : hello_detach/fast
+
+#=============================================================================
+# Target rules for targets named hello_function_parameter
+
+# Build rule for target.
+hello_function_parameter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello_function_parameter
+.PHONY : hello_function_parameter
+
+# fast build rule for target.
+hello_function_parameter/fast:
+	$(MAKE) -f CMakeFiles/hello_function_parameter.dir/build.make CMakeFiles/hello_function_parameter.dir/build
+.PHONY : hello_function_parameter/fast
+
+#=============================================================================
 # Target rules for targets named thread_function
 
 # Build rule for target.
@@ -135,6 +187,114 @@ machine_thread: cmake_check_build_system
 machine_thread/fast:
 	$(MAKE) -f CMakeFiles/machine_thread.dir/build.make CMakeFiles/machine_thread.dir/build
 .PHONY : machine_thread/fast
+
+hello_detach.o: hello_detach.cpp.o
+
+.PHONY : hello_detach.o
+
+# target to build an object file
+hello_detach.cpp.o:
+	$(MAKE) -f CMakeFiles/hello_detach.dir/build.make CMakeFiles/hello_detach.dir/hello_detach.cpp.o
+.PHONY : hello_detach.cpp.o
+
+hello_detach.i: hello_detach.cpp.i
+
+.PHONY : hello_detach.i
+
+# target to preprocess a source file
+hello_detach.cpp.i:
+	$(MAKE) -f CMakeFiles/hello_detach.dir/build.make CMakeFiles/hello_detach.dir/hello_detach.cpp.i
+.PHONY : hello_detach.cpp.i
+
+hello_detach.s: hello_detach.cpp.s
+
+.PHONY : hello_detach.s
+
+# target to generate assembly for a file
+hello_detach.cpp.s:
+	$(MAKE) -f CMakeFiles/hello_detach.dir/build.make CMakeFiles/hello_detach.dir/hello_detach.cpp.s
+.PHONY : hello_detach.cpp.s
+
+hello_function_object.o: hello_function_object.cpp.o
+
+.PHONY : hello_function_object.o
+
+# target to build an object file
+hello_function_object.cpp.o:
+	$(MAKE) -f CMakeFiles/hello_function_object.dir/build.make CMakeFiles/hello_function_object.dir/hello_function_object.cpp.o
+.PHONY : hello_function_object.cpp.o
+
+hello_function_object.i: hello_function_object.cpp.i
+
+.PHONY : hello_function_object.i
+
+# target to preprocess a source file
+hello_function_object.cpp.i:
+	$(MAKE) -f CMakeFiles/hello_function_object.dir/build.make CMakeFiles/hello_function_object.dir/hello_function_object.cpp.i
+.PHONY : hello_function_object.cpp.i
+
+hello_function_object.s: hello_function_object.cpp.s
+
+.PHONY : hello_function_object.s
+
+# target to generate assembly for a file
+hello_function_object.cpp.s:
+	$(MAKE) -f CMakeFiles/hello_function_object.dir/build.make CMakeFiles/hello_function_object.dir/hello_function_object.cpp.s
+.PHONY : hello_function_object.cpp.s
+
+hello_function_parameter.o: hello_function_parameter.cpp.o
+
+.PHONY : hello_function_parameter.o
+
+# target to build an object file
+hello_function_parameter.cpp.o:
+	$(MAKE) -f CMakeFiles/hello_function_parameter.dir/build.make CMakeFiles/hello_function_parameter.dir/hello_function_parameter.cpp.o
+.PHONY : hello_function_parameter.cpp.o
+
+hello_function_parameter.i: hello_function_parameter.cpp.i
+
+.PHONY : hello_function_parameter.i
+
+# target to preprocess a source file
+hello_function_parameter.cpp.i:
+	$(MAKE) -f CMakeFiles/hello_function_parameter.dir/build.make CMakeFiles/hello_function_parameter.dir/hello_function_parameter.cpp.i
+.PHONY : hello_function_parameter.cpp.i
+
+hello_function_parameter.s: hello_function_parameter.cpp.s
+
+.PHONY : hello_function_parameter.s
+
+# target to generate assembly for a file
+hello_function_parameter.cpp.s:
+	$(MAKE) -f CMakeFiles/hello_function_parameter.dir/build.make CMakeFiles/hello_function_parameter.dir/hello_function_parameter.cpp.s
+.PHONY : hello_function_parameter.cpp.s
+
+hello_lambda_function.o: hello_lambda_function.cpp.o
+
+.PHONY : hello_lambda_function.o
+
+# target to build an object file
+hello_lambda_function.cpp.o:
+	$(MAKE) -f CMakeFiles/hello_lambda_function.dir/build.make CMakeFiles/hello_lambda_function.dir/hello_lambda_function.cpp.o
+.PHONY : hello_lambda_function.cpp.o
+
+hello_lambda_function.i: hello_lambda_function.cpp.i
+
+.PHONY : hello_lambda_function.i
+
+# target to preprocess a source file
+hello_lambda_function.cpp.i:
+	$(MAKE) -f CMakeFiles/hello_lambda_function.dir/build.make CMakeFiles/hello_lambda_function.dir/hello_lambda_function.cpp.i
+.PHONY : hello_lambda_function.cpp.i
+
+hello_lambda_function.s: hello_lambda_function.cpp.s
+
+.PHONY : hello_lambda_function.s
+
+# target to generate assembly for a file
+hello_lambda_function.cpp.s:
+	$(MAKE) -f CMakeFiles/hello_lambda_function.dir/build.make CMakeFiles/hello_lambda_function.dir/hello_lambda_function.cpp.s
+.PHONY : hello_lambda_function.cpp.s
 
 machine_thread.o: machine_thread.cpp.o
 
@@ -197,9 +357,25 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... hello_function_object"
 	@echo "... edit_cache"
+	@echo "... hello_lambda_function"
+	@echo "... hello_detach"
+	@echo "... hello_function_parameter"
 	@echo "... thread_function"
 	@echo "... machine_thread"
+	@echo "... hello_detach.o"
+	@echo "... hello_detach.i"
+	@echo "... hello_detach.s"
+	@echo "... hello_function_object.o"
+	@echo "... hello_function_object.i"
+	@echo "... hello_function_object.s"
+	@echo "... hello_function_parameter.o"
+	@echo "... hello_function_parameter.i"
+	@echo "... hello_function_parameter.s"
+	@echo "... hello_lambda_function.o"
+	@echo "... hello_lambda_function.i"
+	@echo "... hello_lambda_function.s"
 	@echo "... machine_thread.o"
 	@echo "... machine_thread.i"
 	@echo "... machine_thread.s"

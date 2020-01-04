@@ -30,3 +30,18 @@ target_link_libraries(helloTriangle ${Third_PARTY_LIBS})
 
 add_executable(helloRectangle src/helloRectangle.cpp ${SOURCE_FILES})
 target_link_libraries(helloRectangle ${Third_PARTY_LIBS})
+
+add_executable(hello_different_triangles src/hello_different_triangles.cpp ${SOURCE_FILES})
+target_link_libraries(hello_different_triangles ${Third_PARTY_LIBS})
+
+add_executable(hello_shader_triangle src/hello_shader_triangle.cpp ${SOURCE_FILES})
+target_link_libraries(hello_shader_triangle ${Third_PARTY_LIBS})
+
+add_executable(hello_shader_Programing src/hello_shader_Programing.cpp ${SOURCE_FILES})
+target_link_libraries(hello_shader_Programing ${Third_PARTY_LIBS})
+
+add_executable(hello_triangle_change src/hello_triangle_change.cpp ${SOURCE_FILES})
+target_link_libraries(hello_triangle_change ${Third_PARTY_LIBS})
+
+add_executable(hello_glsl_triangle src/hello_glsl_triangle.cpp ${SOURCE_FILES})
+target_link_libraries(hello_glsl_triangle ${Third_PARTY_LIBS})

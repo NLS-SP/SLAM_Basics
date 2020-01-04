@@ -52,6 +52,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/hello_function_object.dir/DependInfo.cmake"
+  "CMakeFiles/hello_lambda_function.dir/DependInfo.cmake"
+  "CMakeFiles/hello_detach.dir/DependInfo.cmake"
+  "CMakeFiles/hello_function_parameter.dir/DependInfo.cmake"
   "CMakeFiles/thread_function.dir/DependInfo.cmake"
   "CMakeFiles/machine_thread.dir/DependInfo.cmake"
   )

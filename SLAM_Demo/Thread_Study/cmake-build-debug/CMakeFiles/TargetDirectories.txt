@@ -1,4 +1,8 @@
 /Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/CMakeFiles/hello_function_object.dir
 /Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/CMakeFiles/hello_lambda_function.dir
+/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/CMakeFiles/hello_detach.dir
+/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/CMakeFiles/hello_function_parameter.dir
 /Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/CMakeFiles/thread_function.dir
 /Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/CMakeFiles/machine_thread.dir

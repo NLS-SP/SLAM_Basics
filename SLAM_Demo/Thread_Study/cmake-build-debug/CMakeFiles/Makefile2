@@ -53,12 +53,20 @@ CMAKE_BINARY_DIR = /Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-b
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/hello_function_object.dir/all
+all: CMakeFiles/hello_lambda_function.dir/all
+all: CMakeFiles/hello_detach.dir/all
+all: CMakeFiles/hello_function_parameter.dir/all
 all: CMakeFiles/thread_function.dir/all
 all: CMakeFiles/machine_thread.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
+clean: CMakeFiles/hello_function_object.dir/clean
+clean: CMakeFiles/hello_lambda_function.dir/clean
+clean: CMakeFiles/hello_detach.dir/clean
+clean: CMakeFiles/hello_function_parameter.dir/clean
 clean: CMakeFiles/thread_function.dir/clean
 clean: CMakeFiles/machine_thread.dir/clean
 
@@ -70,13 +78,121 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
+# Target rules for target CMakeFiles/hello_function_object.dir
+
+# All Build rule for target.
+CMakeFiles/hello_function_object.dir/all:
+	$(MAKE) -f CMakeFiles/hello_function_object.dir/build.make CMakeFiles/hello_function_object.dir/depend
+	$(MAKE) -f CMakeFiles/hello_function_object.dir/build.make CMakeFiles/hello_function_object.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target hello_function_object"
+.PHONY : CMakeFiles/hello_function_object.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hello_function_object.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hello_function_object.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/hello_function_object.dir/rule
+
+# Convenience name for target.
+hello_function_object: CMakeFiles/hello_function_object.dir/rule
+
+.PHONY : hello_function_object
+
+# clean rule for target.
+CMakeFiles/hello_function_object.dir/clean:
+	$(MAKE) -f CMakeFiles/hello_function_object.dir/build.make CMakeFiles/hello_function_object.dir/clean
+.PHONY : CMakeFiles/hello_function_object.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/hello_lambda_function.dir
+
+# All Build rule for target.
+CMakeFiles/hello_lambda_function.dir/all:
+	$(MAKE) -f CMakeFiles/hello_lambda_function.dir/build.make CMakeFiles/hello_lambda_function.dir/depend
+	$(MAKE) -f CMakeFiles/hello_lambda_function.dir/build.make CMakeFiles/hello_lambda_function.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target hello_lambda_function"
+.PHONY : CMakeFiles/hello_lambda_function.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hello_lambda_function.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hello_lambda_function.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/hello_lambda_function.dir/rule
+
+# Convenience name for target.
+hello_lambda_function: CMakeFiles/hello_lambda_function.dir/rule
+
+.PHONY : hello_lambda_function
+
+# clean rule for target.
+CMakeFiles/hello_lambda_function.dir/clean:
+	$(MAKE) -f CMakeFiles/hello_lambda_function.dir/build.make CMakeFiles/hello_lambda_function.dir/clean
+.PHONY : CMakeFiles/hello_lambda_function.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/hello_detach.dir
+
+# All Build rule for target.
+CMakeFiles/hello_detach.dir/all:
+	$(MAKE) -f CMakeFiles/hello_detach.dir/build.make CMakeFiles/hello_detach.dir/depend
+	$(MAKE) -f CMakeFiles/hello_detach.dir/build.make CMakeFiles/hello_detach.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target hello_detach"
+.PHONY : CMakeFiles/hello_detach.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hello_detach.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hello_detach.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/hello_detach.dir/rule
+
+# Convenience name for target.
+hello_detach: CMakeFiles/hello_detach.dir/rule
+
+.PHONY : hello_detach
+
+# clean rule for target.
+CMakeFiles/hello_detach.dir/clean:
+	$(MAKE) -f CMakeFiles/hello_detach.dir/build.make CMakeFiles/hello_detach.dir/clean
+.PHONY : CMakeFiles/hello_detach.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/hello_function_parameter.dir
+
+# All Build rule for target.
+CMakeFiles/hello_function_parameter.dir/all:
+	$(MAKE) -f CMakeFiles/hello_function_parameter.dir/build.make CMakeFiles/hello_function_parameter.dir/depend
+	$(MAKE) -f CMakeFiles/hello_function_parameter.dir/build.make CMakeFiles/hello_function_parameter.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target hello_function_parameter"
+.PHONY : CMakeFiles/hello_function_parameter.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hello_function_parameter.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hello_function_parameter.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/hello_function_parameter.dir/rule
+
+# Convenience name for target.
+hello_function_parameter: CMakeFiles/hello_function_parameter.dir/rule
+
+.PHONY : hello_function_parameter
+
+# clean rule for target.
+CMakeFiles/hello_function_parameter.dir/clean:
+	$(MAKE) -f CMakeFiles/hello_function_parameter.dir/build.make CMakeFiles/hello_function_parameter.dir/clean
+.PHONY : CMakeFiles/hello_function_parameter.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/thread_function.dir
 
 # All Build rule for target.
 CMakeFiles/thread_function.dir/all:
 	$(MAKE) -f CMakeFiles/thread_function.dir/build.make CMakeFiles/thread_function.dir/depend
 	$(MAKE) -f CMakeFiles/thread_function.dir/build.make CMakeFiles/thread_function.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target thread_function"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target thread_function"
 .PHONY : CMakeFiles/thread_function.dir/all
 
 # Build rule for subdir invocation for target.
@@ -103,7 +219,7 @@ CMakeFiles/thread_function.dir/clean:
 CMakeFiles/machine_thread.dir/all:
 	$(MAKE) -f CMakeFiles/machine_thread.dir/build.make CMakeFiles/machine_thread.dir/depend
 	$(MAKE) -f CMakeFiles/machine_thread.dir/build.make CMakeFiles/machine_thread.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target machine_thread"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target machine_thread"
 .PHONY : CMakeFiles/machine_thread.dir/all
 
 # Build rule for subdir invocation for target.

@@ -111,17 +111,56 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named helloTriangle
+# Target rules for targets named hello_glsl_triangle
 
 # Build rule for target.
-helloTriangle: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 helloTriangle
-.PHONY : helloTriangle
+hello_glsl_triangle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello_glsl_triangle
+.PHONY : hello_glsl_triangle
 
 # fast build rule for target.
-helloTriangle/fast:
-	$(MAKE) -f CMakeFiles/helloTriangle.dir/build.make CMakeFiles/helloTriangle.dir/build
-.PHONY : helloTriangle/fast
+hello_glsl_triangle/fast:
+	$(MAKE) -f CMakeFiles/hello_glsl_triangle.dir/build.make CMakeFiles/hello_glsl_triangle.dir/build
+.PHONY : hello_glsl_triangle/fast
+
+#=============================================================================
+# Target rules for targets named hello_triangle_change
+
+# Build rule for target.
+hello_triangle_change: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello_triangle_change
+.PHONY : hello_triangle_change
+
+# fast build rule for target.
+hello_triangle_change/fast:
+	$(MAKE) -f CMakeFiles/hello_triangle_change.dir/build.make CMakeFiles/hello_triangle_change.dir/build
+.PHONY : hello_triangle_change/fast
+
+#=============================================================================
+# Target rules for targets named hello_shader_Programing
+
+# Build rule for target.
+hello_shader_Programing: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello_shader_Programing
+.PHONY : hello_shader_Programing
+
+# fast build rule for target.
+hello_shader_Programing/fast:
+	$(MAKE) -f CMakeFiles/hello_shader_Programing.dir/build.make CMakeFiles/hello_shader_Programing.dir/build
+.PHONY : hello_shader_Programing/fast
+
+#=============================================================================
+# Target rules for targets named hello_shader_triangle
+
+# Build rule for target.
+hello_shader_triangle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello_shader_triangle
+.PHONY : hello_shader_triangle
+
+# fast build rule for target.
+hello_shader_triangle/fast:
+	$(MAKE) -f CMakeFiles/hello_shader_triangle.dir/build.make CMakeFiles/hello_shader_triangle.dir/build
+.PHONY : hello_shader_triangle/fast
 
 #=============================================================================
 # Target rules for targets named helloWindow
@@ -135,6 +174,32 @@ helloWindow: cmake_check_build_system
 helloWindow/fast:
 	$(MAKE) -f CMakeFiles/helloWindow.dir/build.make CMakeFiles/helloWindow.dir/build
 .PHONY : helloWindow/fast
+
+#=============================================================================
+# Target rules for targets named helloTriangle
+
+# Build rule for target.
+helloTriangle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 helloTriangle
+.PHONY : helloTriangle
+
+# fast build rule for target.
+helloTriangle/fast:
+	$(MAKE) -f CMakeFiles/helloTriangle.dir/build.make CMakeFiles/helloTriangle.dir/build
+.PHONY : helloTriangle/fast
+
+#=============================================================================
+# Target rules for targets named hello_different_triangles
+
+# Build rule for target.
+hello_different_triangles: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello_different_triangles
+.PHONY : hello_different_triangles
+
+# fast build rule for target.
+hello_different_triangles/fast:
+	$(MAKE) -f CMakeFiles/hello_different_triangles.dir/build.make CMakeFiles/hello_different_triangles.dir/build
+.PHONY : hello_different_triangles/fast
 
 #=============================================================================
 # Target rules for targets named helloRectangle
@@ -195,8 +260,13 @@ src/glad.o: src/glad.c.o
 
 # target to build an object file
 src/glad.c.o:
-	$(MAKE) -f CMakeFiles/helloTriangle.dir/build.make CMakeFiles/helloTriangle.dir/src/glad.c.o
+	$(MAKE) -f CMakeFiles/hello_glsl_triangle.dir/build.make CMakeFiles/hello_glsl_triangle.dir/src/glad.c.o
+	$(MAKE) -f CMakeFiles/hello_triangle_change.dir/build.make CMakeFiles/hello_triangle_change.dir/src/glad.c.o
+	$(MAKE) -f CMakeFiles/hello_shader_Programing.dir/build.make CMakeFiles/hello_shader_Programing.dir/src/glad.c.o
+	$(MAKE) -f CMakeFiles/hello_shader_triangle.dir/build.make CMakeFiles/hello_shader_triangle.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/helloWindow.dir/build.make CMakeFiles/helloWindow.dir/src/glad.c.o
+	$(MAKE) -f CMakeFiles/helloTriangle.dir/build.make CMakeFiles/helloTriangle.dir/src/glad.c.o
+	$(MAKE) -f CMakeFiles/hello_different_triangles.dir/build.make CMakeFiles/hello_different_triangles.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/helloRectangle.dir/build.make CMakeFiles/helloRectangle.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/OpenGL_test.dir/build.make CMakeFiles/OpenGL_test.dir/src/glad.c.o
 .PHONY : src/glad.c.o
@@ -207,8 +277,13 @@ src/glad.i: src/glad.c.i
 
 # target to preprocess a source file
 src/glad.c.i:
-	$(MAKE) -f CMakeFiles/helloTriangle.dir/build.make CMakeFiles/helloTriangle.dir/src/glad.c.i
+	$(MAKE) -f CMakeFiles/hello_glsl_triangle.dir/build.make CMakeFiles/hello_glsl_triangle.dir/src/glad.c.i
+	$(MAKE) -f CMakeFiles/hello_triangle_change.dir/build.make CMakeFiles/hello_triangle_change.dir/src/glad.c.i
+	$(MAKE) -f CMakeFiles/hello_shader_Programing.dir/build.make CMakeFiles/hello_shader_Programing.dir/src/glad.c.i
+	$(MAKE) -f CMakeFiles/hello_shader_triangle.dir/build.make CMakeFiles/hello_shader_triangle.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/helloWindow.dir/build.make CMakeFiles/helloWindow.dir/src/glad.c.i
+	$(MAKE) -f CMakeFiles/helloTriangle.dir/build.make CMakeFiles/helloTriangle.dir/src/glad.c.i
+	$(MAKE) -f CMakeFiles/hello_different_triangles.dir/build.make CMakeFiles/hello_different_triangles.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/helloRectangle.dir/build.make CMakeFiles/helloRectangle.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/OpenGL_test.dir/build.make CMakeFiles/OpenGL_test.dir/src/glad.c.i
 .PHONY : src/glad.c.i
@@ -219,8 +294,13 @@ src/glad.s: src/glad.c.s
 
 # target to generate assembly for a file
 src/glad.c.s:
-	$(MAKE) -f CMakeFiles/helloTriangle.dir/build.make CMakeFiles/helloTriangle.dir/src/glad.c.s
+	$(MAKE) -f CMakeFiles/hello_glsl_triangle.dir/build.make CMakeFiles/hello_glsl_triangle.dir/src/glad.c.s
+	$(MAKE) -f CMakeFiles/hello_triangle_change.dir/build.make CMakeFiles/hello_triangle_change.dir/src/glad.c.s
+	$(MAKE) -f CMakeFiles/hello_shader_Programing.dir/build.make CMakeFiles/hello_shader_Programing.dir/src/glad.c.s
+	$(MAKE) -f CMakeFiles/hello_shader_triangle.dir/build.make CMakeFiles/hello_shader_triangle.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/helloWindow.dir/build.make CMakeFiles/helloWindow.dir/src/glad.c.s
+	$(MAKE) -f CMakeFiles/helloTriangle.dir/build.make CMakeFiles/helloTriangle.dir/src/glad.c.s
+	$(MAKE) -f CMakeFiles/hello_different_triangles.dir/build.make CMakeFiles/hello_different_triangles.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/helloRectangle.dir/build.make CMakeFiles/helloRectangle.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/OpenGL_test.dir/build.make CMakeFiles/OpenGL_test.dir/src/glad.c.s
 .PHONY : src/glad.c.s
@@ -306,6 +386,141 @@ src/helloWindow.cpp.s:
 	$(MAKE) -f CMakeFiles/helloWindow.dir/build.make CMakeFiles/helloWindow.dir/src/helloWindow.cpp.s
 .PHONY : src/helloWindow.cpp.s
 
+src/hello_different_triangles.o: src/hello_different_triangles.cpp.o
+
+.PHONY : src/hello_different_triangles.o
+
+# target to build an object file
+src/hello_different_triangles.cpp.o:
+	$(MAKE) -f CMakeFiles/hello_different_triangles.dir/build.make CMakeFiles/hello_different_triangles.dir/src/hello_different_triangles.cpp.o
+.PHONY : src/hello_different_triangles.cpp.o
+
+src/hello_different_triangles.i: src/hello_different_triangles.cpp.i
+
+.PHONY : src/hello_different_triangles.i
+
+# target to preprocess a source file
+src/hello_different_triangles.cpp.i:
+	$(MAKE) -f CMakeFiles/hello_different_triangles.dir/build.make CMakeFiles/hello_different_triangles.dir/src/hello_different_triangles.cpp.i
+.PHONY : src/hello_different_triangles.cpp.i
+
+src/hello_different_triangles.s: src/hello_different_triangles.cpp.s
+
+.PHONY : src/hello_different_triangles.s
+
+# target to generate assembly for a file
+src/hello_different_triangles.cpp.s:
+	$(MAKE) -f CMakeFiles/hello_different_triangles.dir/build.make CMakeFiles/hello_different_triangles.dir/src/hello_different_triangles.cpp.s
+.PHONY : src/hello_different_triangles.cpp.s
+
+src/hello_glsl_triangle.o: src/hello_glsl_triangle.cpp.o
+
+.PHONY : src/hello_glsl_triangle.o
+
+# target to build an object file
+src/hello_glsl_triangle.cpp.o:
+	$(MAKE) -f CMakeFiles/hello_glsl_triangle.dir/build.make CMakeFiles/hello_glsl_triangle.dir/src/hello_glsl_triangle.cpp.o
+.PHONY : src/hello_glsl_triangle.cpp.o
+
+src/hello_glsl_triangle.i: src/hello_glsl_triangle.cpp.i
+
+.PHONY : src/hello_glsl_triangle.i
+
+# target to preprocess a source file
+src/hello_glsl_triangle.cpp.i:
+	$(MAKE) -f CMakeFiles/hello_glsl_triangle.dir/build.make CMakeFiles/hello_glsl_triangle.dir/src/hello_glsl_triangle.cpp.i
+.PHONY : src/hello_glsl_triangle.cpp.i
+
+src/hello_glsl_triangle.s: src/hello_glsl_triangle.cpp.s
+
+.PHONY : src/hello_glsl_triangle.s
+
+# target to generate assembly for a file
+src/hello_glsl_triangle.cpp.s:
+	$(MAKE) -f CMakeFiles/hello_glsl_triangle.dir/build.make CMakeFiles/hello_glsl_triangle.dir/src/hello_glsl_triangle.cpp.s
+.PHONY : src/hello_glsl_triangle.cpp.s
+
+src/hello_shader_Programing.o: src/hello_shader_Programing.cpp.o
+
+.PHONY : src/hello_shader_Programing.o
+
+# target to build an object file
+src/hello_shader_Programing.cpp.o:
+	$(MAKE) -f CMakeFiles/hello_shader_Programing.dir/build.make CMakeFiles/hello_shader_Programing.dir/src/hello_shader_Programing.cpp.o
+.PHONY : src/hello_shader_Programing.cpp.o
+
+src/hello_shader_Programing.i: src/hello_shader_Programing.cpp.i
+
+.PHONY : src/hello_shader_Programing.i
+
+# target to preprocess a source file
+src/hello_shader_Programing.cpp.i:
+	$(MAKE) -f CMakeFiles/hello_shader_Programing.dir/build.make CMakeFiles/hello_shader_Programing.dir/src/hello_shader_Programing.cpp.i
+.PHONY : src/hello_shader_Programing.cpp.i
+
+src/hello_shader_Programing.s: src/hello_shader_Programing.cpp.s
+
+.PHONY : src/hello_shader_Programing.s
+
+# target to generate assembly for a file
+src/hello_shader_Programing.cpp.s:
+	$(MAKE) -f CMakeFiles/hello_shader_Programing.dir/build.make CMakeFiles/hello_shader_Programing.dir/src/hello_shader_Programing.cpp.s
+.PHONY : src/hello_shader_Programing.cpp.s
+
+src/hello_shader_triangle.o: src/hello_shader_triangle.cpp.o
+
+.PHONY : src/hello_shader_triangle.o
+
+# target to build an object file
+src/hello_shader_triangle.cpp.o:
+	$(MAKE) -f CMakeFiles/hello_shader_triangle.dir/build.make CMakeFiles/hello_shader_triangle.dir/src/hello_shader_triangle.cpp.o
+.PHONY : src/hello_shader_triangle.cpp.o
+
+src/hello_shader_triangle.i: src/hello_shader_triangle.cpp.i
+
+.PHONY : src/hello_shader_triangle.i
+
+# target to preprocess a source file
+src/hello_shader_triangle.cpp.i:
+	$(MAKE) -f CMakeFiles/hello_shader_triangle.dir/build.make CMakeFiles/hello_shader_triangle.dir/src/hello_shader_triangle.cpp.i
+.PHONY : src/hello_shader_triangle.cpp.i
+
+src/hello_shader_triangle.s: src/hello_shader_triangle.cpp.s
+
+.PHONY : src/hello_shader_triangle.s
+
+# target to generate assembly for a file
+src/hello_shader_triangle.cpp.s:
+	$(MAKE) -f CMakeFiles/hello_shader_triangle.dir/build.make CMakeFiles/hello_shader_triangle.dir/src/hello_shader_triangle.cpp.s
+.PHONY : src/hello_shader_triangle.cpp.s
+
+src/hello_triangle_change.o: src/hello_triangle_change.cpp.o
+
+.PHONY : src/hello_triangle_change.o
+
+# target to build an object file
+src/hello_triangle_change.cpp.o:
+	$(MAKE) -f CMakeFiles/hello_triangle_change.dir/build.make CMakeFiles/hello_triangle_change.dir/src/hello_triangle_change.cpp.o
+.PHONY : src/hello_triangle_change.cpp.o
+
+src/hello_triangle_change.i: src/hello_triangle_change.cpp.i
+
+.PHONY : src/hello_triangle_change.i
+
+# target to preprocess a source file
+src/hello_triangle_change.cpp.i:
+	$(MAKE) -f CMakeFiles/hello_triangle_change.dir/build.make CMakeFiles/hello_triangle_change.dir/src/hello_triangle_change.cpp.i
+.PHONY : src/hello_triangle_change.cpp.i
+
+src/hello_triangle_change.s: src/hello_triangle_change.cpp.s
+
+.PHONY : src/hello_triangle_change.s
+
+# target to generate assembly for a file
+src/hello_triangle_change.cpp.s:
+	$(MAKE) -f CMakeFiles/hello_triangle_change.dir/build.make CMakeFiles/hello_triangle_change.dir/src/hello_triangle_change.cpp.s
+.PHONY : src/hello_triangle_change.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -314,8 +529,13 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... helloTriangle"
+	@echo "... hello_glsl_triangle"
+	@echo "... hello_triangle_change"
+	@echo "... hello_shader_Programing"
+	@echo "... hello_shader_triangle"
 	@echo "... helloWindow"
+	@echo "... helloTriangle"
+	@echo "... hello_different_triangles"
 	@echo "... helloRectangle"
 	@echo "... OpenGL_test"
 	@echo "... src/OpenGL_test.o"
@@ -333,6 +553,21 @@ help:
 	@echo "... src/helloWindow.o"
 	@echo "... src/helloWindow.i"
 	@echo "... src/helloWindow.s"
+	@echo "... src/hello_different_triangles.o"
+	@echo "... src/hello_different_triangles.i"
+	@echo "... src/hello_different_triangles.s"
+	@echo "... src/hello_glsl_triangle.o"
+	@echo "... src/hello_glsl_triangle.i"
+	@echo "... src/hello_glsl_triangle.s"
+	@echo "... src/hello_shader_Programing.o"
+	@echo "... src/hello_shader_Programing.i"
+	@echo "... src/hello_shader_Programing.s"
+	@echo "... src/hello_shader_triangle.o"
+	@echo "... src/hello_shader_triangle.i"
+	@echo "... src/hello_shader_triangle.s"
+	@echo "... src/hello_triangle_change.o"
+	@echo "... src/hello_triangle_change.i"
+	@echo "... src/hello_triangle_change.s"
 .PHONY : help
 
 
