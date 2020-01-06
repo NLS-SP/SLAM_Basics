@@ -7,11 +7,11 @@ C_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacO
 
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include -I/usr/local/Cellar/glew/2.1.0/include -I/usr/local/Cellar/glfw/3.3/include -I/usr/local/include 
+C_INCLUDES = -I/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include -I/usr/local/Cellar/glew/2.1.0/include -I/usr/local/Cellar/glfw/3.3/include -I/usr/local/include -I/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration 
 
 CXX_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include -I/usr/local/Cellar/glew/2.1.0/include -I/usr/local/Cellar/glfw/3.3/include -I/usr/local/include 
+CXX_INCLUDES = -I/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include -I/usr/local/Cellar/glew/2.1.0/include -I/usr/local/Cellar/glfw/3.3/include -I/usr/local/include -I/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration 
 

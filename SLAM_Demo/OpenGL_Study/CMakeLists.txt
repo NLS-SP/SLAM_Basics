@@ -19,6 +19,9 @@ set(SOURCE_FILES "src/glad.c")
 
 set(Third_PARTY_LIBS "-framework OpenGL" "-framework GLUT")
 
+configure_file(configuration/root_directory.h.in configuration/root_directory.h)
+include_directories(${CMAKE_BINARY_DIR}/configuration)
+
 add_executable(OpenGL_test src/OpenGL_test.cpp ${SOURCE_FILES})
 target_link_libraries(OpenGL_test ${Third_PARTY_LIBS})
 
@@ -48,3 +51,6 @@ target_link_libraries(hello_glsl_triangle ${Third_PARTY_LIBS})
 
 add_executable(hello_shader_file src/hello_shader_file.cpp ${SOURCE_FILES})
 target_link_libraries(hello_shader_file ${Third_PARTY_LIBS})
+
+add_executable(hello_texture src/hello_texture.cpp ${SOURCE_FILES})
+target_link_libraries(hello_texture ${Third_PARTY_LIBS})

@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named hello_texture
+
+# Build rule for target.
+hello_texture: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello_texture
+.PHONY : hello_texture
+
+# fast build rule for target.
+hello_texture/fast:
+	$(MAKE) -f CMakeFiles/hello_texture.dir/build.make CMakeFiles/hello_texture.dir/build
+.PHONY : hello_texture/fast
+
+#=============================================================================
 # Target rules for targets named hello_glsl_triangle
 
 # Build rule for target.
@@ -273,6 +286,7 @@ src/glad.o: src/glad.c.o
 
 # target to build an object file
 src/glad.c.o:
+	$(MAKE) -f CMakeFiles/hello_texture.dir/build.make CMakeFiles/hello_texture.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/hello_glsl_triangle.dir/build.make CMakeFiles/hello_glsl_triangle.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/hello_triangle_change.dir/build.make CMakeFiles/hello_triangle_change.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/hello_shader_Programing.dir/build.make CMakeFiles/hello_shader_Programing.dir/src/glad.c.o
@@ -291,6 +305,7 @@ src/glad.i: src/glad.c.i
 
 # target to preprocess a source file
 src/glad.c.i:
+	$(MAKE) -f CMakeFiles/hello_texture.dir/build.make CMakeFiles/hello_texture.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/hello_glsl_triangle.dir/build.make CMakeFiles/hello_glsl_triangle.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/hello_triangle_change.dir/build.make CMakeFiles/hello_triangle_change.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/hello_shader_Programing.dir/build.make CMakeFiles/hello_shader_Programing.dir/src/glad.c.i
@@ -309,6 +324,7 @@ src/glad.s: src/glad.c.s
 
 # target to generate assembly for a file
 src/glad.c.s:
+	$(MAKE) -f CMakeFiles/hello_texture.dir/build.make CMakeFiles/hello_texture.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/hello_glsl_triangle.dir/build.make CMakeFiles/hello_glsl_triangle.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/hello_triangle_change.dir/build.make CMakeFiles/hello_triangle_change.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/hello_shader_Programing.dir/build.make CMakeFiles/hello_shader_Programing.dir/src/glad.c.s
@@ -537,6 +553,33 @@ src/hello_shader_triangle.cpp.s:
 	$(MAKE) -f CMakeFiles/hello_shader_triangle.dir/build.make CMakeFiles/hello_shader_triangle.dir/src/hello_shader_triangle.cpp.s
 .PHONY : src/hello_shader_triangle.cpp.s
 
+src/hello_texture.o: src/hello_texture.cpp.o
+
+.PHONY : src/hello_texture.o
+
+# target to build an object file
+src/hello_texture.cpp.o:
+	$(MAKE) -f CMakeFiles/hello_texture.dir/build.make CMakeFiles/hello_texture.dir/src/hello_texture.cpp.o
+.PHONY : src/hello_texture.cpp.o
+
+src/hello_texture.i: src/hello_texture.cpp.i
+
+.PHONY : src/hello_texture.i
+
+# target to preprocess a source file
+src/hello_texture.cpp.i:
+	$(MAKE) -f CMakeFiles/hello_texture.dir/build.make CMakeFiles/hello_texture.dir/src/hello_texture.cpp.i
+.PHONY : src/hello_texture.cpp.i
+
+src/hello_texture.s: src/hello_texture.cpp.s
+
+.PHONY : src/hello_texture.s
+
+# target to generate assembly for a file
+src/hello_texture.cpp.s:
+	$(MAKE) -f CMakeFiles/hello_texture.dir/build.make CMakeFiles/hello_texture.dir/src/hello_texture.cpp.s
+.PHONY : src/hello_texture.cpp.s
+
 src/hello_triangle_change.o: src/hello_triangle_change.cpp.o
 
 .PHONY : src/hello_triangle_change.o
@@ -571,6 +614,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... hello_texture"
 	@echo "... hello_glsl_triangle"
 	@echo "... hello_triangle_change"
 	@echo "... hello_shader_Programing"
@@ -612,6 +656,9 @@ help:
 	@echo "... src/hello_shader_triangle.o"
 	@echo "... src/hello_shader_triangle.i"
 	@echo "... src/hello_shader_triangle.s"
+	@echo "... src/hello_texture.o"
+	@echo "... src/hello_texture.i"
+	@echo "... src/hello_texture.s"
 	@echo "... src/hello_triangle_change.o"
 	@echo "... src/hello_triangle_change.i"
 	@echo "... src/hello_triangle_change.s"
