@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-b
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -176,6 +176,19 @@ helloWindow/fast:
 .PHONY : helloWindow/fast
 
 #=============================================================================
+# Target rules for targets named hello_shader_file
+
+# Build rule for target.
+hello_shader_file: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello_shader_file
+.PHONY : hello_shader_file
+
+# fast build rule for target.
+hello_shader_file/fast:
+	$(MAKE) -f CMakeFiles/hello_shader_file.dir/build.make CMakeFiles/hello_shader_file.dir/build
+.PHONY : hello_shader_file/fast
+
+#=============================================================================
 # Target rules for targets named helloTriangle
 
 # Build rule for target.
@@ -265,6 +278,7 @@ src/glad.c.o:
 	$(MAKE) -f CMakeFiles/hello_shader_Programing.dir/build.make CMakeFiles/hello_shader_Programing.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/hello_shader_triangle.dir/build.make CMakeFiles/hello_shader_triangle.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/helloWindow.dir/build.make CMakeFiles/helloWindow.dir/src/glad.c.o
+	$(MAKE) -f CMakeFiles/hello_shader_file.dir/build.make CMakeFiles/hello_shader_file.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/helloTriangle.dir/build.make CMakeFiles/helloTriangle.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/hello_different_triangles.dir/build.make CMakeFiles/hello_different_triangles.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/helloRectangle.dir/build.make CMakeFiles/helloRectangle.dir/src/glad.c.o
@@ -282,6 +296,7 @@ src/glad.c.i:
 	$(MAKE) -f CMakeFiles/hello_shader_Programing.dir/build.make CMakeFiles/hello_shader_Programing.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/hello_shader_triangle.dir/build.make CMakeFiles/hello_shader_triangle.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/helloWindow.dir/build.make CMakeFiles/helloWindow.dir/src/glad.c.i
+	$(MAKE) -f CMakeFiles/hello_shader_file.dir/build.make CMakeFiles/hello_shader_file.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/helloTriangle.dir/build.make CMakeFiles/helloTriangle.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/hello_different_triangles.dir/build.make CMakeFiles/hello_different_triangles.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/helloRectangle.dir/build.make CMakeFiles/helloRectangle.dir/src/glad.c.i
@@ -299,6 +314,7 @@ src/glad.c.s:
 	$(MAKE) -f CMakeFiles/hello_shader_Programing.dir/build.make CMakeFiles/hello_shader_Programing.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/hello_shader_triangle.dir/build.make CMakeFiles/hello_shader_triangle.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/helloWindow.dir/build.make CMakeFiles/helloWindow.dir/src/glad.c.s
+	$(MAKE) -f CMakeFiles/hello_shader_file.dir/build.make CMakeFiles/hello_shader_file.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/helloTriangle.dir/build.make CMakeFiles/helloTriangle.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/hello_different_triangles.dir/build.make CMakeFiles/hello_different_triangles.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/helloRectangle.dir/build.make CMakeFiles/helloRectangle.dir/src/glad.c.s
@@ -467,6 +483,33 @@ src/hello_shader_Programing.cpp.s:
 	$(MAKE) -f CMakeFiles/hello_shader_Programing.dir/build.make CMakeFiles/hello_shader_Programing.dir/src/hello_shader_Programing.cpp.s
 .PHONY : src/hello_shader_Programing.cpp.s
 
+src/hello_shader_file.o: src/hello_shader_file.cpp.o
+
+.PHONY : src/hello_shader_file.o
+
+# target to build an object file
+src/hello_shader_file.cpp.o:
+	$(MAKE) -f CMakeFiles/hello_shader_file.dir/build.make CMakeFiles/hello_shader_file.dir/src/hello_shader_file.cpp.o
+.PHONY : src/hello_shader_file.cpp.o
+
+src/hello_shader_file.i: src/hello_shader_file.cpp.i
+
+.PHONY : src/hello_shader_file.i
+
+# target to preprocess a source file
+src/hello_shader_file.cpp.i:
+	$(MAKE) -f CMakeFiles/hello_shader_file.dir/build.make CMakeFiles/hello_shader_file.dir/src/hello_shader_file.cpp.i
+.PHONY : src/hello_shader_file.cpp.i
+
+src/hello_shader_file.s: src/hello_shader_file.cpp.s
+
+.PHONY : src/hello_shader_file.s
+
+# target to generate assembly for a file
+src/hello_shader_file.cpp.s:
+	$(MAKE) -f CMakeFiles/hello_shader_file.dir/build.make CMakeFiles/hello_shader_file.dir/src/hello_shader_file.cpp.s
+.PHONY : src/hello_shader_file.cpp.s
+
 src/hello_shader_triangle.o: src/hello_shader_triangle.cpp.o
 
 .PHONY : src/hello_shader_triangle.o
@@ -527,13 +570,14 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... hello_glsl_triangle"
 	@echo "... hello_triangle_change"
 	@echo "... hello_shader_Programing"
 	@echo "... hello_shader_triangle"
 	@echo "... helloWindow"
+	@echo "... rebuild_cache"
+	@echo "... hello_shader_file"
 	@echo "... helloTriangle"
 	@echo "... hello_different_triangles"
 	@echo "... helloRectangle"
@@ -562,6 +606,9 @@ help:
 	@echo "... src/hello_shader_Programing.o"
 	@echo "... src/hello_shader_Programing.i"
 	@echo "... src/hello_shader_Programing.s"
+	@echo "... src/hello_shader_file.o"
+	@echo "... src/hello_shader_file.i"
+	@echo "... src/hello_shader_file.s"
 	@echo "... src/hello_shader_triangle.o"
 	@echo "... src/hello_shader_triangle.i"
 	@echo "... src/hello_shader_triangle.s"

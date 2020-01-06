@@ -58,6 +58,7 @@ all: CMakeFiles/hello_triangle_change.dir/all
 all: CMakeFiles/hello_shader_Programing.dir/all
 all: CMakeFiles/hello_shader_triangle.dir/all
 all: CMakeFiles/helloWindow.dir/all
+all: CMakeFiles/hello_shader_file.dir/all
 all: CMakeFiles/helloTriangle.dir/all
 all: CMakeFiles/hello_different_triangles.dir/all
 all: CMakeFiles/helloRectangle.dir/all
@@ -71,6 +72,7 @@ clean: CMakeFiles/hello_triangle_change.dir/clean
 clean: CMakeFiles/hello_shader_Programing.dir/clean
 clean: CMakeFiles/hello_shader_triangle.dir/clean
 clean: CMakeFiles/helloWindow.dir/clean
+clean: CMakeFiles/hello_shader_file.dir/clean
 clean: CMakeFiles/helloTriangle.dir/clean
 clean: CMakeFiles/hello_different_triangles.dir/clean
 clean: CMakeFiles/helloRectangle.dir/clean
@@ -117,7 +119,7 @@ CMakeFiles/hello_glsl_triangle.dir/clean:
 CMakeFiles/hello_triangle_change.dir/all:
 	$(MAKE) -f CMakeFiles/hello_triangle_change.dir/build.make CMakeFiles/hello_triangle_change.dir/depend
 	$(MAKE) -f CMakeFiles/hello_triangle_change.dir/build.make CMakeFiles/hello_triangle_change.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=25,26,27 "Built target hello_triangle_change"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=28,29,30 "Built target hello_triangle_change"
 .PHONY : CMakeFiles/hello_triangle_change.dir/all
 
 # Build rule for subdir invocation for target.
@@ -171,7 +173,7 @@ CMakeFiles/hello_shader_Programing.dir/clean:
 CMakeFiles/hello_shader_triangle.dir/all:
 	$(MAKE) -f CMakeFiles/hello_shader_triangle.dir/build.make CMakeFiles/hello_shader_triangle.dir/depend
 	$(MAKE) -f CMakeFiles/hello_shader_triangle.dir/build.make CMakeFiles/hello_shader_triangle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=22,23,24 "Built target hello_shader_triangle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=25,26,27 "Built target hello_shader_triangle"
 .PHONY : CMakeFiles/hello_shader_triangle.dir/all
 
 # Build rule for subdir invocation for target.
@@ -217,6 +219,33 @@ helloWindow: CMakeFiles/helloWindow.dir/rule
 CMakeFiles/helloWindow.dir/clean:
 	$(MAKE) -f CMakeFiles/helloWindow.dir/build.make CMakeFiles/helloWindow.dir/clean
 .PHONY : CMakeFiles/helloWindow.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/hello_shader_file.dir
+
+# All Build rule for target.
+CMakeFiles/hello_shader_file.dir/all:
+	$(MAKE) -f CMakeFiles/hello_shader_file.dir/build.make CMakeFiles/hello_shader_file.dir/depend
+	$(MAKE) -f CMakeFiles/hello_shader_file.dir/build.make CMakeFiles/hello_shader_file.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=22,23,24 "Built target hello_shader_file"
+.PHONY : CMakeFiles/hello_shader_file.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hello_shader_file.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hello_shader_file.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/hello_shader_file.dir/rule
+
+# Convenience name for target.
+hello_shader_file: CMakeFiles/hello_shader_file.dir/rule
+
+.PHONY : hello_shader_file
+
+# clean rule for target.
+CMakeFiles/hello_shader_file.dir/clean:
+	$(MAKE) -f CMakeFiles/hello_shader_file.dir/build.make CMakeFiles/hello_shader_file.dir/clean
+.PHONY : CMakeFiles/hello_shader_file.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/helloTriangle.dir

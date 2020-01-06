@@ -57,6 +57,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/hello_shader_Programing.dir/DependInfo.cmake"
   "CMakeFiles/hello_shader_triangle.dir/DependInfo.cmake"
   "CMakeFiles/helloWindow.dir/DependInfo.cmake"
+  "CMakeFiles/hello_shader_file.dir/DependInfo.cmake"
   "CMakeFiles/helloTriangle.dir/DependInfo.cmake"
   "CMakeFiles/hello_different_triangles.dir/DependInfo.cmake"
   "CMakeFiles/helloRectangle.dir/DependInfo.cmake"

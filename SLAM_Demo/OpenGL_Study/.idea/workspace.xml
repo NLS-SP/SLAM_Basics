@@ -7,8 +7,9 @@
       <config projectName="GUI_TOOL" targetName="hello_shader_Programing" />
       <config projectName="GUI_TOOL" targetName="hello_different_triangles" />
       <config projectName="GUI_TOOL" targetName="hello_triangle_change" />
-      <config projectName="GUI_TOOL" targetName="helloWindow" />
+      <config projectName="GUI_TOOL" targetName="hello_shader_file" />
       <config projectName="GUI_TOOL" targetName="hello_glsl_triangle" />
+      <config projectName="GUI_TOOL" targetName="helloWindow" />
       <config projectName="GUI_TOOL" targetName="OpenGL_test" />
       <config projectName="GUI_TOOL" targetName="helloRectangle" />
     </generated>
@@ -20,30 +21,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85e25718-edd3-4d8a-8408-cf59cbf4f63e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/shaders/shader.fs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloRectangle.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloRectangle.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloRectangle.dir/src/helloRectangle.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloRectangle.dir/src/helloRectangle.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/GUI_TOOL.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/GUI_TOOL.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/helloRectangle" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/helloRectangle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helloRectangle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/helloRectangle.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thread_Study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread_Study/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thread_Study/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread_Study/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/machine_thread.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/machine_thread.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/machine_thread.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/machine_thread.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/thread_function.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/thread_function.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/thread_function.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/thread_function.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/Thread_Study.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/Thread_Study.cbp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.hello_glsl_triangle">
+  <component name="RunManager" selected="CMake Application.hello_shader_file">
     <configuration name="OpenGL_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GUI_TOOL" TARGET_NAME="OpenGL_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GUI_TOOL" RUN_TARGET_NAME="OpenGL_test">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -126,6 +112,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="hello_shader_file" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GUI_TOOL" TARGET_NAME="hello_shader_file" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GUI_TOOL" RUN_TARGET_NAME="hello_shader_file">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="hello_shader_triangle" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GUI_TOOL" TARGET_NAME="hello_shader_triangle" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GUI_TOOL" RUN_TARGET_NAME="hello_shader_triangle">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -139,6 +130,7 @@
     <list>
       <item itemvalue="CMake Application.hello_different_triangles" />
       <item itemvalue="CMake Application.hello_glsl_triangle" />
+      <item itemvalue="CMake Application.hello_shader_file" />
       <item itemvalue="CMake Application.hello_shader_Programing" />
       <item itemvalue="CMake Application.hello_shader_triangle" />
       <item itemvalue="CMake Application.hello_triangle_change" />
@@ -172,7 +164,8 @@
       <workItem from="1577963839975" duration="6585000" />
       <workItem from="1577975041367" duration="31000" />
       <workItem from="1578017219507" duration="2197000" />
-      <workItem from="1578100703130" duration="3451000" />
+      <workItem from="1578100703130" duration="3683000" />
+      <workItem from="1578275020739" duration="2578000" />
     </task>
     <servers />
   </component>
@@ -191,6 +184,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/hello_shader_file.cpp</url>
+          <line>56</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>

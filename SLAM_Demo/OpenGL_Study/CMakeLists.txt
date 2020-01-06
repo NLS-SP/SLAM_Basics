@@ -45,3 +45,6 @@ target_link_libraries(hello_triangle_change ${Third_PARTY_LIBS})
 
 add_executable(hello_glsl_triangle src/hello_glsl_triangle.cpp ${SOURCE_FILES})
 target_link_libraries(hello_glsl_triangle ${Third_PARTY_LIBS})
+
+add_executable(hello_shader_file src/hello_shader_file.cpp ${SOURCE_FILES})
+target_link_libraries(hello_shader_file ${Third_PARTY_LIBS})
