@@ -3,15 +3,16 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="GUI_TOOL" targetName="hello_shader_triangle" />
-      <config projectName="GUI_TOOL" targetName="helloTriangle" />
       <config projectName="GUI_TOOL" targetName="hello_shader_Programing" />
-      <config projectName="GUI_TOOL" targetName="hello_different_triangles" />
-      <config projectName="GUI_TOOL" targetName="hello_triangle_change" />
+      <config projectName="GUI_TOOL" targetName="hello_awsomeface" />
       <config projectName="GUI_TOOL" targetName="hello_texture" />
-      <config projectName="GUI_TOOL" targetName="hello_shader_file" />
-      <config projectName="GUI_TOOL" targetName="hello_glsl_triangle" />
-      <config projectName="GUI_TOOL" targetName="helloWindow" />
+      <config projectName="GUI_TOOL" targetName="helloTriangle" />
       <config projectName="GUI_TOOL" targetName="OpenGL_test" />
+      <config projectName="GUI_TOOL" targetName="hello_triangle_change" />
+      <config projectName="GUI_TOOL" targetName="hello_glsl_triangle" />
+      <config projectName="GUI_TOOL" targetName="hello_shader_file" />
+      <config projectName="GUI_TOOL" targetName="helloWindow" />
+      <config projectName="GUI_TOOL" targetName="hello_different_triangles" />
       <config projectName="GUI_TOOL" targetName="helloRectangle" />
     </generated>
   </component>
@@ -26,18 +27,11 @@
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGL_test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGL_test.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGL_test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGL_test.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloRectangle.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloRectangle.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloRectangle.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloRectangle.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloTriangle.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloTriangle.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloTriangle.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloTriangle.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloWindow.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloWindow.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloWindow.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloWindow.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/GUI_TOOL.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/GUI_TOOL.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/learnOpenGL/shader_s.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/learnOpenGL/shader_s.h" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +79,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.hello_texture">
+  <component name="RunManager" selected="CMake Application.hello_awsomeface">
     <configuration name="OpenGL_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GUI_TOOL" TARGET_NAME="OpenGL_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GUI_TOOL" RUN_TARGET_NAME="OpenGL_test">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -102,6 +96,11 @@
       </method>
     </configuration>
     <configuration name="helloWindow" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GUI_TOOL" TARGET_NAME="helloWindow" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GUI_TOOL" RUN_TARGET_NAME="helloWindow">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hello_awsomeface" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GUI_TOOL" TARGET_NAME="hello_awsomeface" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GUI_TOOL" RUN_TARGET_NAME="hello_awsomeface">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -142,6 +141,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="CMake Application.hello_awsomeface" />
       <item itemvalue="CMake Application.hello_different_triangles" />
       <item itemvalue="CMake Application.hello_glsl_triangle" />
       <item itemvalue="CMake Application.hello_shader_file" />
@@ -180,7 +180,9 @@
       <workItem from="1577975041367" duration="31000" />
       <workItem from="1578017219507" duration="2197000" />
       <workItem from="1578100703130" duration="3683000" />
-      <workItem from="1578275020739" duration="5838000" />
+      <workItem from="1578275020739" duration="6252000" />
+      <workItem from="1578360632878" duration="6351000" />
+      <workItem from="1578449994560" duration="4117000" />
     </task>
     <servers />
   </component>

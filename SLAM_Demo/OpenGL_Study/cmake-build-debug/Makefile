@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named hello_awsomeface
+
+# Build rule for target.
+hello_awsomeface: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello_awsomeface
+.PHONY : hello_awsomeface
+
+# fast build rule for target.
+hello_awsomeface/fast:
+	$(MAKE) -f CMakeFiles/hello_awsomeface.dir/build.make CMakeFiles/hello_awsomeface.dir/build
+.PHONY : hello_awsomeface/fast
+
+#=============================================================================
 # Target rules for targets named hello_texture
 
 # Build rule for target.
@@ -286,6 +299,7 @@ src/glad.o: src/glad.c.o
 
 # target to build an object file
 src/glad.c.o:
+	$(MAKE) -f CMakeFiles/hello_awsomeface.dir/build.make CMakeFiles/hello_awsomeface.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/hello_texture.dir/build.make CMakeFiles/hello_texture.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/hello_glsl_triangle.dir/build.make CMakeFiles/hello_glsl_triangle.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/hello_triangle_change.dir/build.make CMakeFiles/hello_triangle_change.dir/src/glad.c.o
@@ -305,6 +319,7 @@ src/glad.i: src/glad.c.i
 
 # target to preprocess a source file
 src/glad.c.i:
+	$(MAKE) -f CMakeFiles/hello_awsomeface.dir/build.make CMakeFiles/hello_awsomeface.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/hello_texture.dir/build.make CMakeFiles/hello_texture.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/hello_glsl_triangle.dir/build.make CMakeFiles/hello_glsl_triangle.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/hello_triangle_change.dir/build.make CMakeFiles/hello_triangle_change.dir/src/glad.c.i
@@ -324,6 +339,7 @@ src/glad.s: src/glad.c.s
 
 # target to generate assembly for a file
 src/glad.c.s:
+	$(MAKE) -f CMakeFiles/hello_awsomeface.dir/build.make CMakeFiles/hello_awsomeface.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/hello_texture.dir/build.make CMakeFiles/hello_texture.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/hello_glsl_triangle.dir/build.make CMakeFiles/hello_glsl_triangle.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/hello_triangle_change.dir/build.make CMakeFiles/hello_triangle_change.dir/src/glad.c.s
@@ -417,6 +433,33 @@ src/helloWindow.s: src/helloWindow.cpp.s
 src/helloWindow.cpp.s:
 	$(MAKE) -f CMakeFiles/helloWindow.dir/build.make CMakeFiles/helloWindow.dir/src/helloWindow.cpp.s
 .PHONY : src/helloWindow.cpp.s
+
+src/hello_awsomeface_shader.o: src/hello_awsomeface_shader.cpp.o
+
+.PHONY : src/hello_awsomeface_shader.o
+
+# target to build an object file
+src/hello_awsomeface_shader.cpp.o:
+	$(MAKE) -f CMakeFiles/hello_awsomeface.dir/build.make CMakeFiles/hello_awsomeface.dir/src/hello_awsomeface_shader.cpp.o
+.PHONY : src/hello_awsomeface_shader.cpp.o
+
+src/hello_awsomeface_shader.i: src/hello_awsomeface_shader.cpp.i
+
+.PHONY : src/hello_awsomeface_shader.i
+
+# target to preprocess a source file
+src/hello_awsomeface_shader.cpp.i:
+	$(MAKE) -f CMakeFiles/hello_awsomeface.dir/build.make CMakeFiles/hello_awsomeface.dir/src/hello_awsomeface_shader.cpp.i
+.PHONY : src/hello_awsomeface_shader.cpp.i
+
+src/hello_awsomeface_shader.s: src/hello_awsomeface_shader.cpp.s
+
+.PHONY : src/hello_awsomeface_shader.s
+
+# target to generate assembly for a file
+src/hello_awsomeface_shader.cpp.s:
+	$(MAKE) -f CMakeFiles/hello_awsomeface.dir/build.make CMakeFiles/hello_awsomeface.dir/src/hello_awsomeface_shader.cpp.s
+.PHONY : src/hello_awsomeface_shader.cpp.s
 
 src/hello_different_triangles.o: src/hello_different_triangles.cpp.o
 
@@ -614,6 +657,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... hello_awsomeface"
 	@echo "... hello_texture"
 	@echo "... hello_glsl_triangle"
 	@echo "... hello_triangle_change"
@@ -641,6 +685,9 @@ help:
 	@echo "... src/helloWindow.o"
 	@echo "... src/helloWindow.i"
 	@echo "... src/helloWindow.s"
+	@echo "... src/hello_awsomeface_shader.o"
+	@echo "... src/hello_awsomeface_shader.i"
+	@echo "... src/hello_awsomeface_shader.s"
 	@echo "... src/hello_different_triangles.o"
 	@echo "... src/hello_different_triangles.i"
 	@echo "... src/hello_different_triangles.s"

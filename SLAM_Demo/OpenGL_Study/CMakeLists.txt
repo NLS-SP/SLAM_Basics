@@ -54,3 +54,6 @@ target_link_libraries(hello_shader_file ${Third_PARTY_LIBS})
 
 add_executable(hello_texture src/hello_texture.cpp ${SOURCE_FILES})
 target_link_libraries(hello_texture ${Third_PARTY_LIBS})
+
+add_executable(hello_awsomeface src/hello_awsomeface_shader.cpp ${SOURCE_FILES})
+target_link_libraries(hello_awsomeface ${Third_PARTY_LIBS})

@@ -54,6 +54,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/hello_awsomeface.dir/DependInfo.cmake"
   "CMakeFiles/hello_texture.dir/DependInfo.cmake"
   "CMakeFiles/hello_glsl_triangle.dir/DependInfo.cmake"
   "CMakeFiles/hello_triangle_change.dir/DependInfo.cmake"
