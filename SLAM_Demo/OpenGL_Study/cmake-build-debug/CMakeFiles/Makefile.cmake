@@ -54,16 +54,22 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/hello_plane_obj.dir/DependInfo.cmake"
+  "CMakeFiles/hello_multipleHappy.dir/DependInfo.cmake"
+  "CMakeFiles/hello_awsome_mix.dir/DependInfo.cmake"
   "CMakeFiles/hello_awsomeface.dir/DependInfo.cmake"
   "CMakeFiles/hello_texture.dir/DependInfo.cmake"
+  "CMakeFiles/hello_camera.dir/DependInfo.cmake"
   "CMakeFiles/hello_glsl_triangle.dir/DependInfo.cmake"
   "CMakeFiles/hello_triangle_change.dir/DependInfo.cmake"
   "CMakeFiles/hello_shader_Programing.dir/DependInfo.cmake"
+  "CMakeFiles/hello_obj.dir/DependInfo.cmake"
   "CMakeFiles/hello_shader_triangle.dir/DependInfo.cmake"
   "CMakeFiles/helloWindow.dir/DependInfo.cmake"
   "CMakeFiles/hello_shader_file.dir/DependInfo.cmake"
   "CMakeFiles/helloTriangle.dir/DependInfo.cmake"
   "CMakeFiles/hello_different_triangles.dir/DependInfo.cmake"
   "CMakeFiles/helloRectangle.dir/DependInfo.cmake"
+  "CMakeFiles/hello_view_port.dir/DependInfo.cmake"
   "CMakeFiles/OpenGL_test.dir/DependInfo.cmake"
   )

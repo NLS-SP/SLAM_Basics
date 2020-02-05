@@ -2,17 +2,23 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="GUI_TOOL" targetName="hello_shader_triangle" />
-      <config projectName="GUI_TOOL" targetName="hello_shader_Programing" />
-      <config projectName="GUI_TOOL" targetName="hello_awsomeface" />
-      <config projectName="GUI_TOOL" targetName="hello_texture" />
+      <config projectName="GUI_TOOL" targetName="hello_plane_obj" />
       <config projectName="GUI_TOOL" targetName="helloTriangle" />
-      <config projectName="GUI_TOOL" targetName="OpenGL_test" />
-      <config projectName="GUI_TOOL" targetName="hello_triangle_change" />
-      <config projectName="GUI_TOOL" targetName="hello_glsl_triangle" />
-      <config projectName="GUI_TOOL" targetName="hello_shader_file" />
+      <config projectName="GUI_TOOL" targetName="hello_camera" />
+      <config projectName="GUI_TOOL" targetName="hello_multipleHappy" />
+      <config projectName="GUI_TOOL" targetName="hello_shader_Programing" />
+      <config projectName="GUI_TOOL" targetName="hello_awsome_mix" />
+      <config projectName="GUI_TOOL" targetName="hello_awsomeface" />
       <config projectName="GUI_TOOL" targetName="helloWindow" />
+      <config projectName="GUI_TOOL" targetName="hello_obj" />
+      <config projectName="GUI_TOOL" targetName="hello_shader_triangle" />
       <config projectName="GUI_TOOL" targetName="hello_different_triangles" />
+      <config projectName="GUI_TOOL" targetName="hello_triangle_change" />
+      <config projectName="GUI_TOOL" targetName="hello_texture" />
+      <config projectName="GUI_TOOL" targetName="hello_view_port" />
+      <config projectName="GUI_TOOL" targetName="hello_shader_file" />
+      <config projectName="GUI_TOOL" targetName="hello_glsl_triangle" />
+      <config projectName="GUI_TOOL" targetName="OpenGL_test" />
       <config projectName="GUI_TOOL" targetName="helloRectangle" />
     </generated>
   </component>
@@ -23,15 +29,75 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85e25718-edd3-4d8a-8408-cf59cbf4f63e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/shaders/mix_texture.vs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thread_Study/hello_joinable.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolin.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolin.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolin.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolin.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolin.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolin.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolin.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolin.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolin.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolin.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinOffScreen.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinOffScreen.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinOffScreen.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinOffScreen.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinOffScreen.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinOffScreen.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinOffScreen.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinOffScreen.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinOffScreen.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinOffScreen.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinThreads.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinThreads.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinThreads.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinThreads.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinThreads.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinThreads.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinThreads.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinThreads.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/Window_Viewer.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/Window_Viewer.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGL_test.dir/C.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGL_test.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGL_test.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGL_test.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGL_test.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGL_test.dir/src/OpenGL_test.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGL_test.dir/src/glad.c.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloRectangle.dir/C.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloRectangle.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloRectangle.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloRectangle.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloRectangle.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloRectangle.dir/src/glad.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloRectangle.dir/src/helloRectangle.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloTriangle.dir/C.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloTriangle.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloTriangle.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloTriangle.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloTriangle.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloTriangle.dir/src/glad.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloTriangle.dir/src/helloTriangle.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloWindow.dir/C.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloWindow.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloWindow.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloWindow.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloWindow.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloWindow.dir/src/glad.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/helloWindow.dir/src/helloWindow.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/GUI_TOOL.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/GUI_TOOL.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/learnOpenGL/shader_s.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/learnOpenGL/shader_s.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thread_Study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread_Study/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thread_Study/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread_Study/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/Thread_Study.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/Thread_Study.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thread_Study/hello_detach.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thread_Study/hello_function_object.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thread_Study/hello_function_parameter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thread_Study/hello_lambda_function.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thread_Study/machine_thread.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thread_Study/thread_function.cpp" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +145,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.hello_awsomeface">
+  <component name="RunManager" selected="CMake Application.hello_awsome_mix">
     <configuration name="OpenGL_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GUI_TOOL" TARGET_NAME="OpenGL_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GUI_TOOL" RUN_TARGET_NAME="OpenGL_test">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -100,7 +166,17 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="hello_awsome_mix" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GUI_TOOL" TARGET_NAME="hello_awsome_mix" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GUI_TOOL" RUN_TARGET_NAME="hello_awsome_mix">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="hello_awsomeface" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GUI_TOOL" TARGET_NAME="hello_awsomeface" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GUI_TOOL" RUN_TARGET_NAME="hello_awsomeface">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hello_camera" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GUI_TOOL" TARGET_NAME="hello_camera" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GUI_TOOL" RUN_TARGET_NAME="hello_camera">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -111,6 +187,21 @@
       </method>
     </configuration>
     <configuration name="hello_glsl_triangle" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GUI_TOOL" TARGET_NAME="hello_glsl_triangle" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GUI_TOOL" RUN_TARGET_NAME="hello_glsl_triangle">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hello_multipleHappy" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GUI_TOOL" TARGET_NAME="hello_multipleHappy" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GUI_TOOL" RUN_TARGET_NAME="hello_multipleHappy">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hello_obj" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GUI_TOOL" TARGET_NAME="hello_obj" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GUI_TOOL" RUN_TARGET_NAME="hello_obj">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hello_plane_obj" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GUI_TOOL" TARGET_NAME="hello_plane_obj" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GUI_TOOL" RUN_TARGET_NAME="hello_plane_obj">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -140,15 +231,26 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="hello_view_port" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GUI_TOOL" TARGET_NAME="hello_view_port" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GUI_TOOL" RUN_TARGET_NAME="hello_view_port">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="CMake Application.hello_awsome_mix" />
       <item itemvalue="CMake Application.hello_awsomeface" />
+      <item itemvalue="CMake Application.hello_camera" />
       <item itemvalue="CMake Application.hello_different_triangles" />
       <item itemvalue="CMake Application.hello_glsl_triangle" />
+      <item itemvalue="CMake Application.hello_multipleHappy" />
+      <item itemvalue="CMake Application.hello_obj" />
+      <item itemvalue="CMake Application.hello_plane_obj" />
       <item itemvalue="CMake Application.hello_shader_file" />
       <item itemvalue="CMake Application.hello_shader_Programing" />
       <item itemvalue="CMake Application.hello_shader_triangle" />
       <item itemvalue="CMake Application.hello_texture" />
       <item itemvalue="CMake Application.hello_triangle_change" />
+      <item itemvalue="CMake Application.hello_view_port" />
       <item itemvalue="CMake Application.helloRectangle" />
       <item itemvalue="CMake Application.helloTriangle" />
       <item itemvalue="CMake Application.helloWindow" />
@@ -183,6 +285,19 @@
       <workItem from="1578275020739" duration="6252000" />
       <workItem from="1578360632878" duration="6351000" />
       <workItem from="1578449994560" duration="4117000" />
+      <workItem from="1578967591022" duration="4284000" />
+      <workItem from="1579527135932" duration="2110000" />
+      <workItem from="1579625387936" duration="485000" />
+      <workItem from="1579678782059" duration="293000" />
+      <workItem from="1580089238771" duration="4826000" />
+      <workItem from="1580212433478" duration="690000" />
+      <workItem from="1580389531894" duration="8718000" />
+      <workItem from="1580628828016" duration="359000" />
+      <workItem from="1580731366663" duration="5191000" />
+      <workItem from="1580780856999" duration="586000" />
+      <workItem from="1580786569663" duration="261000" />
+      <workItem from="1580787254020" duration="1251000" />
+      <workItem from="1580890628445" duration="4147000" />
     </task>
     <servers />
   </component>

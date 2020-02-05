@@ -57,3 +57,21 @@ target_link_libraries(hello_texture ${Third_PARTY_LIBS})
 
 add_executable(hello_awsomeface src/hello_awsomeface_shader.cpp ${SOURCE_FILES})
 target_link_libraries(hello_awsomeface ${Third_PARTY_LIBS})
+
+add_executable(hello_multipleHappy src/hello_multiple_happy.cpp ${SOURCE_FILES})
+target_link_libraries(hello_multipleHappy ${Third_PARTY_LIBS})
+
+add_executable(hello_view_port src/hello_view_port.cpp ${SOURCE_FILES})
+target_link_libraries(hello_view_port ${Third_PARTY_LIBS})
+
+add_executable(hello_obj src/hello_obj.cpp ${SOURCE_FILES})
+target_link_libraries(hello_obj ${Third_PARTY_LIBS})
+
+add_executable(hello_plane_obj src/hello_plane_object.cpp ${SOURCE_FILES})
+target_link_libraries(hello_plane_obj ${Third_PARTY_LIBS})
+
+add_executable(hello_awsome_mix src/hello_awsome_mix.cpp ${SOURCE_FILES})
+target_link_libraries(hello_awsome_mix ${Third_PARTY_LIBS})
+
+add_executable(hello_camera src/hello_camera.cpp ${SOURCE_FILES})
+target_link_libraries(hello_camera ${Third_PARTY_LIBS})
