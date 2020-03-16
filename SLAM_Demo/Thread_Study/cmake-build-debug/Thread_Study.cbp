@@ -17,18 +17,8 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="hello_function_object">
-				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/hello_function_object" prefix_auto="0" extension_auto="0"/>
+			<Target title="hello_condition_queue">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/hello_condition_queue" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -42,14 +32,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_function_object"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_condition_queue"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="hello_function_object/fast">
-				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/hello_function_object" prefix_auto="0" extension_auto="0"/>
+			<Target title="hello_condition_queue/fast">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/hello_condition_queue" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -63,7 +53,7 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_function_object/fast"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_condition_queue/fast"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -79,8 +69,8 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="hello_lambda_function">
-				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/hello_lambda_function" prefix_auto="0" extension_auto="0"/>
+			<Target title="hello_condition_variable">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/hello_condition_variable" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -94,14 +84,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_lambda_function"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_condition_variable"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="hello_lambda_function/fast">
-				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/hello_lambda_function" prefix_auto="0" extension_auto="0"/>
+			<Target title="hello_condition_variable/fast">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/hello_condition_variable" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -115,14 +105,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_lambda_function/fast"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_condition_variable/fast"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="hello_detach">
-				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/hello_detach" prefix_auto="0" extension_auto="0"/>
+			<Target title="hello_hierarchical_mutex">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/hello_hierarchical_mutex" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -136,14 +126,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_detach"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_hierarchical_mutex"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="hello_detach/fast">
-				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/hello_detach" prefix_auto="0" extension_auto="0"/>
+			<Target title="hello_hierarchical_mutex/fast">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/hello_hierarchical_mutex" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -157,14 +147,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_detach/fast"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_hierarchical_mutex/fast"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="hello_function_parameter">
-				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/hello_function_parameter" prefix_auto="0" extension_auto="0"/>
+			<Target title="hello_mutex_object">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/hello_mutex_object" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -178,14 +168,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_function_parameter"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_mutex_object"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="hello_function_parameter/fast">
-				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/hello_function_parameter" prefix_auto="0" extension_auto="0"/>
+			<Target title="hello_mutex_object/fast">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/hello_mutex_object" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -199,14 +189,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_function_parameter/fast"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_mutex_object/fast"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="thread_function">
-				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/thread_function" prefix_auto="0" extension_auto="0"/>
+			<Target title="hello_accumulate_detach">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/hello_accumulate_detach" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -220,14 +210,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 thread_function"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_accumulate_detach"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="thread_function/fast">
-				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/thread_function" prefix_auto="0" extension_auto="0"/>
+			<Target title="hello_accumulate_detach/fast">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/hello_accumulate_detach" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -241,35 +231,24 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 thread_function/fast"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_accumulate_detach/fast"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="machine_thread">
-				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/machine_thread" prefix_auto="0" extension_auto="0"/>
+			<Target title="rebuild_cache">
 				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="clang"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
+				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 machine_thread"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="machine_thread/fast">
-				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/machine_thread" prefix_auto="0" extension_auto="0"/>
+			<Target title="hello_joinable">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/hello_joinable" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -283,30 +262,96 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 machine_thread/fast"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_joinable"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_joinable/fast">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/hello_joinable" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_joinable/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_thread">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/hello_thread" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_thread"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_thread/fast">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/hello_thread" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_thread/fast"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/hello_detach.cpp">
-			<Option target="hello_detach"/>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/hello_accumulate_detach.cpp">
+			<Option target="hello_accumulate_detach"/>
 		</Unit>
-		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/hello_function_object.cpp">
-			<Option target="hello_function_object"/>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/hello_condition_queue.cpp">
+			<Option target="hello_condition_queue"/>
 		</Unit>
-		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/hello_function_parameter.cpp">
-			<Option target="hello_function_parameter"/>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/hello_condition_variable.cpp">
+			<Option target="hello_condition_variable"/>
 		</Unit>
-		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/hello_lambda_function.cpp">
-			<Option target="hello_lambda_function"/>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/hello_hierarchical_mutex.cpp">
+			<Option target="hello_hierarchical_mutex"/>
 		</Unit>
-		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/machine_thread.cpp">
-			<Option target="machine_thread"/>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/hello_joinable.cpp">
+			<Option target="hello_joinable"/>
 		</Unit>
-		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/thread_function.cpp">
-			<Option target="thread_function"/>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/hello_mutex_object.cpp">
+			<Option target="hello_mutex_object"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/hello_thread.cpp">
+			<Option target="hello_thread"/>
 		</Unit>
 		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
