@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /Users/robotics_qi/SLAM_Basics/SLAM_Demo/Thread_Study/cmake-b
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/local/Cellar/cmake/3.16.5/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/local/Cellar/cmake/3.16.5/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,6 +111,58 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named parallel_accumulate
+
+# Build rule for target.
+parallel_accumulate: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 parallel_accumulate
+.PHONY : parallel_accumulate
+
+# fast build rule for target.
+parallel_accumulate/fast:
+	$(MAKE) -f CMakeFiles/parallel_accumulate.dir/build.make CMakeFiles/parallel_accumulate.dir/build
+.PHONY : parallel_accumulate/fast
+
+#=============================================================================
+# Target rules for targets named parallel_sort
+
+# Build rule for target.
+parallel_sort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 parallel_sort
+.PHONY : parallel_sort
+
+# fast build rule for target.
+parallel_sort/fast:
+	$(MAKE) -f CMakeFiles/parallel_sort.dir/build.make CMakeFiles/parallel_sort.dir/build
+.PHONY : parallel_sort/fast
+
+#=============================================================================
+# Target rules for targets named hello_async_multi_task
+
+# Build rule for target.
+hello_async_multi_task: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello_async_multi_task
+.PHONY : hello_async_multi_task
+
+# fast build rule for target.
+hello_async_multi_task/fast:
+	$(MAKE) -f CMakeFiles/hello_async_multi_task.dir/build.make CMakeFiles/hello_async_multi_task.dir/build
+.PHONY : hello_async_multi_task/fast
+
+#=============================================================================
+# Target rules for targets named hello_async_parameter
+
+# Build rule for target.
+hello_async_parameter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello_async_parameter
+.PHONY : hello_async_parameter
+
+# fast build rule for target.
+hello_async_parameter/fast:
+	$(MAKE) -f CMakeFiles/hello_async_parameter.dir/build.make CMakeFiles/hello_async_parameter.dir/build
+.PHONY : hello_async_parameter/fast
+
+#=============================================================================
 # Target rules for targets named hello_condition_queue
 
 # Build rule for target.
@@ -122,6 +174,19 @@ hello_condition_queue: cmake_check_build_system
 hello_condition_queue/fast:
 	$(MAKE) -f CMakeFiles/hello_condition_queue.dir/build.make CMakeFiles/hello_condition_queue.dir/build
 .PHONY : hello_condition_queue/fast
+
+#=============================================================================
+# Target rules for targets named hello_async
+
+# Build rule for target.
+hello_async: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello_async
+.PHONY : hello_async
+
+# fast build rule for target.
+hello_async/fast:
+	$(MAKE) -f CMakeFiles/hello_async.dir/build.make CMakeFiles/hello_async.dir/build
+.PHONY : hello_async/fast
 
 #=============================================================================
 # Target rules for targets named hello_condition_variable
@@ -150,6 +215,32 @@ hello_hierarchical_mutex/fast:
 .PHONY : hello_hierarchical_mutex/fast
 
 #=============================================================================
+# Target rules for targets named hello_threadPool
+
+# Build rule for target.
+hello_threadPool: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello_threadPool
+.PHONY : hello_threadPool
+
+# fast build rule for target.
+hello_threadPool/fast:
+	$(MAKE) -f CMakeFiles/hello_threadPool.dir/build.make CMakeFiles/hello_threadPool.dir/build
+.PHONY : hello_threadPool/fast
+
+#=============================================================================
+# Target rules for targets named hello_move_in_thread
+
+# Build rule for target.
+hello_move_in_thread: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello_move_in_thread
+.PHONY : hello_move_in_thread
+
+# fast build rule for target.
+hello_move_in_thread/fast:
+	$(MAKE) -f CMakeFiles/hello_move_in_thread.dir/build.make CMakeFiles/hello_move_in_thread.dir/build
+.PHONY : hello_move_in_thread/fast
+
+#=============================================================================
 # Target rules for targets named hello_mutex_object
 
 # Build rule for target.
@@ -176,6 +267,19 @@ hello_accumulate_detach/fast:
 .PHONY : hello_accumulate_detach/fast
 
 #=============================================================================
+# Target rules for targets named hello_mutex_example
+
+# Build rule for target.
+hello_mutex_example: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello_mutex_example
+.PHONY : hello_mutex_example
+
+# fast build rule for target.
+hello_mutex_example/fast:
+	$(MAKE) -f CMakeFiles/hello_mutex_example.dir/build.make CMakeFiles/hello_mutex_example.dir/build
+.PHONY : hello_mutex_example/fast
+
+#=============================================================================
 # Target rules for targets named hello_joinable
 
 # Build rule for target.
@@ -189,6 +293,32 @@ hello_joinable/fast:
 .PHONY : hello_joinable/fast
 
 #=============================================================================
+# Target rules for targets named hello_time_mutex
+
+# Build rule for target.
+hello_time_mutex: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello_time_mutex
+.PHONY : hello_time_mutex
+
+# fast build rule for target.
+hello_time_mutex/fast:
+	$(MAKE) -f CMakeFiles/hello_time_mutex.dir/build.make CMakeFiles/hello_time_mutex.dir/build
+.PHONY : hello_time_mutex/fast
+
+#=============================================================================
+# Target rules for targets named hello_thread_construct
+
+# Build rule for target.
+hello_thread_construct: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello_thread_construct
+.PHONY : hello_thread_construct
+
+# fast build rule for target.
+hello_thread_construct/fast:
+	$(MAKE) -f CMakeFiles/hello_thread_construct.dir/build.make CMakeFiles/hello_thread_construct.dir/build
+.PHONY : hello_thread_construct/fast
+
+#=============================================================================
 # Target rules for targets named hello_thread
 
 # Build rule for target.
@@ -200,6 +330,33 @@ hello_thread: cmake_check_build_system
 hello_thread/fast:
 	$(MAKE) -f CMakeFiles/hello_thread.dir/build.make CMakeFiles/hello_thread.dir/build
 .PHONY : hello_thread/fast
+
+example_threadPool.o: example_threadPool.cpp.o
+
+.PHONY : example_threadPool.o
+
+# target to build an object file
+example_threadPool.cpp.o:
+	$(MAKE) -f CMakeFiles/hello_threadPool.dir/build.make CMakeFiles/hello_threadPool.dir/example_threadPool.cpp.o
+.PHONY : example_threadPool.cpp.o
+
+example_threadPool.i: example_threadPool.cpp.i
+
+.PHONY : example_threadPool.i
+
+# target to preprocess a source file
+example_threadPool.cpp.i:
+	$(MAKE) -f CMakeFiles/hello_threadPool.dir/build.make CMakeFiles/hello_threadPool.dir/example_threadPool.cpp.i
+.PHONY : example_threadPool.cpp.i
+
+example_threadPool.s: example_threadPool.cpp.s
+
+.PHONY : example_threadPool.s
+
+# target to generate assembly for a file
+example_threadPool.cpp.s:
+	$(MAKE) -f CMakeFiles/hello_threadPool.dir/build.make CMakeFiles/hello_threadPool.dir/example_threadPool.cpp.s
+.PHONY : example_threadPool.cpp.s
 
 hello_accumulate_detach.o: hello_accumulate_detach.cpp.o
 
@@ -227,6 +384,87 @@ hello_accumulate_detach.s: hello_accumulate_detach.cpp.s
 hello_accumulate_detach.cpp.s:
 	$(MAKE) -f CMakeFiles/hello_accumulate_detach.dir/build.make CMakeFiles/hello_accumulate_detach.dir/hello_accumulate_detach.cpp.s
 .PHONY : hello_accumulate_detach.cpp.s
+
+hello_async.o: hello_async.cpp.o
+
+.PHONY : hello_async.o
+
+# target to build an object file
+hello_async.cpp.o:
+	$(MAKE) -f CMakeFiles/hello_async.dir/build.make CMakeFiles/hello_async.dir/hello_async.cpp.o
+.PHONY : hello_async.cpp.o
+
+hello_async.i: hello_async.cpp.i
+
+.PHONY : hello_async.i
+
+# target to preprocess a source file
+hello_async.cpp.i:
+	$(MAKE) -f CMakeFiles/hello_async.dir/build.make CMakeFiles/hello_async.dir/hello_async.cpp.i
+.PHONY : hello_async.cpp.i
+
+hello_async.s: hello_async.cpp.s
+
+.PHONY : hello_async.s
+
+# target to generate assembly for a file
+hello_async.cpp.s:
+	$(MAKE) -f CMakeFiles/hello_async.dir/build.make CMakeFiles/hello_async.dir/hello_async.cpp.s
+.PHONY : hello_async.cpp.s
+
+hello_async_multi_task.o: hello_async_multi_task.cpp.o
+
+.PHONY : hello_async_multi_task.o
+
+# target to build an object file
+hello_async_multi_task.cpp.o:
+	$(MAKE) -f CMakeFiles/hello_async_multi_task.dir/build.make CMakeFiles/hello_async_multi_task.dir/hello_async_multi_task.cpp.o
+.PHONY : hello_async_multi_task.cpp.o
+
+hello_async_multi_task.i: hello_async_multi_task.cpp.i
+
+.PHONY : hello_async_multi_task.i
+
+# target to preprocess a source file
+hello_async_multi_task.cpp.i:
+	$(MAKE) -f CMakeFiles/hello_async_multi_task.dir/build.make CMakeFiles/hello_async_multi_task.dir/hello_async_multi_task.cpp.i
+.PHONY : hello_async_multi_task.cpp.i
+
+hello_async_multi_task.s: hello_async_multi_task.cpp.s
+
+.PHONY : hello_async_multi_task.s
+
+# target to generate assembly for a file
+hello_async_multi_task.cpp.s:
+	$(MAKE) -f CMakeFiles/hello_async_multi_task.dir/build.make CMakeFiles/hello_async_multi_task.dir/hello_async_multi_task.cpp.s
+.PHONY : hello_async_multi_task.cpp.s
+
+hello_async_parameter.o: hello_async_parameter.cpp.o
+
+.PHONY : hello_async_parameter.o
+
+# target to build an object file
+hello_async_parameter.cpp.o:
+	$(MAKE) -f CMakeFiles/hello_async_parameter.dir/build.make CMakeFiles/hello_async_parameter.dir/hello_async_parameter.cpp.o
+.PHONY : hello_async_parameter.cpp.o
+
+hello_async_parameter.i: hello_async_parameter.cpp.i
+
+.PHONY : hello_async_parameter.i
+
+# target to preprocess a source file
+hello_async_parameter.cpp.i:
+	$(MAKE) -f CMakeFiles/hello_async_parameter.dir/build.make CMakeFiles/hello_async_parameter.dir/hello_async_parameter.cpp.i
+.PHONY : hello_async_parameter.cpp.i
+
+hello_async_parameter.s: hello_async_parameter.cpp.s
+
+.PHONY : hello_async_parameter.s
+
+# target to generate assembly for a file
+hello_async_parameter.cpp.s:
+	$(MAKE) -f CMakeFiles/hello_async_parameter.dir/build.make CMakeFiles/hello_async_parameter.dir/hello_async_parameter.cpp.s
+.PHONY : hello_async_parameter.cpp.s
 
 hello_condition_queue.o: hello_condition_queue.cpp.o
 
@@ -336,6 +574,60 @@ hello_joinable.cpp.s:
 	$(MAKE) -f CMakeFiles/hello_joinable.dir/build.make CMakeFiles/hello_joinable.dir/hello_joinable.cpp.s
 .PHONY : hello_joinable.cpp.s
 
+hello_move_in_thread.o: hello_move_in_thread.cpp.o
+
+.PHONY : hello_move_in_thread.o
+
+# target to build an object file
+hello_move_in_thread.cpp.o:
+	$(MAKE) -f CMakeFiles/hello_move_in_thread.dir/build.make CMakeFiles/hello_move_in_thread.dir/hello_move_in_thread.cpp.o
+.PHONY : hello_move_in_thread.cpp.o
+
+hello_move_in_thread.i: hello_move_in_thread.cpp.i
+
+.PHONY : hello_move_in_thread.i
+
+# target to preprocess a source file
+hello_move_in_thread.cpp.i:
+	$(MAKE) -f CMakeFiles/hello_move_in_thread.dir/build.make CMakeFiles/hello_move_in_thread.dir/hello_move_in_thread.cpp.i
+.PHONY : hello_move_in_thread.cpp.i
+
+hello_move_in_thread.s: hello_move_in_thread.cpp.s
+
+.PHONY : hello_move_in_thread.s
+
+# target to generate assembly for a file
+hello_move_in_thread.cpp.s:
+	$(MAKE) -f CMakeFiles/hello_move_in_thread.dir/build.make CMakeFiles/hello_move_in_thread.dir/hello_move_in_thread.cpp.s
+.PHONY : hello_move_in_thread.cpp.s
+
+hello_mutex_example.o: hello_mutex_example.cpp.o
+
+.PHONY : hello_mutex_example.o
+
+# target to build an object file
+hello_mutex_example.cpp.o:
+	$(MAKE) -f CMakeFiles/hello_mutex_example.dir/build.make CMakeFiles/hello_mutex_example.dir/hello_mutex_example.cpp.o
+.PHONY : hello_mutex_example.cpp.o
+
+hello_mutex_example.i: hello_mutex_example.cpp.i
+
+.PHONY : hello_mutex_example.i
+
+# target to preprocess a source file
+hello_mutex_example.cpp.i:
+	$(MAKE) -f CMakeFiles/hello_mutex_example.dir/build.make CMakeFiles/hello_mutex_example.dir/hello_mutex_example.cpp.i
+.PHONY : hello_mutex_example.cpp.i
+
+hello_mutex_example.s: hello_mutex_example.cpp.s
+
+.PHONY : hello_mutex_example.s
+
+# target to generate assembly for a file
+hello_mutex_example.cpp.s:
+	$(MAKE) -f CMakeFiles/hello_mutex_example.dir/build.make CMakeFiles/hello_mutex_example.dir/hello_mutex_example.cpp.s
+.PHONY : hello_mutex_example.cpp.s
+
 hello_mutex_object.o: hello_mutex_object.cpp.o
 
 .PHONY : hello_mutex_object.o
@@ -390,24 +682,181 @@ hello_thread.cpp.s:
 	$(MAKE) -f CMakeFiles/hello_thread.dir/build.make CMakeFiles/hello_thread.dir/hello_thread.cpp.s
 .PHONY : hello_thread.cpp.s
 
+hello_thread_construct.o: hello_thread_construct.cpp.o
+
+.PHONY : hello_thread_construct.o
+
+# target to build an object file
+hello_thread_construct.cpp.o:
+	$(MAKE) -f CMakeFiles/hello_thread_construct.dir/build.make CMakeFiles/hello_thread_construct.dir/hello_thread_construct.cpp.o
+.PHONY : hello_thread_construct.cpp.o
+
+hello_thread_construct.i: hello_thread_construct.cpp.i
+
+.PHONY : hello_thread_construct.i
+
+# target to preprocess a source file
+hello_thread_construct.cpp.i:
+	$(MAKE) -f CMakeFiles/hello_thread_construct.dir/build.make CMakeFiles/hello_thread_construct.dir/hello_thread_construct.cpp.i
+.PHONY : hello_thread_construct.cpp.i
+
+hello_thread_construct.s: hello_thread_construct.cpp.s
+
+.PHONY : hello_thread_construct.s
+
+# target to generate assembly for a file
+hello_thread_construct.cpp.s:
+	$(MAKE) -f CMakeFiles/hello_thread_construct.dir/build.make CMakeFiles/hello_thread_construct.dir/hello_thread_construct.cpp.s
+.PHONY : hello_thread_construct.cpp.s
+
+hello_time_mutex.o: hello_time_mutex.cpp.o
+
+.PHONY : hello_time_mutex.o
+
+# target to build an object file
+hello_time_mutex.cpp.o:
+	$(MAKE) -f CMakeFiles/hello_time_mutex.dir/build.make CMakeFiles/hello_time_mutex.dir/hello_time_mutex.cpp.o
+.PHONY : hello_time_mutex.cpp.o
+
+hello_time_mutex.i: hello_time_mutex.cpp.i
+
+.PHONY : hello_time_mutex.i
+
+# target to preprocess a source file
+hello_time_mutex.cpp.i:
+	$(MAKE) -f CMakeFiles/hello_time_mutex.dir/build.make CMakeFiles/hello_time_mutex.dir/hello_time_mutex.cpp.i
+.PHONY : hello_time_mutex.cpp.i
+
+hello_time_mutex.s: hello_time_mutex.cpp.s
+
+.PHONY : hello_time_mutex.s
+
+# target to generate assembly for a file
+hello_time_mutex.cpp.s:
+	$(MAKE) -f CMakeFiles/hello_time_mutex.dir/build.make CMakeFiles/hello_time_mutex.dir/hello_time_mutex.cpp.s
+.PHONY : hello_time_mutex.cpp.s
+
+parallel_accumulate.o: parallel_accumulate.cpp.o
+
+.PHONY : parallel_accumulate.o
+
+# target to build an object file
+parallel_accumulate.cpp.o:
+	$(MAKE) -f CMakeFiles/parallel_accumulate.dir/build.make CMakeFiles/parallel_accumulate.dir/parallel_accumulate.cpp.o
+.PHONY : parallel_accumulate.cpp.o
+
+parallel_accumulate.i: parallel_accumulate.cpp.i
+
+.PHONY : parallel_accumulate.i
+
+# target to preprocess a source file
+parallel_accumulate.cpp.i:
+	$(MAKE) -f CMakeFiles/parallel_accumulate.dir/build.make CMakeFiles/parallel_accumulate.dir/parallel_accumulate.cpp.i
+.PHONY : parallel_accumulate.cpp.i
+
+parallel_accumulate.s: parallel_accumulate.cpp.s
+
+.PHONY : parallel_accumulate.s
+
+# target to generate assembly for a file
+parallel_accumulate.cpp.s:
+	$(MAKE) -f CMakeFiles/parallel_accumulate.dir/build.make CMakeFiles/parallel_accumulate.dir/parallel_accumulate.cpp.s
+.PHONY : parallel_accumulate.cpp.s
+
+parallel_sort.o: parallel_sort.cpp.o
+
+.PHONY : parallel_sort.o
+
+# target to build an object file
+parallel_sort.cpp.o:
+	$(MAKE) -f CMakeFiles/parallel_sort.dir/build.make CMakeFiles/parallel_sort.dir/parallel_sort.cpp.o
+.PHONY : parallel_sort.cpp.o
+
+parallel_sort.i: parallel_sort.cpp.i
+
+.PHONY : parallel_sort.i
+
+# target to preprocess a source file
+parallel_sort.cpp.i:
+	$(MAKE) -f CMakeFiles/parallel_sort.dir/build.make CMakeFiles/parallel_sort.dir/parallel_sort.cpp.i
+.PHONY : parallel_sort.cpp.i
+
+parallel_sort.s: parallel_sort.cpp.s
+
+.PHONY : parallel_sort.s
+
+# target to generate assembly for a file
+parallel_sort.cpp.s:
+	$(MAKE) -f CMakeFiles/parallel_sort.dir/build.make CMakeFiles/parallel_sort.dir/parallel_sort.cpp.s
+.PHONY : parallel_sort.cpp.s
+
+threadPool.o: threadPool.cpp.o
+
+.PHONY : threadPool.o
+
+# target to build an object file
+threadPool.cpp.o:
+	$(MAKE) -f CMakeFiles/hello_threadPool.dir/build.make CMakeFiles/hello_threadPool.dir/threadPool.cpp.o
+.PHONY : threadPool.cpp.o
+
+threadPool.i: threadPool.cpp.i
+
+.PHONY : threadPool.i
+
+# target to preprocess a source file
+threadPool.cpp.i:
+	$(MAKE) -f CMakeFiles/hello_threadPool.dir/build.make CMakeFiles/hello_threadPool.dir/threadPool.cpp.i
+.PHONY : threadPool.cpp.i
+
+threadPool.s: threadPool.cpp.s
+
+.PHONY : threadPool.s
+
+# target to generate assembly for a file
+threadPool.cpp.s:
+	$(MAKE) -f CMakeFiles/hello_threadPool.dir/build.make CMakeFiles/hello_threadPool.dir/threadPool.cpp.s
+.PHONY : threadPool.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... rebuild_cache"
+	@echo "... parallel_accumulate"
+	@echo "... parallel_sort"
+	@echo "... hello_async_multi_task"
+	@echo "... hello_async_parameter"
 	@echo "... hello_condition_queue"
-	@echo "... edit_cache"
+	@echo "... hello_async"
 	@echo "... hello_condition_variable"
 	@echo "... hello_hierarchical_mutex"
+	@echo "... hello_threadPool"
+	@echo "... hello_move_in_thread"
 	@echo "... hello_mutex_object"
 	@echo "... hello_accumulate_detach"
-	@echo "... rebuild_cache"
+	@echo "... edit_cache"
+	@echo "... hello_mutex_example"
 	@echo "... hello_joinable"
+	@echo "... hello_time_mutex"
+	@echo "... hello_thread_construct"
 	@echo "... hello_thread"
+	@echo "... example_threadPool.o"
+	@echo "... example_threadPool.i"
+	@echo "... example_threadPool.s"
 	@echo "... hello_accumulate_detach.o"
 	@echo "... hello_accumulate_detach.i"
 	@echo "... hello_accumulate_detach.s"
+	@echo "... hello_async.o"
+	@echo "... hello_async.i"
+	@echo "... hello_async.s"
+	@echo "... hello_async_multi_task.o"
+	@echo "... hello_async_multi_task.i"
+	@echo "... hello_async_multi_task.s"
+	@echo "... hello_async_parameter.o"
+	@echo "... hello_async_parameter.i"
+	@echo "... hello_async_parameter.s"
 	@echo "... hello_condition_queue.o"
 	@echo "... hello_condition_queue.i"
 	@echo "... hello_condition_queue.s"
@@ -420,12 +869,33 @@ help:
 	@echo "... hello_joinable.o"
 	@echo "... hello_joinable.i"
 	@echo "... hello_joinable.s"
+	@echo "... hello_move_in_thread.o"
+	@echo "... hello_move_in_thread.i"
+	@echo "... hello_move_in_thread.s"
+	@echo "... hello_mutex_example.o"
+	@echo "... hello_mutex_example.i"
+	@echo "... hello_mutex_example.s"
 	@echo "... hello_mutex_object.o"
 	@echo "... hello_mutex_object.i"
 	@echo "... hello_mutex_object.s"
 	@echo "... hello_thread.o"
 	@echo "... hello_thread.i"
 	@echo "... hello_thread.s"
+	@echo "... hello_thread_construct.o"
+	@echo "... hello_thread_construct.i"
+	@echo "... hello_thread_construct.s"
+	@echo "... hello_time_mutex.o"
+	@echo "... hello_time_mutex.i"
+	@echo "... hello_time_mutex.s"
+	@echo "... parallel_accumulate.o"
+	@echo "... parallel_accumulate.i"
+	@echo "... parallel_accumulate.s"
+	@echo "... parallel_sort.o"
+	@echo "... parallel_sort.i"
+	@echo "... parallel_sort.s"
+	@echo "... threadPool.o"
+	@echo "... threadPool.i"
+	@echo "... threadPool.s"
 .PHONY : help
 
 

@@ -43,4 +43,7 @@ int main()
     std::cout << "After update, The represented in quaternion matrix is: " << std::endl
               << Q_updated.matrix() << std::endl;
 
+    typedef Eigen::Transform<double, 3, Eigen::Isometry> transformMatrix3D;
+    std::cout << "The transform is: " << std::endl << transformMatrix3D::Identity().matrix() << std::endl;
+
 }

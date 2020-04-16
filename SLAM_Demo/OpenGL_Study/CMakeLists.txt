@@ -75,3 +75,6 @@ target_link_libraries(hello_awsome_mix ${Third_PARTY_LIBS})
 
 add_executable(hello_camera src/hello_camera.cpp ${SOURCE_FILES})
 target_link_libraries(hello_camera ${Third_PARTY_LIBS})
+
+add_executable(hello_model src/hello_model.cpp ${SOURCE_FILES})
+target_link_libraries(hello_model ${Third_PARTY_LIBS})

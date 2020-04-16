@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+    <generated>
+      <config projectName="SLAM_BACKEND" targetName="hello_robust_fitting" />
+      <config projectName="SLAM_BACKEND" targetName="hello_bundle" />
+      <config projectName="SLAM_BACKEND" targetName="hello_world_analytic_diff" />
+      <config projectName="SLAM_BACKEND" targetName="hellow_world_numeric_diff" />
+      <config projectName="SLAM_BACKEND" targetName="hello_power" />
+      <config projectName="SLAM_BACKEND" targetName="hello_curve_fitting" />
+      <config projectName="SLAM_BACKEND" targetName="hello_world" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -9,118 +17,119 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09a9fcc5-7728-410c-9f83-95ea41ba499d" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <list default="true" id="09a9fcc5-7728-410c-9f83-95ea41ba499d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Project.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Project.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/Rotation_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/Rotation_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_test.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_test.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_test.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_test.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_test.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_test.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolin.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolin.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolin.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolin.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolin.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolin.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolin.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolin.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolin.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolin.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinOffScreen.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinOffScreen.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinOffScreen.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinOffScreen.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinOffScreen.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinOffScreen.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinOffScreen.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinOffScreen.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinOffScreen.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinOffScreen.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinThreads.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinThreads.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinThreads.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinThreads.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinThreads.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinThreads.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinThreads.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinThreads.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/Window_Viewer.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/Window_Viewer.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OpenGL_Study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenGL_Study/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OpenGL_Study/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenGL_Study/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OpenGL_Study/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenGL_Study/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OpenGL_Study/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenGL_Study/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OpenGL_Study/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenGL_Study/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OpenGL_Study/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenGL_Study/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OpenGL_Study/cmake-build-debug/GUI_TOOL.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenGL_Study/cmake-build-debug/GUI_TOOL.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OpenGL_Study/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenGL_Study/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OpenGL_Study/include/learnOpenGL/mesh.h" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenGL_Study/include/learnOpenGL/mesh.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OpenGL_Study/include/learnOpenGL/model.h" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenGL_Study/include/learnOpenGL/model.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thread_Study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread_Study/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thread_Study/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread_Study/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/Thread_Study.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/Thread_Study.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thread_Study/hello_joinable.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread_Study/hello_joinable.cpp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GaussNewton_CPP/include/types.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GaussNewton_CPP/include/gaussNewton.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GaussNewton_CPP/include/gradientDescent.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GaussNewton_CPP/src/graussNewton.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
       <list>
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/GaussNewton_CPP/include/gradientDescent.h" />
-        <option value="$PROJECT_DIR$/GaussNewton_CPP/include/types.h" />
-        <option value="$PROJECT_DIR$/GaussNewton_CPP/src/gradientDescent.cpp" />
-        <option value="$PROJECT_DIR$/GaussNewton_CPP/include/gaussNewton.h" />
+        <option value="CMakeLists.txt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-1920" />
-    <option name="y" value="-106" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Backend" type="462c0819:PsiDirectoryNode" />
-              <item name="GaussNewton_CPP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Backend" type="462c0819:PsiDirectoryNode" />
-              <item name="GaussNewton_CPP" type="462c0819:PsiDirectoryNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Backend" type="462c0819:PsiDirectoryNode" />
-              <item name="GaussNewton_CPP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
+  <component name="ProjectId" id="1XkLTewnmd2CNaaXcwHj4VPx4NW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="dynamic.analysis.tools.valgrind" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CERES_Study" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -133,6 +142,52 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="CMake Application.hello_bundle">
+    <configuration name="hello_bundle" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="$PROJECT_DIR$/CERES_Study/large_bundle_dataset.txt" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SLAM_BACKEND" TARGET_NAME="hello_bundle" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SLAM_BACKEND" RUN_TARGET_NAME="hello_bundle">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hello_curve_fitting" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SLAM_BACKEND" TARGET_NAME="hello_curve_fitting" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SLAM_BACKEND" RUN_TARGET_NAME="hello_curve_fitting">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hello_power" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SLAM_BACKEND" TARGET_NAME="hello_power" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SLAM_BACKEND" RUN_TARGET_NAME="hello_power">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hello_robust_fitting" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="large_bundle_dataset.txt" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SLAM_BACKEND" TARGET_NAME="hello_bundle" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SLAM_BACKEND" RUN_TARGET_NAME="hello_bundle">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hello_world" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SLAM_BACKEND" TARGET_NAME="hello_world" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SLAM_BACKEND" RUN_TARGET_NAME="hello_world">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hello_world_analytic_diff" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SLAM_BACKEND" TARGET_NAME="hello_world_analytic_diff" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SLAM_BACKEND" RUN_TARGET_NAME="hello_world_analytic_diff">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hellow_world_numeric_diff" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SLAM_BACKEND" TARGET_NAME="hellow_world_numeric_diff" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SLAM_BACKEND" RUN_TARGET_NAME="hellow_world_numeric_diff">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.hello_bundle" />
+      <item itemvalue="CMake Application.hello_curve_fitting" />
+      <item itemvalue="CMake Application.hello_power" />
+      <item itemvalue="CMake Application.hello_robust_fitting" />
+      <item itemvalue="CMake Application.hello_world" />
+      <item itemvalue="CMake Application.hello_world_analytic_diff" />
+      <item itemvalue="CMake Application.hellow_world_numeric_diff" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -148,78 +203,33 @@
       <workItem from="1550579739142" duration="4055000" />
       <workItem from="1550797874623" duration="126000" />
       <workItem from="1550842410373" duration="1349000" />
+      <workItem from="1581585155476" duration="2521000" />
+      <workItem from="1581596367805" duration="4067000" />
+      <workItem from="1581755634815" duration="2309000" />
+      <workItem from="1581905296097" duration="5438000" />
+      <workItem from="1581991462367" duration="126000" />
+      <workItem from="1581991941370" duration="623000" />
+      <workItem from="1582014498889" duration="507000" />
+      <workItem from="1582015734647" duration="654000" />
+      <workItem from="1582021769754" duration="614000" />
+      <workItem from="1582272998204" duration="7000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6252000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-1920" y="-106" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22523962" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="CMake" order="11" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/GaussNewton_CPP/src/gradientDescent.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GaussNewton_CPP/include/types.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GaussNewton_CPP/src/graussNewton.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GaussNewton_CPP/include/gradientDescent.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GaussNewton_CPP/include/gaussNewton.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

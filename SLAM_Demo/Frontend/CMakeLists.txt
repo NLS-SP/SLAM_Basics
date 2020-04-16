@@ -8,10 +8,10 @@ project(SLAM_FRONTED)
 # link_directories(${OpenCV_LIBRARY_DIRS} /usr/local/opencv2.4.13/lib)
 
 # OpenCV 3
-set(OpenCV_DIR /usr/local/opencv3.4.8/share/OpenCV)
+set(OpenCV_DIR /usr/local/opencv3.4.10/share/OpenCV)
 find_package(OpenCV 3.4 REQUIRED)
-include_directories(SYSTEM ${OpenCV_INCLUDE_DIRS} /usr/local/opencv3.4.8/include)
-link_directories(${OpenCV_LIBRARY_DIRS} /usr/local/opencv3.4.8/lib)
+include_directories(SYSTEM ${OpenCV_INCLUDE_DIRS} /usr/local/opencv3.4.10/include)
+link_directories(${OpenCV_LIBRARY_DIRS} /usr/local/opencv3.4.10/lib)
 include_directories(${OpenCV_INCLUDE_DIRS})
 
 # C++11 Standard

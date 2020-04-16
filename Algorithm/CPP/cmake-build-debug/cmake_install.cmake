@@ -36,6 +36,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Vector/cmake_install.cmake")
   include("/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/List/cmake_install.cmake")
+  include("/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/enumerate/cmake_install.cmake")
+  include("/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/cmake_install.cmake")
 
 endif()
 

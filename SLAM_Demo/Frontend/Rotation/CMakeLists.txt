@@ -14,3 +14,5 @@ add_executable(Rotation_sophus Rotation_sophus.cpp)
 
 target_link_libraries(Rotation_sophus ${Sophus_LIBRARIES})
 target_link_libraries(Rotation_test ${Sophus_LIBRARIES})
+
+add_executable(Rotation_Example Rotation_example.cpp)

@@ -87,9 +87,9 @@ int main()
     // set up vertex data (and buffer(s)) and configure vertex attributes
     // ------------------------------------------------------------------
     float vertices[] = {
-            -0.5f, -0.5f, 0.0f, // left
-            0.5f, -0.5f, 0.0f, // right
-            0.0f,  0.5f, 0.0f  // top
+            -0.5f, 0.5f, 0.0f, // left
+            0.5f,  0.5f, 0.0f, // right
+            0.0f,  -0.5f, 0.0f  // top
     };
 
     unsigned int VBO, VAO;

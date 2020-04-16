@@ -5,7 +5,7 @@
 		<Option title="List_study"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="clang"/>
-		<Option virtualFolders="CMake Files\;CMake Files\List\;CMake Files\Vector\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\enumerate\;CMake Files\List\;CMake Files\Rescursive\;CMake Files\Vector\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/List"/>
@@ -24,7 +24,7 @@
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
-					<Add directory="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/List/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/List/../List/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
@@ -46,7 +46,7 @@
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
-					<Add directory="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/List/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/List/../List/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
@@ -68,8 +68,14 @@
 		<Unit filename="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/enumerate/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\enumerate\"/>
+		</Unit>
 		<Unit filename="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/List/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\List\"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/Rescursive/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Rescursive\"/>
 		</Unit>
 		<Unit filename="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/Vector/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Vector\"/>

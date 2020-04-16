@@ -3,7 +3,7 @@ project(List_study)
 
 set(CMAKE_MACOSX_RPATH 1)
 
-include_directories(include)
+include_directories(../List/include)
 
-add_executable(List_test List_test.cpp)
+add_executable(List_test ../List/List_test.cpp)
 

@@ -254,6 +254,19 @@ hello_shader_triangle/fast:
 .PHONY : hello_shader_triangle/fast
 
 #=============================================================================
+# Target rules for targets named hello_model
+
+# Build rule for target.
+hello_model: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello_model
+.PHONY : hello_model
+
+# fast build rule for target.
+hello_model/fast:
+	$(MAKE) -f CMakeFiles/hello_model.dir/build.make CMakeFiles/hello_model.dir/build
+.PHONY : hello_model/fast
+
+#=============================================================================
 # Target rules for targets named helloWindow
 
 # Build rule for target.
@@ -388,6 +401,7 @@ src/glad.c.o:
 	$(MAKE) -f CMakeFiles/hello_shader_Programing.dir/build.make CMakeFiles/hello_shader_Programing.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/hello_obj.dir/build.make CMakeFiles/hello_obj.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/hello_shader_triangle.dir/build.make CMakeFiles/hello_shader_triangle.dir/src/glad.c.o
+	$(MAKE) -f CMakeFiles/hello_model.dir/build.make CMakeFiles/hello_model.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/helloWindow.dir/build.make CMakeFiles/helloWindow.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/hello_shader_file.dir/build.make CMakeFiles/hello_shader_file.dir/src/glad.c.o
 	$(MAKE) -f CMakeFiles/helloTriangle.dir/build.make CMakeFiles/helloTriangle.dir/src/glad.c.o
@@ -414,6 +428,7 @@ src/glad.c.i:
 	$(MAKE) -f CMakeFiles/hello_shader_Programing.dir/build.make CMakeFiles/hello_shader_Programing.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/hello_obj.dir/build.make CMakeFiles/hello_obj.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/hello_shader_triangle.dir/build.make CMakeFiles/hello_shader_triangle.dir/src/glad.c.i
+	$(MAKE) -f CMakeFiles/hello_model.dir/build.make CMakeFiles/hello_model.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/helloWindow.dir/build.make CMakeFiles/helloWindow.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/hello_shader_file.dir/build.make CMakeFiles/hello_shader_file.dir/src/glad.c.i
 	$(MAKE) -f CMakeFiles/helloTriangle.dir/build.make CMakeFiles/helloTriangle.dir/src/glad.c.i
@@ -440,6 +455,7 @@ src/glad.c.s:
 	$(MAKE) -f CMakeFiles/hello_shader_Programing.dir/build.make CMakeFiles/hello_shader_Programing.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/hello_obj.dir/build.make CMakeFiles/hello_obj.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/hello_shader_triangle.dir/build.make CMakeFiles/hello_shader_triangle.dir/src/glad.c.s
+	$(MAKE) -f CMakeFiles/hello_model.dir/build.make CMakeFiles/hello_model.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/helloWindow.dir/build.make CMakeFiles/helloWindow.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/hello_shader_file.dir/build.make CMakeFiles/hello_shader_file.dir/src/glad.c.s
 	$(MAKE) -f CMakeFiles/helloTriangle.dir/build.make CMakeFiles/helloTriangle.dir/src/glad.c.s
@@ -664,6 +680,33 @@ src/hello_glsl_triangle.s: src/hello_glsl_triangle.cpp.s
 src/hello_glsl_triangle.cpp.s:
 	$(MAKE) -f CMakeFiles/hello_glsl_triangle.dir/build.make CMakeFiles/hello_glsl_triangle.dir/src/hello_glsl_triangle.cpp.s
 .PHONY : src/hello_glsl_triangle.cpp.s
+
+src/hello_model.o: src/hello_model.cpp.o
+
+.PHONY : src/hello_model.o
+
+# target to build an object file
+src/hello_model.cpp.o:
+	$(MAKE) -f CMakeFiles/hello_model.dir/build.make CMakeFiles/hello_model.dir/src/hello_model.cpp.o
+.PHONY : src/hello_model.cpp.o
+
+src/hello_model.i: src/hello_model.cpp.i
+
+.PHONY : src/hello_model.i
+
+# target to preprocess a source file
+src/hello_model.cpp.i:
+	$(MAKE) -f CMakeFiles/hello_model.dir/build.make CMakeFiles/hello_model.dir/src/hello_model.cpp.i
+.PHONY : src/hello_model.cpp.i
+
+src/hello_model.s: src/hello_model.cpp.s
+
+.PHONY : src/hello_model.s
+
+# target to generate assembly for a file
+src/hello_model.cpp.s:
+	$(MAKE) -f CMakeFiles/hello_model.dir/build.make CMakeFiles/hello_model.dir/src/hello_model.cpp.s
+.PHONY : src/hello_model.cpp.s
 
 src/hello_multiple_happy.o: src/hello_multiple_happy.cpp.o
 
@@ -926,6 +969,7 @@ help:
 	@echo "... hello_shader_Programing"
 	@echo "... hello_obj"
 	@echo "... hello_shader_triangle"
+	@echo "... hello_model"
 	@echo "... helloWindow"
 	@echo "... rebuild_cache"
 	@echo "... hello_shader_file"
@@ -964,6 +1008,9 @@ help:
 	@echo "... src/hello_glsl_triangle.o"
 	@echo "... src/hello_glsl_triangle.i"
 	@echo "... src/hello_glsl_triangle.s"
+	@echo "... src/hello_model.o"
+	@echo "... src/hello_model.i"
+	@echo "... src/hello_model.s"
 	@echo "... src/hello_multiple_happy.o"
 	@echo "... src/hello_multiple_happy.i"
 	@echo "... src/hello_multiple_happy.s"
