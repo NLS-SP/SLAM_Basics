@@ -180,17 +180,17 @@ light_out/fast:
 .PHONY : light_out/fast
 
 #=============================================================================
-# Target rules for targets named hanoi_problem_stack
+# Target rules for targets named maze_test
 
 # Build rule for target.
-hanoi_problem_stack: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 hanoi_problem_stack
-.PHONY : hanoi_problem_stack
+maze_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 maze_test
+.PHONY : maze_test
 
 # fast build rule for target.
-hanoi_problem_stack/fast:
-	$(MAKE) -f Rescursive/CMakeFiles/hanoi_problem_stack.dir/build.make Rescursive/CMakeFiles/hanoi_problem_stack.dir/build
-.PHONY : hanoi_problem_stack/fast
+maze_test/fast:
+	$(MAKE) -f Rescursive/CMakeFiles/maze_test.dir/build.make Rescursive/CMakeFiles/maze_test.dir/build
+.PHONY : maze_test/fast
 
 #=============================================================================
 # Target rules for targets named hanoi_problem
@@ -206,17 +206,30 @@ hanoi_problem/fast:
 .PHONY : hanoi_problem/fast
 
 #=============================================================================
-# Target rules for targets named maze_test
+# Target rules for targets named checkboard_separation
 
 # Build rule for target.
-maze_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 maze_test
-.PHONY : maze_test
+checkboard_separation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 checkboard_separation
+.PHONY : checkboard_separation
 
 # fast build rule for target.
-maze_test/fast:
-	$(MAKE) -f Rescursive/CMakeFiles/maze_test.dir/build.make Rescursive/CMakeFiles/maze_test.dir/build
-.PHONY : maze_test/fast
+checkboard_separation/fast:
+	$(MAKE) -f Rescursive/CMakeFiles/checkboard_separation.dir/build.make Rescursive/CMakeFiles/checkboard_separation.dir/build
+.PHONY : checkboard_separation/fast
+
+#=============================================================================
+# Target rules for targets named hanoi_problem_stack
+
+# Build rule for target.
+hanoi_problem_stack: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hanoi_problem_stack
+.PHONY : hanoi_problem_stack
+
+# fast build rule for target.
+hanoi_problem_stack/fast:
+	$(MAKE) -f Rescursive/CMakeFiles/hanoi_problem_stack.dir/build.make Rescursive/CMakeFiles/hanoi_problem_stack.dir/build
+.PHONY : hanoi_problem_stack/fast
 
 # Help Target
 help:
@@ -227,6 +240,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... List_test"
+	@echo "... checkboard_separation"
 	@echo "... hanoi_problem"
 	@echo "... hanoi_problem_stack"
 	@echo "... light_out"

@@ -64,7 +64,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "Vector/CMakeFiles/vector_test.dir/DependInfo.cmake"
   "List/CMakeFiles/List_test.dir/DependInfo.cmake"
   "enumerate/CMakeFiles/light_out.dir/DependInfo.cmake"
-  "Rescursive/CMakeFiles/hanoi_problem_stack.dir/DependInfo.cmake"
-  "Rescursive/CMakeFiles/hanoi_problem.dir/DependInfo.cmake"
   "Rescursive/CMakeFiles/maze_test.dir/DependInfo.cmake"
+  "Rescursive/CMakeFiles/hanoi_problem.dir/DependInfo.cmake"
+  "Rescursive/CMakeFiles/checkboard_separation.dir/DependInfo.cmake"
+  "Rescursive/CMakeFiles/hanoi_problem_stack.dir/DependInfo.cmake"
   )

@@ -211,8 +211,8 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/enumerate/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="hanoi_problem_stack">
-				<Option output="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/hanoi_problem_stack" prefix_auto="0" extension_auto="0"/>
+			<Target title="maze_test">
+				<Option output="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/maze_test" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -226,14 +226,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/Makefile&quot;  VERBOSE=1 hanoi_problem_stack"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/Makefile&quot;  VERBOSE=1 maze_test"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="hanoi_problem_stack/fast">
-				<Option output="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/hanoi_problem_stack" prefix_auto="0" extension_auto="0"/>
+			<Target title="maze_test/fast">
+				<Option output="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/maze_test" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -247,7 +247,7 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/Makefile&quot;  VERBOSE=1 hanoi_problem_stack/fast"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/Makefile&quot;  VERBOSE=1 maze_test/fast"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/Makefile&quot;  VERBOSE=1 clean"/>
@@ -295,8 +295,8 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="maze_test">
-				<Option output="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/maze_test" prefix_auto="0" extension_auto="0"/>
+			<Target title="checkboard_separation">
+				<Option output="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/checkboard_separation" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -310,14 +310,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/Makefile&quot;  VERBOSE=1 maze_test"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/Makefile&quot;  VERBOSE=1 checkboard_separation"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="maze_test/fast">
-				<Option output="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/maze_test" prefix_auto="0" extension_auto="0"/>
+			<Target title="checkboard_separation/fast">
+				<Option output="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/checkboard_separation" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -331,7 +331,49 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/Makefile&quot;  VERBOSE=1 maze_test/fast"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/Makefile&quot;  VERBOSE=1 checkboard_separation/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hanoi_problem_stack">
+				<Option output="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/hanoi_problem_stack" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/Makefile&quot;  VERBOSE=1 hanoi_problem_stack"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hanoi_problem_stack/fast">
+				<Option output="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/hanoi_problem_stack" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/Makefile&quot;  VERBOSE=1 hanoi_problem_stack/fast"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/cmake-build-debug/Rescursive/Makefile&quot;  VERBOSE=1 clean"/>
@@ -340,6 +382,9 @@
 		</Build>
 		<Unit filename="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/List/List_test.cpp">
 			<Option target="List_test"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/Rescursive/checkboard_separation.cpp">
+			<Option target="checkboard_separation"/>
 		</Unit>
 		<Unit filename="/Users/robotics_qi/SLAM_Basics/Algorithm/CPP/Rescursive/hanoi_problem.cpp">
 			<Option target="hanoi_problem"/>
