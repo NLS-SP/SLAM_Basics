@@ -8,12 +8,13 @@
 #include <random>
 #include <Eigen/Dense>
 
+/*
 TEST(BufferTest, initTest){
     LIV_OpenGL::GlBuffer<float> buffer(LIV_OpenGL::BUFFER_TARGET::ARRAY_BUFFER, LIV_OpenGL::BUFFER_USAGE::DYNAMIC_DRAW);
     buffer.bind();
     buffer.release();
     ASSERT_TRUE(glIsBuffer(buffer.id()));
-}
+}*/
 
 
 

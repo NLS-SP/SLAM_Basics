@@ -16,6 +16,7 @@ set(THIRD_PARTY "-framework OpenGL -framework GLUT")
 set(Boost_NO_BOOST_CMAKE 1)
 find_package(Boost REQUIRED COMPONENTS filesystem system)
 set(Boost_USE_MULTITHREADED TRUE)
+include_directories(${Boost_INCLUDE_DIRS})
 
 
 # CMAKE Properties
@@ -32,7 +33,7 @@ message(STATUS "Using OpenGL version ${OPENGL_VERSION}.")
 include_directories(include)
 file(GLOB_RECURSE CPP_FILES src/*.cpp)
 add_library(${PROJECT_NAME} ${CPP_FILES})
-target_link_libraries(${PROJECT_NAME} ${THIRD_PARTY} ${Boost_LIBRARIES})
+target_link_libraries(${PROJECT_NAME} ${THIRD_PARTY} ${Boost_LIBRARIES} ${Boost_FILESYSTEM_LIBRARY})
 
 find_package(GTest)
 
