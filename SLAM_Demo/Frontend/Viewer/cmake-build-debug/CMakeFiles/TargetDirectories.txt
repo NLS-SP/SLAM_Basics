@@ -1,5 +1,6 @@
 /Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/Viewer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/Viewer/cmake-build-debug/CMakeFiles/hello_Elastic_Fusion_GUI.dir
 /Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/Viewer/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolin.dir
 /Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinThreads.dir
 /Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinOffScreen.dir
-/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolin.dir

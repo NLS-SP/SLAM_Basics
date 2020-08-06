@@ -962,6 +962,12 @@ lapacke_mangling.h
 
 /usr/local/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h
 
+/usr/local/include/omp.h
+stdlib.h
+-
+stdint.h
+-
+
 /usr/local/include/pangolin/compat/type_traits.h
 pangolin/platform.h
 -

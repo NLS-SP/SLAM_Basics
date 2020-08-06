@@ -12,8 +12,8 @@ set(CMAKE_C_COMPILER_ID "Clang")
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "../include"
-  "/usr/local/Cellar/glew/2.1.0/include"
-  "/usr/local/Cellar/glfw/3.3/include"
+  "/usr/local/Cellar/glew/2.1.0_1/include"
+  "/usr/local/Cellar/glfw/3.3.2/include"
   "/usr/local/include"
   "configuration"
   )
@@ -25,8 +25,8 @@ set(CMAKE_CXX_COMPILER_ID "Clang")
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
-  "/usr/local/Cellar/glew/2.1.0/include"
-  "/usr/local/Cellar/glfw/3.3/include"
+  "/usr/local/Cellar/glew/2.1.0_1/include"
+  "/usr/local/Cellar/glfw/3.3.2/include"
   "/usr/local/include"
   "configuration"
   )

@@ -11,10 +11,10 @@ set(CMAKE_CXX_COMPILER_ID "AppleClang")
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/local/lib/cmake/Pangolin/../../../include"
-  "/usr/local/opencv3.4.8/include"
-  "/usr/local/opencv3.4.8/include/opencv"
+  "/usr/local/opencv3.4.10/include"
+  "/usr/local/opencv3.4.10/include/opencv"
   "/usr/local/include/eigen3"
-  "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework"
+  "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"
   "/usr/local/include"
   )
 

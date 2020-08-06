@@ -17,11 +17,321 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_free_moving">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_free_moving" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_free_moving"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_free_moving/fast">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_free_moving" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_free_moving/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_moving">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_moving" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_moving"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_moving/fast">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_moving" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_moving/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_coordinate">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_coordinate" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_coordinate"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_coordinate/fast">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_coordinate" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_coordinate/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_rotation">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_rotation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_rotation"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_rotation/fast">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_rotation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_rotation/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_read_model">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_read_model" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_read_model"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_read_model/fast">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_read_model" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_read_model/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_camera_circle">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_camera_circle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_camera_circle"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_camera_circle/fast">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_camera_circle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_camera_circle/fast"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -35,12 +345,12 @@
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
@@ -60,12 +370,12 @@
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
@@ -85,12 +395,12 @@
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
@@ -110,12 +420,12 @@
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
@@ -135,12 +445,12 @@
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
@@ -160,418 +470,18 @@
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_awsome_mix/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="hello_awsomeface">
-				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_awsomeface" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="clang"/>
-				<Compiler>
-					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_awsomeface"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="hello_awsomeface/fast">
-				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_awsomeface" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="clang"/>
-				<Compiler>
-					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_awsomeface/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="hello_texture">
-				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_texture" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="clang"/>
-				<Compiler>
-					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_texture"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="hello_texture/fast">
-				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_texture" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="clang"/>
-				<Compiler>
-					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_texture/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="hello_camera">
-				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_camera" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="clang"/>
-				<Compiler>
-					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_camera"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="hello_camera/fast">
-				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_camera" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="clang"/>
-				<Compiler>
-					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_camera/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="hello_glsl_triangle">
-				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_glsl_triangle" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="clang"/>
-				<Compiler>
-					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_glsl_triangle"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="hello_glsl_triangle/fast">
-				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_glsl_triangle" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="clang"/>
-				<Compiler>
-					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_glsl_triangle/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="hello_triangle_change">
-				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_triangle_change" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="clang"/>
-				<Compiler>
-					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_triangle_change"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="hello_triangle_change/fast">
-				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_triangle_change" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="clang"/>
-				<Compiler>
-					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_triangle_change/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="hello_shader_Programing">
-				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_shader_Programing" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="clang"/>
-				<Compiler>
-					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_shader_Programing"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="hello_shader_Programing/fast">
-				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_shader_Programing" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="clang"/>
-				<Compiler>
-					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_shader_Programing/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="hello_obj">
-				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_obj" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="clang"/>
-				<Compiler>
-					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_obj"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="hello_obj/fast">
-				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_obj" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="clang"/>
-				<Compiler>
-					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_obj/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="hello_shader_triangle">
-				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_shader_triangle" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="clang"/>
-				<Compiler>
-					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_shader_triangle"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="hello_shader_triangle/fast">
-				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_shader_triangle" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="clang"/>
-				<Compiler>
-					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_shader_triangle/fast"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -585,12 +495,12 @@
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
@@ -610,12 +520,12 @@
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
@@ -627,61 +537,151 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="helloWindow">
-				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/helloWindow" prefix_auto="0" extension_auto="0"/>
+			<Target title="hello_triangle_change">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_triangle_change" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 helloWindow"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_triangle_change"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="helloWindow/fast">
-				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/helloWindow" prefix_auto="0" extension_auto="0"/>
+			<Target title="hello_triangle_change/fast">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_triangle_change" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 helloWindow/fast"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_triangle_change/fast"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rebuild_cache">
+			<Target title="hello_awsomeface">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_awsomeface" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
-				<Option type="4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_awsomeface"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_awsomeface/fast">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_awsomeface" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_awsomeface/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_texture">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_texture" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_texture"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_texture/fast">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_texture" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_texture/fast"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -695,12 +695,12 @@
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
@@ -720,12 +720,12 @@
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
@@ -737,151 +737,151 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="helloTriangle">
-				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/helloTriangle" prefix_auto="0" extension_auto="0"/>
+			<Target title="helloWindow">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/helloWindow" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 helloTriangle"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 helloWindow"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="helloTriangle/fast">
-				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/helloTriangle" prefix_auto="0" extension_auto="0"/>
+			<Target title="helloWindow/fast">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/helloWindow" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 helloTriangle/fast"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 helloWindow/fast"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="hello_different_triangles">
-				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_different_triangles" prefix_auto="0" extension_auto="0"/>
+			<Target title="hello_glsl_triangle">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_glsl_triangle" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_different_triangles"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_glsl_triangle"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="hello_different_triangles/fast">
-				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_different_triangles" prefix_auto="0" extension_auto="0"/>
+			<Target title="hello_glsl_triangle/fast">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_glsl_triangle" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_different_triangles/fast"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_glsl_triangle/fast"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="helloRectangle">
-				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/helloRectangle" prefix_auto="0" extension_auto="0"/>
+			<Target title="hello_obj">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_obj" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 helloRectangle"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_obj"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="helloRectangle/fast">
-				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/helloRectangle" prefix_auto="0" extension_auto="0"/>
+			<Target title="hello_obj/fast">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_obj" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 helloRectangle/fast"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_obj/fast"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -895,12 +895,12 @@
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
@@ -920,18 +920,668 @@
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_view_port/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_face_texture">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_face_texture" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_face_texture"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_face_texture/fast">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_face_texture" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_face_texture/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_mouse">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_mouse" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_mouse"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_mouse/fast">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_mouse" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_mouse/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_shader_triangle">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_shader_triangle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_shader_triangle"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_shader_triangle/fast">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_shader_triangle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_shader_triangle/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_different_triangles">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_different_triangles" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_different_triangles"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_different_triangles/fast">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_different_triangles" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_different_triangles/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_camera">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_camera" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_camera"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_camera/fast">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_camera" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_camera/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_container">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_container" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_container"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_container/fast">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_container" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_container/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_two_triangles">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_two_triangles" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_two_triangles"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_two_triangles/fast">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_two_triangles" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_two_triangles/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_shader_Programing">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_shader_Programing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_shader_Programing"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_shader_Programing/fast">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_shader_Programing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_shader_Programing/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_glsl_color">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_glsl_color" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_glsl_color"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_glsl_color/fast">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_glsl_color" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_glsl_color/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_change_triangle">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_change_triangle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_change_triangle"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_change_triangle/fast">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_change_triangle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_change_triangle/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="helloTriangle">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/helloTriangle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 helloTriangle"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="helloTriangle/fast">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/helloTriangle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 helloTriangle/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_rectangle">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_rectangle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_rectangle"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_rectangle/fast">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/hello_rectangle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 hello_rectangle/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="helloRectangle">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/helloRectangle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 helloRectangle"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="helloRectangle/fast">
+				<Option output="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/helloRectangle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 helloRectangle/fast"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -945,12 +1595,12 @@
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
@@ -970,12 +1620,12 @@
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/include"/>
-					<Add directory="/usr/local/Cellar/glew/2.1.0/include"/>
-					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.1.0_1/include"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.2/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/configuration"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
@@ -992,24 +1642,37 @@
 			<Option target="OpenGL_test"/>
 		</Unit>
 		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/glad.c">
+			<Option target="hello_free_moving"/>
+			<Option target="hello_moving"/>
+			<Option target="hello_coordinate"/>
+			<Option target="hello_rotation"/>
+			<Option target="hello_read_model"/>
+			<Option target="hello_camera_circle"/>
 			<Option target="hello_plane_obj"/>
 			<Option target="hello_multipleHappy"/>
 			<Option target="hello_awsome_mix"/>
+			<Option target="hello_model"/>
+			<Option target="hello_triangle_change"/>
 			<Option target="hello_awsomeface"/>
 			<Option target="hello_texture"/>
-			<Option target="hello_camera"/>
-			<Option target="hello_glsl_triangle"/>
-			<Option target="hello_triangle_change"/>
-			<Option target="hello_shader_Programing"/>
-			<Option target="hello_obj"/>
-			<Option target="hello_shader_triangle"/>
-			<Option target="hello_model"/>
-			<Option target="helloWindow"/>
 			<Option target="hello_shader_file"/>
-			<Option target="helloTriangle"/>
-			<Option target="hello_different_triangles"/>
-			<Option target="helloRectangle"/>
+			<Option target="helloWindow"/>
+			<Option target="hello_glsl_triangle"/>
+			<Option target="hello_obj"/>
 			<Option target="hello_view_port"/>
+			<Option target="hello_face_texture"/>
+			<Option target="hello_mouse"/>
+			<Option target="hello_shader_triangle"/>
+			<Option target="hello_different_triangles"/>
+			<Option target="hello_camera"/>
+			<Option target="hello_container"/>
+			<Option target="hello_two_triangles"/>
+			<Option target="hello_shader_Programing"/>
+			<Option target="hello_glsl_color"/>
+			<Option target="hello_change_triangle"/>
+			<Option target="helloTriangle"/>
+			<Option target="hello_rectangle"/>
+			<Option target="helloRectangle"/>
 			<Option target="OpenGL_test"/>
 		</Unit>
 		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/helloRectangle.cpp">
@@ -1030,14 +1693,41 @@
 		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/hello_camera.cpp">
 			<Option target="hello_camera"/>
 		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/hello_camera_circle.cpp">
+			<Option target="hello_camera_circle"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/hello_change_triangle.cpp">
+			<Option target="hello_change_triangle"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/hello_container.cpp">
+			<Option target="hello_container"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/hello_coordinate.cpp">
+			<Option target="hello_coordinate"/>
+		</Unit>
 		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/hello_different_triangles.cpp">
 			<Option target="hello_different_triangles"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/hello_face_texture.cpp">
+			<Option target="hello_face_texture"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/hello_free_moving.cpp">
+			<Option target="hello_free_moving"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/hello_glsl_color.cpp">
+			<Option target="hello_glsl_color"/>
 		</Unit>
 		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/hello_glsl_triangle.cpp">
 			<Option target="hello_glsl_triangle"/>
 		</Unit>
 		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/hello_model.cpp">
 			<Option target="hello_model"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/hello_mouse.cpp">
+			<Option target="hello_mouse"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/hello_moving.cpp">
+			<Option target="hello_moving"/>
 		</Unit>
 		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/hello_multiple_happy.cpp">
 			<Option target="hello_multipleHappy"/>
@@ -1047,6 +1737,15 @@
 		</Unit>
 		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/hello_plane_object.cpp">
 			<Option target="hello_plane_obj"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/hello_read_model.cpp">
+			<Option target="hello_read_model"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/hello_rectangle.cpp">
+			<Option target="hello_rectangle"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/hello_rotation.cpp">
+			<Option target="hello_rotation"/>
 		</Unit>
 		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/hello_shader_Programing.cpp">
 			<Option target="hello_shader_Programing"/>
@@ -1062,6 +1761,9 @@
 		</Unit>
 		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/hello_triangle_change.cpp">
 			<Option target="hello_triangle_change"/>
+		</Unit>
+		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/hello_two_triangles.cpp">
+			<Option target="hello_two_triangles"/>
 		</Unit>
 		<Unit filename="/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/hello_view_port.cpp">
 			<Option target="hello_view_port"/>

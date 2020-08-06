@@ -32,7 +32,7 @@ GTEST_API_ int main(int argc, char** argv)
     glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE); // To make MacOS happy; should not be needed
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE); // We don't want the old OpenGL
 
-// Open a window and create its OpenGL context
+    // Open a window and create its OpenGL context
     GLFWwindow* window; // (In the accompanying source code, this variable is global for simplicity)
     window = glfwCreateWindow( 1024, 768, "Tutorial 01", NULL, NULL);
     if( window == NULL ){

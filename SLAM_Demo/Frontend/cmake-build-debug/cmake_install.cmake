@@ -39,6 +39,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/cmake-build-debug/Pose_Estimation/cmake_install.cmake")
   include("/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/cmake-build-debug/Map/cmake_install.cmake")
   include("/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/cmake-build-debug/Viewer/cmake_install.cmake")
+  include("/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/cmake-build-debug/LASER_Projection/cmake_install.cmake")
 
 endif()
 

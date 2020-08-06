@@ -73,7 +73,7 @@ namespace LIV_OpenGL{
              msg << "Only " << maxBuffers << " transform feedback buffers allowed. See also GL_MAX_TRANSFORM_FEEDBACK_BUFFERS";
              throw std::runtime_error(msg.str());
          }
-         buffers_.push_back(std::make_pair<varyings, buffer.ptr_>);
+         buffers_.push_back(std::make_pair(varyings, buffer.ptr_));
      }
 }
 

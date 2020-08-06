@@ -12,8 +12,8 @@ set(CMAKE_CXX_COMPILER_ID "AppleClang")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/local/include/eigen3"
   "/usr/local/include"
-  "/usr/local/opencv3.4.8/include"
-  "/usr/local/opencv3.4.8/include/opencv"
+  "/usr/local/opencv3.4.10/include"
+  "/usr/local/opencv3.4.10/include/opencv"
   )
 
 # Targets to which this target links.
