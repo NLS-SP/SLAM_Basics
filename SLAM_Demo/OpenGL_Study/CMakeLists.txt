@@ -151,3 +151,6 @@ target_link_libraries(hello_camera_circle_practice ${Third_PARTY_LIBS})
 
 add_executable(hello_z_buffer src/hello_z_buffer.cpp ${SOURCE_FILES})
 target_link_libraries(hello_z_buffer ${Third_PARTY_LIBS})
+
+add_executable(hello_parallel_light src/hello_parallel_light.cpp ${SOURCE_FILES})
+target_link_libraries(hello_parallel_light ${Third_PARTY_LIBS})

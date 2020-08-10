@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ICP_test.dir/src/ICP_test.cpp.o"
-  "ICP_test.pdb"
   "ICP_test"
+  "ICP_test.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
