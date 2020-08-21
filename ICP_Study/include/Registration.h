@@ -20,6 +20,7 @@
 #include <pcl/features/pfh.h>
 #include <pcl/features/fpfh.h>
 #include <pcl/features/normal_3d.h>
+#include <Tool.h>
 #include <pcl/point_cloud.h>
 #include <pcl/visualization/cloud_viewer.h>
 #include <nabo/nabo.h>
@@ -29,10 +30,10 @@ enum REGISTRATION_METHOD{ BASIC_ICP, GO_ICP, IMLS_ICP_Polynomials, IMLS_ICP_BSpl
 
 class MSP_REGISTRATION_METHOD{
 public:
-    MSP_REGISTRATION_METHOD();
+    MSP_REGISTRATION_METHOD(REGISTRATION_METHOD registration_method = BASIC_ICP);
     ~MSP_REGISTRATION_METHOD();
 
-    void setIteration(uint32_t iter);
+    void setIteration(uint32_t iteration);
 
     void setSourcePointCloud(std::vector<Eigen::Vector3d>& source_point_cloud);
 
@@ -46,13 +47,21 @@ public:
 
     void setTargetPointCloud(pcl::PointCloud<pcl::PointXYZ>& target_point_cloud_pcl);
 
+    void internal_external_offset_compute();
+
+    void view_source_point_cloud(pcl::PointCloud<pcl::PointXYZ>::Ptr source_point_cloud_view);
+    void view_target_point_cloud(pcl::PointCloud<pcl::PointXYZ>::Ptr target_point_cloud_view);
+
+
 protected:
+    REGISTRATION_METHOD registration_method_;
+
     uint32_t iter_;
 
     void RemoveNANAndINFData(std::vector<Eigen::Vector3d>& point_cloud_input);
 
     // 目标点云和当前点云，目标点云为参考点云
-    std::vector<Eigen::Vector3d> current_source_point_cloud, current_target_point_cloud;
+    std::vector<Eigen::Vector3d> current_source_point_cloud_, current_target_point_cloud_;
 
     // 目标点云和当前点云的法向量
     std::vector<Eigen::Vector3d> current_source_point_cloud_normals, current_target_point_cloud_normals;
@@ -62,7 +71,7 @@ protected:
 
     // 树指针
     Nabo::NNSearchD* target_KDTree_pointer;
-    Nabo::NNSearchD* Source_KDTree_pointer;
+    Nabo::NNSearchD* source_KDTree_pointer;
 
     // 数据库
     Eigen::MatrixXd source_KDTree_DataBase;
@@ -73,6 +82,9 @@ protected:
 
     // 点云id
     int point_id;
+
+    bool normals_valid_;
+
 };
 
 
