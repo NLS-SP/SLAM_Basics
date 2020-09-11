@@ -9,3 +9,6 @@ cmake-build-release/
 
 # Clion Files
 .idea
+
+ROS_WorkSpace/build/
+ROS_WorkSpace/devel/
