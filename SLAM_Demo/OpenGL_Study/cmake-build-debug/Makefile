@@ -114,6 +114,97 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Quadric_Surface_Draw
+
+# Build rule for target.
+Quadric_Surface_Draw: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Quadric_Surface_Draw
+.PHONY : Quadric_Surface_Draw
+
+# fast build rule for target.
+Quadric_Surface_Draw/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quadric_Surface_Draw.dir/build.make CMakeFiles/Quadric_Surface_Draw.dir/build
+.PHONY : Quadric_Surface_Draw/fast
+
+#=============================================================================
+# Target rules for targets named Polyhedron_Draw
+
+# Build rule for target.
+Polyhedron_Draw: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Polyhedron_Draw
+.PHONY : Polyhedron_Draw
+
+# fast build rule for target.
+Polyhedron_Draw/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Polyhedron_Draw.dir/build.make CMakeFiles/Polyhedron_Draw.dir/build
+.PHONY : Polyhedron_Draw/fast
+
+#=============================================================================
+# Target rules for targets named hello_parallel_light
+
+# Build rule for target.
+hello_parallel_light: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_parallel_light
+.PHONY : hello_parallel_light
+
+# fast build rule for target.
+hello_parallel_light/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_parallel_light.dir/build.make CMakeFiles/hello_parallel_light.dir/build
+.PHONY : hello_parallel_light/fast
+
+#=============================================================================
+# Target rules for targets named hello_z_buffer
+
+# Build rule for target.
+hello_z_buffer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_z_buffer
+.PHONY : hello_z_buffer
+
+# fast build rule for target.
+hello_z_buffer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_z_buffer.dir/build.make CMakeFiles/hello_z_buffer.dir/build
+.PHONY : hello_z_buffer/fast
+
+#=============================================================================
+# Target rules for targets named helloRectangle
+
+# Build rule for target.
+helloRectangle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 helloRectangle
+.PHONY : helloRectangle
+
+# fast build rule for target.
+helloRectangle/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloRectangle.dir/build.make CMakeFiles/helloRectangle.dir/build
+.PHONY : helloRectangle/fast
+
+#=============================================================================
+# Target rules for targets named hello_camera_circle_practice
+
+# Build rule for target.
+hello_camera_circle_practice: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_camera_circle_practice
+.PHONY : hello_camera_circle_practice
+
+# fast build rule for target.
+hello_camera_circle_practice/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_camera_circle_practice.dir/build.make CMakeFiles/hello_camera_circle_practice.dir/build
+.PHONY : hello_camera_circle_practice/fast
+
+#=============================================================================
+# Target rules for targets named hello_material
+
+# Build rule for target.
+hello_material: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_material
+.PHONY : hello_material
+
+# fast build rule for target.
+hello_material/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_material.dir/build.make CMakeFiles/hello_material.dir/build
+.PHONY : hello_material/fast
+
+#=============================================================================
 # Target rules for targets named hello_free_moving
 
 # Build rule for target.
@@ -153,6 +244,19 @@ hello_coordinate/fast:
 .PHONY : hello_coordinate/fast
 
 #=============================================================================
+# Target rules for targets named helloWindow
+
+# Build rule for target.
+helloWindow: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 helloWindow
+.PHONY : helloWindow
+
+# fast build rule for target.
+helloWindow/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloWindow.dir/build.make CMakeFiles/helloWindow.dir/build
+.PHONY : helloWindow/fast
+
+#=============================================================================
 # Target rules for targets named hello_rotation
 
 # Build rule for target.
@@ -166,6 +270,45 @@ hello_rotation/fast:
 .PHONY : hello_rotation/fast
 
 #=============================================================================
+# Target rules for targets named Spline_Approximation
+
+# Build rule for target.
+Spline_Approximation: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Spline_Approximation
+.PHONY : Spline_Approximation
+
+# fast build rule for target.
+Spline_Approximation/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spline_Approximation.dir/build.make CMakeFiles/Spline_Approximation.dir/build
+.PHONY : Spline_Approximation/fast
+
+#=============================================================================
+# Target rules for targets named hello_awsome_mix
+
+# Build rule for target.
+hello_awsome_mix: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_awsome_mix
+.PHONY : hello_awsome_mix
+
+# fast build rule for target.
+hello_awsome_mix/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_awsome_mix.dir/build.make CMakeFiles/hello_awsome_mix.dir/build
+.PHONY : hello_awsome_mix/fast
+
+#=============================================================================
+# Target rules for targets named hello_two_triangles
+
+# Build rule for target.
+hello_two_triangles: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_two_triangles
+.PHONY : hello_two_triangles
+
+# fast build rule for target.
+hello_two_triangles/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_two_triangles.dir/build.make CMakeFiles/hello_two_triangles.dir/build
+.PHONY : hello_two_triangles/fast
+
+#=============================================================================
 # Target rules for targets named hello_read_model
 
 # Build rule for target.
@@ -177,6 +320,19 @@ hello_read_model: cmake_check_build_system
 hello_read_model/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_read_model.dir/build.make CMakeFiles/hello_read_model.dir/build
 .PHONY : hello_read_model/fast
+
+#=============================================================================
+# Target rules for targets named hello_obj
+
+# Build rule for target.
+hello_obj: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_obj
+.PHONY : hello_obj
+
+# fast build rule for target.
+hello_obj/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_obj.dir/build.make CMakeFiles/hello_obj.dir/build
+.PHONY : hello_obj/fast
 
 #=============================================================================
 # Target rules for targets named hello_camera_circle
@@ -205,6 +361,19 @@ hello_plane_obj/fast:
 .PHONY : hello_plane_obj/fast
 
 #=============================================================================
+# Target rules for targets named hello_light
+
+# Build rule for target.
+hello_light: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_light
+.PHONY : hello_light
+
+# fast build rule for target.
+hello_light/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_light.dir/build.make CMakeFiles/hello_light.dir/build
+.PHONY : hello_light/fast
+
+#=============================================================================
 # Target rules for targets named hello_multipleHappy
 
 # Build rule for target.
@@ -218,19 +387,6 @@ hello_multipleHappy/fast:
 .PHONY : hello_multipleHappy/fast
 
 #=============================================================================
-# Target rules for targets named hello_awsome_mix
-
-# Build rule for target.
-hello_awsome_mix: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_awsome_mix
-.PHONY : hello_awsome_mix
-
-# fast build rule for target.
-hello_awsome_mix/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_awsome_mix.dir/build.make CMakeFiles/hello_awsome_mix.dir/build
-.PHONY : hello_awsome_mix/fast
-
-#=============================================================================
 # Target rules for targets named hello_model
 
 # Build rule for target.
@@ -242,6 +398,32 @@ hello_model: cmake_check_build_system
 hello_model/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_model.dir/build.make CMakeFiles/hello_model.dir/build
 .PHONY : hello_model/fast
+
+#=============================================================================
+# Target rules for targets named hello_container
+
+# Build rule for target.
+hello_container: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_container
+.PHONY : hello_container
+
+# fast build rule for target.
+hello_container/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_container.dir/build.make CMakeFiles/hello_container.dir/build
+.PHONY : hello_container/fast
+
+#=============================================================================
+# Target rules for targets named hello_glsl_triangle
+
+# Build rule for target.
+hello_glsl_triangle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_glsl_triangle
+.PHONY : hello_glsl_triangle
+
+# fast build rule for target.
+hello_glsl_triangle/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_glsl_triangle.dir/build.make CMakeFiles/hello_glsl_triangle.dir/build
+.PHONY : hello_glsl_triangle/fast
 
 #=============================================================================
 # Target rules for targets named hello_triangle_change
@@ -270,6 +452,19 @@ hello_awsomeface/fast:
 .PHONY : hello_awsomeface/fast
 
 #=============================================================================
+# Target rules for targets named OpenGL_test
+
+# Build rule for target.
+OpenGL_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 OpenGL_test
+.PHONY : OpenGL_test
+
+# fast build rule for target.
+OpenGL_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL_test.dir/build.make CMakeFiles/OpenGL_test.dir/build
+.PHONY : OpenGL_test/fast
+
+#=============================================================================
 # Target rules for targets named hello_texture
 
 # Build rule for target.
@@ -281,6 +476,32 @@ hello_texture: cmake_check_build_system
 hello_texture/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_texture.dir/build.make CMakeFiles/hello_texture.dir/build
 .PHONY : hello_texture/fast
+
+#=============================================================================
+# Target rules for targets named hello_lighting_color
+
+# Build rule for target.
+hello_lighting_color: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_lighting_color
+.PHONY : hello_lighting_color
+
+# fast build rule for target.
+hello_lighting_color/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_lighting_color.dir/build.make CMakeFiles/hello_lighting_color.dir/build
+.PHONY : hello_lighting_color/fast
+
+#=============================================================================
+# Target rules for targets named hello_mouse_moving
+
+# Build rule for target.
+hello_mouse_moving: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_mouse_moving
+.PHONY : hello_mouse_moving
+
+# fast build rule for target.
+hello_mouse_moving/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_mouse_moving.dir/build.make CMakeFiles/hello_mouse_moving.dir/build
+.PHONY : hello_mouse_moving/fast
 
 #=============================================================================
 # Target rules for targets named hello_shader_file
@@ -296,43 +517,17 @@ hello_shader_file/fast:
 .PHONY : hello_shader_file/fast
 
 #=============================================================================
-# Target rules for targets named helloWindow
+# Target rules for targets named hello_colors
 
 # Build rule for target.
-helloWindow: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 helloWindow
-.PHONY : helloWindow
+hello_colors: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_colors
+.PHONY : hello_colors
 
 # fast build rule for target.
-helloWindow/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloWindow.dir/build.make CMakeFiles/helloWindow.dir/build
-.PHONY : helloWindow/fast
-
-#=============================================================================
-# Target rules for targets named hello_glsl_triangle
-
-# Build rule for target.
-hello_glsl_triangle: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_glsl_triangle
-.PHONY : hello_glsl_triangle
-
-# fast build rule for target.
-hello_glsl_triangle/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_glsl_triangle.dir/build.make CMakeFiles/hello_glsl_triangle.dir/build
-.PHONY : hello_glsl_triangle/fast
-
-#=============================================================================
-# Target rules for targets named hello_obj
-
-# Build rule for target.
-hello_obj: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_obj
-.PHONY : hello_obj
-
-# fast build rule for target.
-hello_obj/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_obj.dir/build.make CMakeFiles/hello_obj.dir/build
-.PHONY : hello_obj/fast
+hello_colors/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_colors.dir/build.make CMakeFiles/hello_colors.dir/build
+.PHONY : hello_colors/fast
 
 #=============================================================================
 # Target rules for targets named hello_view_port
@@ -387,6 +582,19 @@ hello_shader_triangle/fast:
 .PHONY : hello_shader_triangle/fast
 
 #=============================================================================
+# Target rules for targets named hello_disco_container
+
+# Build rule for target.
+hello_disco_container: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_disco_container
+.PHONY : hello_disco_container
+
+# fast build rule for target.
+hello_disco_container/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_disco_container.dir/build.make CMakeFiles/hello_disco_container.dir/build
+.PHONY : hello_disco_container/fast
+
+#=============================================================================
 # Target rules for targets named hello_different_triangles
 
 # Build rule for target.
@@ -398,58 +606,6 @@ hello_different_triangles: cmake_check_build_system
 hello_different_triangles/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_different_triangles.dir/build.make CMakeFiles/hello_different_triangles.dir/build
 .PHONY : hello_different_triangles/fast
-
-#=============================================================================
-# Target rules for targets named hello_camera
-
-# Build rule for target.
-hello_camera: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_camera
-.PHONY : hello_camera
-
-# fast build rule for target.
-hello_camera/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_camera.dir/build.make CMakeFiles/hello_camera.dir/build
-.PHONY : hello_camera/fast
-
-#=============================================================================
-# Target rules for targets named hello_container
-
-# Build rule for target.
-hello_container: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_container
-.PHONY : hello_container
-
-# fast build rule for target.
-hello_container/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_container.dir/build.make CMakeFiles/hello_container.dir/build
-.PHONY : hello_container/fast
-
-#=============================================================================
-# Target rules for targets named hello_two_triangles
-
-# Build rule for target.
-hello_two_triangles: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_two_triangles
-.PHONY : hello_two_triangles
-
-# fast build rule for target.
-hello_two_triangles/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_two_triangles.dir/build.make CMakeFiles/hello_two_triangles.dir/build
-.PHONY : hello_two_triangles/fast
-
-#=============================================================================
-# Target rules for targets named hello_shader_Programing
-
-# Build rule for target.
-hello_shader_Programing: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_shader_Programing
-.PHONY : hello_shader_Programing
-
-# fast build rule for target.
-hello_shader_Programing/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_shader_Programing.dir/build.make CMakeFiles/hello_shader_Programing.dir/build
-.PHONY : hello_shader_Programing/fast
 
 #=============================================================================
 # Target rules for targets named hello_glsl_color
@@ -478,6 +634,45 @@ hello_change_triangle/fast:
 .PHONY : hello_change_triangle/fast
 
 #=============================================================================
+# Target rules for targets named hello_camera
+
+# Build rule for target.
+hello_camera: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_camera
+.PHONY : hello_camera
+
+# fast build rule for target.
+hello_camera/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_camera.dir/build.make CMakeFiles/hello_camera.dir/build
+.PHONY : hello_camera/fast
+
+#=============================================================================
+# Target rules for targets named hello_shader_Programing
+
+# Build rule for target.
+hello_shader_Programing: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_shader_Programing
+.PHONY : hello_shader_Programing
+
+# fast build rule for target.
+hello_shader_Programing/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_shader_Programing.dir/build.make CMakeFiles/hello_shader_Programing.dir/build
+.PHONY : hello_shader_Programing/fast
+
+#=============================================================================
+# Target rules for targets named hello_coordinate_answer
+
+# Build rule for target.
+hello_coordinate_answer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_coordinate_answer
+.PHONY : hello_coordinate_answer
+
+# fast build rule for target.
+hello_coordinate_answer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_coordinate_answer.dir/build.make CMakeFiles/hello_coordinate_answer.dir/build
+.PHONY : hello_coordinate_answer/fast
+
+#=============================================================================
 # Target rules for targets named helloTriangle
 
 # Build rule for target.
@@ -504,30 +699,17 @@ hello_rectangle/fast:
 .PHONY : hello_rectangle/fast
 
 #=============================================================================
-# Target rules for targets named helloRectangle
+# Target rules for targets named hello_lighting_reflect
 
 # Build rule for target.
-helloRectangle: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 helloRectangle
-.PHONY : helloRectangle
+hello_lighting_reflect: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_lighting_reflect
+.PHONY : hello_lighting_reflect
 
 # fast build rule for target.
-helloRectangle/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloRectangle.dir/build.make CMakeFiles/helloRectangle.dir/build
-.PHONY : helloRectangle/fast
-
-#=============================================================================
-# Target rules for targets named OpenGL_test
-
-# Build rule for target.
-OpenGL_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 OpenGL_test
-.PHONY : OpenGL_test
-
-# fast build rule for target.
-OpenGL_test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL_test.dir/build.make CMakeFiles/OpenGL_test.dir/build
-.PHONY : OpenGL_test/fast
+hello_lighting_reflect/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_lighting_reflect.dir/build.make CMakeFiles/hello_lighting_reflect.dir/build
+.PHONY : hello_lighting_reflect/fast
 
 src/OpenGL_test.o: src/OpenGL_test.cpp.o
 
@@ -556,44 +738,139 @@ src/OpenGL_test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL_test.dir/build.make CMakeFiles/OpenGL_test.dir/src/OpenGL_test.cpp.s
 .PHONY : src/OpenGL_test.cpp.s
 
+src/Polyhedron_Draw.o: src/Polyhedron_Draw.cpp.o
+
+.PHONY : src/Polyhedron_Draw.o
+
+# target to build an object file
+src/Polyhedron_Draw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Polyhedron_Draw.dir/build.make CMakeFiles/Polyhedron_Draw.dir/src/Polyhedron_Draw.cpp.o
+.PHONY : src/Polyhedron_Draw.cpp.o
+
+src/Polyhedron_Draw.i: src/Polyhedron_Draw.cpp.i
+
+.PHONY : src/Polyhedron_Draw.i
+
+# target to preprocess a source file
+src/Polyhedron_Draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Polyhedron_Draw.dir/build.make CMakeFiles/Polyhedron_Draw.dir/src/Polyhedron_Draw.cpp.i
+.PHONY : src/Polyhedron_Draw.cpp.i
+
+src/Polyhedron_Draw.s: src/Polyhedron_Draw.cpp.s
+
+.PHONY : src/Polyhedron_Draw.s
+
+# target to generate assembly for a file
+src/Polyhedron_Draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Polyhedron_Draw.dir/build.make CMakeFiles/Polyhedron_Draw.dir/src/Polyhedron_Draw.cpp.s
+.PHONY : src/Polyhedron_Draw.cpp.s
+
+src/Quadric_Surface_Draw.o: src/Quadric_Surface_Draw.cpp.o
+
+.PHONY : src/Quadric_Surface_Draw.o
+
+# target to build an object file
+src/Quadric_Surface_Draw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quadric_Surface_Draw.dir/build.make CMakeFiles/Quadric_Surface_Draw.dir/src/Quadric_Surface_Draw.cpp.o
+.PHONY : src/Quadric_Surface_Draw.cpp.o
+
+src/Quadric_Surface_Draw.i: src/Quadric_Surface_Draw.cpp.i
+
+.PHONY : src/Quadric_Surface_Draw.i
+
+# target to preprocess a source file
+src/Quadric_Surface_Draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quadric_Surface_Draw.dir/build.make CMakeFiles/Quadric_Surface_Draw.dir/src/Quadric_Surface_Draw.cpp.i
+.PHONY : src/Quadric_Surface_Draw.cpp.i
+
+src/Quadric_Surface_Draw.s: src/Quadric_Surface_Draw.cpp.s
+
+.PHONY : src/Quadric_Surface_Draw.s
+
+# target to generate assembly for a file
+src/Quadric_Surface_Draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quadric_Surface_Draw.dir/build.make CMakeFiles/Quadric_Surface_Draw.dir/src/Quadric_Surface_Draw.cpp.s
+.PHONY : src/Quadric_Surface_Draw.cpp.s
+
+src/Spline_Approximation.o: src/Spline_Approximation.cpp.o
+
+.PHONY : src/Spline_Approximation.o
+
+# target to build an object file
+src/Spline_Approximation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spline_Approximation.dir/build.make CMakeFiles/Spline_Approximation.dir/src/Spline_Approximation.cpp.o
+.PHONY : src/Spline_Approximation.cpp.o
+
+src/Spline_Approximation.i: src/Spline_Approximation.cpp.i
+
+.PHONY : src/Spline_Approximation.i
+
+# target to preprocess a source file
+src/Spline_Approximation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spline_Approximation.dir/build.make CMakeFiles/Spline_Approximation.dir/src/Spline_Approximation.cpp.i
+.PHONY : src/Spline_Approximation.cpp.i
+
+src/Spline_Approximation.s: src/Spline_Approximation.cpp.s
+
+.PHONY : src/Spline_Approximation.s
+
+# target to generate assembly for a file
+src/Spline_Approximation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spline_Approximation.dir/build.make CMakeFiles/Spline_Approximation.dir/src/Spline_Approximation.cpp.s
+.PHONY : src/Spline_Approximation.cpp.s
+
 src/glad.o: src/glad.c.o
 
 .PHONY : src/glad.o
 
 # target to build an object file
 src/glad.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quadric_Surface_Draw.dir/build.make CMakeFiles/Quadric_Surface_Draw.dir/src/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Polyhedron_Draw.dir/build.make CMakeFiles/Polyhedron_Draw.dir/src/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_parallel_light.dir/build.make CMakeFiles/hello_parallel_light.dir/src/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_z_buffer.dir/build.make CMakeFiles/hello_z_buffer.dir/src/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloRectangle.dir/build.make CMakeFiles/helloRectangle.dir/src/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_camera_circle_practice.dir/build.make CMakeFiles/hello_camera_circle_practice.dir/src/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_material.dir/build.make CMakeFiles/hello_material.dir/src/glad.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_free_moving.dir/build.make CMakeFiles/hello_free_moving.dir/src/glad.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_moving.dir/build.make CMakeFiles/hello_moving.dir/src/glad.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_coordinate.dir/build.make CMakeFiles/hello_coordinate.dir/src/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloWindow.dir/build.make CMakeFiles/helloWindow.dir/src/glad.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_rotation.dir/build.make CMakeFiles/hello_rotation.dir/src/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spline_Approximation.dir/build.make CMakeFiles/Spline_Approximation.dir/src/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_awsome_mix.dir/build.make CMakeFiles/hello_awsome_mix.dir/src/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_two_triangles.dir/build.make CMakeFiles/hello_two_triangles.dir/src/glad.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_read_model.dir/build.make CMakeFiles/hello_read_model.dir/src/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_obj.dir/build.make CMakeFiles/hello_obj.dir/src/glad.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_camera_circle.dir/build.make CMakeFiles/hello_camera_circle.dir/src/glad.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_plane_obj.dir/build.make CMakeFiles/hello_plane_obj.dir/src/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_light.dir/build.make CMakeFiles/hello_light.dir/src/glad.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_multipleHappy.dir/build.make CMakeFiles/hello_multipleHappy.dir/src/glad.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_awsome_mix.dir/build.make CMakeFiles/hello_awsome_mix.dir/src/glad.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_model.dir/build.make CMakeFiles/hello_model.dir/src/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_container.dir/build.make CMakeFiles/hello_container.dir/src/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_glsl_triangle.dir/build.make CMakeFiles/hello_glsl_triangle.dir/src/glad.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_triangle_change.dir/build.make CMakeFiles/hello_triangle_change.dir/src/glad.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_awsomeface.dir/build.make CMakeFiles/hello_awsomeface.dir/src/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL_test.dir/build.make CMakeFiles/OpenGL_test.dir/src/glad.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_texture.dir/build.make CMakeFiles/hello_texture.dir/src/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_lighting_color.dir/build.make CMakeFiles/hello_lighting_color.dir/src/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_mouse_moving.dir/build.make CMakeFiles/hello_mouse_moving.dir/src/glad.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_shader_file.dir/build.make CMakeFiles/hello_shader_file.dir/src/glad.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloWindow.dir/build.make CMakeFiles/helloWindow.dir/src/glad.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_glsl_triangle.dir/build.make CMakeFiles/hello_glsl_triangle.dir/src/glad.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_obj.dir/build.make CMakeFiles/hello_obj.dir/src/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_colors.dir/build.make CMakeFiles/hello_colors.dir/src/glad.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_view_port.dir/build.make CMakeFiles/hello_view_port.dir/src/glad.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_face_texture.dir/build.make CMakeFiles/hello_face_texture.dir/src/glad.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_mouse.dir/build.make CMakeFiles/hello_mouse.dir/src/glad.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_shader_triangle.dir/build.make CMakeFiles/hello_shader_triangle.dir/src/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_disco_container.dir/build.make CMakeFiles/hello_disco_container.dir/src/glad.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_different_triangles.dir/build.make CMakeFiles/hello_different_triangles.dir/src/glad.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_camera.dir/build.make CMakeFiles/hello_camera.dir/src/glad.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_container.dir/build.make CMakeFiles/hello_container.dir/src/glad.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_two_triangles.dir/build.make CMakeFiles/hello_two_triangles.dir/src/glad.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_shader_Programing.dir/build.make CMakeFiles/hello_shader_Programing.dir/src/glad.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_glsl_color.dir/build.make CMakeFiles/hello_glsl_color.dir/src/glad.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_change_triangle.dir/build.make CMakeFiles/hello_change_triangle.dir/src/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_camera.dir/build.make CMakeFiles/hello_camera.dir/src/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_shader_Programing.dir/build.make CMakeFiles/hello_shader_Programing.dir/src/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_coordinate_answer.dir/build.make CMakeFiles/hello_coordinate_answer.dir/src/glad.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloTriangle.dir/build.make CMakeFiles/helloTriangle.dir/src/glad.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_rectangle.dir/build.make CMakeFiles/hello_rectangle.dir/src/glad.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloRectangle.dir/build.make CMakeFiles/helloRectangle.dir/src/glad.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL_test.dir/build.make CMakeFiles/OpenGL_test.dir/src/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_lighting_reflect.dir/build.make CMakeFiles/hello_lighting_reflect.dir/src/glad.c.o
 .PHONY : src/glad.c.o
 
 src/glad.i: src/glad.c.i
@@ -602,38 +879,52 @@ src/glad.i: src/glad.c.i
 
 # target to preprocess a source file
 src/glad.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quadric_Surface_Draw.dir/build.make CMakeFiles/Quadric_Surface_Draw.dir/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Polyhedron_Draw.dir/build.make CMakeFiles/Polyhedron_Draw.dir/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_parallel_light.dir/build.make CMakeFiles/hello_parallel_light.dir/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_z_buffer.dir/build.make CMakeFiles/hello_z_buffer.dir/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloRectangle.dir/build.make CMakeFiles/helloRectangle.dir/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_camera_circle_practice.dir/build.make CMakeFiles/hello_camera_circle_practice.dir/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_material.dir/build.make CMakeFiles/hello_material.dir/src/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_free_moving.dir/build.make CMakeFiles/hello_free_moving.dir/src/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_moving.dir/build.make CMakeFiles/hello_moving.dir/src/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_coordinate.dir/build.make CMakeFiles/hello_coordinate.dir/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloWindow.dir/build.make CMakeFiles/helloWindow.dir/src/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_rotation.dir/build.make CMakeFiles/hello_rotation.dir/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spline_Approximation.dir/build.make CMakeFiles/Spline_Approximation.dir/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_awsome_mix.dir/build.make CMakeFiles/hello_awsome_mix.dir/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_two_triangles.dir/build.make CMakeFiles/hello_two_triangles.dir/src/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_read_model.dir/build.make CMakeFiles/hello_read_model.dir/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_obj.dir/build.make CMakeFiles/hello_obj.dir/src/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_camera_circle.dir/build.make CMakeFiles/hello_camera_circle.dir/src/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_plane_obj.dir/build.make CMakeFiles/hello_plane_obj.dir/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_light.dir/build.make CMakeFiles/hello_light.dir/src/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_multipleHappy.dir/build.make CMakeFiles/hello_multipleHappy.dir/src/glad.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_awsome_mix.dir/build.make CMakeFiles/hello_awsome_mix.dir/src/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_model.dir/build.make CMakeFiles/hello_model.dir/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_container.dir/build.make CMakeFiles/hello_container.dir/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_glsl_triangle.dir/build.make CMakeFiles/hello_glsl_triangle.dir/src/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_triangle_change.dir/build.make CMakeFiles/hello_triangle_change.dir/src/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_awsomeface.dir/build.make CMakeFiles/hello_awsomeface.dir/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL_test.dir/build.make CMakeFiles/OpenGL_test.dir/src/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_texture.dir/build.make CMakeFiles/hello_texture.dir/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_lighting_color.dir/build.make CMakeFiles/hello_lighting_color.dir/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_mouse_moving.dir/build.make CMakeFiles/hello_mouse_moving.dir/src/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_shader_file.dir/build.make CMakeFiles/hello_shader_file.dir/src/glad.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloWindow.dir/build.make CMakeFiles/helloWindow.dir/src/glad.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_glsl_triangle.dir/build.make CMakeFiles/hello_glsl_triangle.dir/src/glad.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_obj.dir/build.make CMakeFiles/hello_obj.dir/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_colors.dir/build.make CMakeFiles/hello_colors.dir/src/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_view_port.dir/build.make CMakeFiles/hello_view_port.dir/src/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_face_texture.dir/build.make CMakeFiles/hello_face_texture.dir/src/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_mouse.dir/build.make CMakeFiles/hello_mouse.dir/src/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_shader_triangle.dir/build.make CMakeFiles/hello_shader_triangle.dir/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_disco_container.dir/build.make CMakeFiles/hello_disco_container.dir/src/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_different_triangles.dir/build.make CMakeFiles/hello_different_triangles.dir/src/glad.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_camera.dir/build.make CMakeFiles/hello_camera.dir/src/glad.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_container.dir/build.make CMakeFiles/hello_container.dir/src/glad.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_two_triangles.dir/build.make CMakeFiles/hello_two_triangles.dir/src/glad.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_shader_Programing.dir/build.make CMakeFiles/hello_shader_Programing.dir/src/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_glsl_color.dir/build.make CMakeFiles/hello_glsl_color.dir/src/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_change_triangle.dir/build.make CMakeFiles/hello_change_triangle.dir/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_camera.dir/build.make CMakeFiles/hello_camera.dir/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_shader_Programing.dir/build.make CMakeFiles/hello_shader_Programing.dir/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_coordinate_answer.dir/build.make CMakeFiles/hello_coordinate_answer.dir/src/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloTriangle.dir/build.make CMakeFiles/helloTriangle.dir/src/glad.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_rectangle.dir/build.make CMakeFiles/hello_rectangle.dir/src/glad.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloRectangle.dir/build.make CMakeFiles/helloRectangle.dir/src/glad.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL_test.dir/build.make CMakeFiles/OpenGL_test.dir/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_lighting_reflect.dir/build.make CMakeFiles/hello_lighting_reflect.dir/src/glad.c.i
 .PHONY : src/glad.c.i
 
 src/glad.s: src/glad.c.s
@@ -642,38 +933,52 @@ src/glad.s: src/glad.c.s
 
 # target to generate assembly for a file
 src/glad.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quadric_Surface_Draw.dir/build.make CMakeFiles/Quadric_Surface_Draw.dir/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Polyhedron_Draw.dir/build.make CMakeFiles/Polyhedron_Draw.dir/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_parallel_light.dir/build.make CMakeFiles/hello_parallel_light.dir/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_z_buffer.dir/build.make CMakeFiles/hello_z_buffer.dir/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloRectangle.dir/build.make CMakeFiles/helloRectangle.dir/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_camera_circle_practice.dir/build.make CMakeFiles/hello_camera_circle_practice.dir/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_material.dir/build.make CMakeFiles/hello_material.dir/src/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_free_moving.dir/build.make CMakeFiles/hello_free_moving.dir/src/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_moving.dir/build.make CMakeFiles/hello_moving.dir/src/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_coordinate.dir/build.make CMakeFiles/hello_coordinate.dir/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloWindow.dir/build.make CMakeFiles/helloWindow.dir/src/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_rotation.dir/build.make CMakeFiles/hello_rotation.dir/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spline_Approximation.dir/build.make CMakeFiles/Spline_Approximation.dir/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_awsome_mix.dir/build.make CMakeFiles/hello_awsome_mix.dir/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_two_triangles.dir/build.make CMakeFiles/hello_two_triangles.dir/src/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_read_model.dir/build.make CMakeFiles/hello_read_model.dir/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_obj.dir/build.make CMakeFiles/hello_obj.dir/src/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_camera_circle.dir/build.make CMakeFiles/hello_camera_circle.dir/src/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_plane_obj.dir/build.make CMakeFiles/hello_plane_obj.dir/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_light.dir/build.make CMakeFiles/hello_light.dir/src/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_multipleHappy.dir/build.make CMakeFiles/hello_multipleHappy.dir/src/glad.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_awsome_mix.dir/build.make CMakeFiles/hello_awsome_mix.dir/src/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_model.dir/build.make CMakeFiles/hello_model.dir/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_container.dir/build.make CMakeFiles/hello_container.dir/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_glsl_triangle.dir/build.make CMakeFiles/hello_glsl_triangle.dir/src/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_triangle_change.dir/build.make CMakeFiles/hello_triangle_change.dir/src/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_awsomeface.dir/build.make CMakeFiles/hello_awsomeface.dir/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL_test.dir/build.make CMakeFiles/OpenGL_test.dir/src/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_texture.dir/build.make CMakeFiles/hello_texture.dir/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_lighting_color.dir/build.make CMakeFiles/hello_lighting_color.dir/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_mouse_moving.dir/build.make CMakeFiles/hello_mouse_moving.dir/src/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_shader_file.dir/build.make CMakeFiles/hello_shader_file.dir/src/glad.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloWindow.dir/build.make CMakeFiles/helloWindow.dir/src/glad.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_glsl_triangle.dir/build.make CMakeFiles/hello_glsl_triangle.dir/src/glad.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_obj.dir/build.make CMakeFiles/hello_obj.dir/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_colors.dir/build.make CMakeFiles/hello_colors.dir/src/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_view_port.dir/build.make CMakeFiles/hello_view_port.dir/src/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_face_texture.dir/build.make CMakeFiles/hello_face_texture.dir/src/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_mouse.dir/build.make CMakeFiles/hello_mouse.dir/src/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_shader_triangle.dir/build.make CMakeFiles/hello_shader_triangle.dir/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_disco_container.dir/build.make CMakeFiles/hello_disco_container.dir/src/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_different_triangles.dir/build.make CMakeFiles/hello_different_triangles.dir/src/glad.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_camera.dir/build.make CMakeFiles/hello_camera.dir/src/glad.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_container.dir/build.make CMakeFiles/hello_container.dir/src/glad.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_two_triangles.dir/build.make CMakeFiles/hello_two_triangles.dir/src/glad.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_shader_Programing.dir/build.make CMakeFiles/hello_shader_Programing.dir/src/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_glsl_color.dir/build.make CMakeFiles/hello_glsl_color.dir/src/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_change_triangle.dir/build.make CMakeFiles/hello_change_triangle.dir/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_camera.dir/build.make CMakeFiles/hello_camera.dir/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_shader_Programing.dir/build.make CMakeFiles/hello_shader_Programing.dir/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_coordinate_answer.dir/build.make CMakeFiles/hello_coordinate_answer.dir/src/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloTriangle.dir/build.make CMakeFiles/helloTriangle.dir/src/glad.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_rectangle.dir/build.make CMakeFiles/hello_rectangle.dir/src/glad.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloRectangle.dir/build.make CMakeFiles/helloRectangle.dir/src/glad.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL_test.dir/build.make CMakeFiles/OpenGL_test.dir/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_lighting_reflect.dir/build.make CMakeFiles/hello_lighting_reflect.dir/src/glad.c.s
 .PHONY : src/glad.c.s
 
 src/helloRectangle.o: src/helloRectangle.cpp.o
@@ -865,6 +1170,33 @@ src/hello_camera_circle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_camera_circle.dir/build.make CMakeFiles/hello_camera_circle.dir/src/hello_camera_circle.cpp.s
 .PHONY : src/hello_camera_circle.cpp.s
 
+src/hello_camera_circle_practice.o: src/hello_camera_circle_practice.cpp.o
+
+.PHONY : src/hello_camera_circle_practice.o
+
+# target to build an object file
+src/hello_camera_circle_practice.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_camera_circle_practice.dir/build.make CMakeFiles/hello_camera_circle_practice.dir/src/hello_camera_circle_practice.cpp.o
+.PHONY : src/hello_camera_circle_practice.cpp.o
+
+src/hello_camera_circle_practice.i: src/hello_camera_circle_practice.cpp.i
+
+.PHONY : src/hello_camera_circle_practice.i
+
+# target to preprocess a source file
+src/hello_camera_circle_practice.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_camera_circle_practice.dir/build.make CMakeFiles/hello_camera_circle_practice.dir/src/hello_camera_circle_practice.cpp.i
+.PHONY : src/hello_camera_circle_practice.cpp.i
+
+src/hello_camera_circle_practice.s: src/hello_camera_circle_practice.cpp.s
+
+.PHONY : src/hello_camera_circle_practice.s
+
+# target to generate assembly for a file
+src/hello_camera_circle_practice.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_camera_circle_practice.dir/build.make CMakeFiles/hello_camera_circle_practice.dir/src/hello_camera_circle_practice.cpp.s
+.PHONY : src/hello_camera_circle_practice.cpp.s
+
 src/hello_change_triangle.o: src/hello_change_triangle.cpp.o
 
 .PHONY : src/hello_change_triangle.o
@@ -891,6 +1223,33 @@ src/hello_change_triangle.s: src/hello_change_triangle.cpp.s
 src/hello_change_triangle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_change_triangle.dir/build.make CMakeFiles/hello_change_triangle.dir/src/hello_change_triangle.cpp.s
 .PHONY : src/hello_change_triangle.cpp.s
+
+src/hello_colors.o: src/hello_colors.cpp.o
+
+.PHONY : src/hello_colors.o
+
+# target to build an object file
+src/hello_colors.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_colors.dir/build.make CMakeFiles/hello_colors.dir/src/hello_colors.cpp.o
+.PHONY : src/hello_colors.cpp.o
+
+src/hello_colors.i: src/hello_colors.cpp.i
+
+.PHONY : src/hello_colors.i
+
+# target to preprocess a source file
+src/hello_colors.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_colors.dir/build.make CMakeFiles/hello_colors.dir/src/hello_colors.cpp.i
+.PHONY : src/hello_colors.cpp.i
+
+src/hello_colors.s: src/hello_colors.cpp.s
+
+.PHONY : src/hello_colors.s
+
+# target to generate assembly for a file
+src/hello_colors.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_colors.dir/build.make CMakeFiles/hello_colors.dir/src/hello_colors.cpp.s
+.PHONY : src/hello_colors.cpp.s
 
 src/hello_container.o: src/hello_container.cpp.o
 
@@ -946,6 +1305,33 @@ src/hello_coordinate.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_coordinate.dir/build.make CMakeFiles/hello_coordinate.dir/src/hello_coordinate.cpp.s
 .PHONY : src/hello_coordinate.cpp.s
 
+src/hello_coordinate_answer.o: src/hello_coordinate_answer.cpp.o
+
+.PHONY : src/hello_coordinate_answer.o
+
+# target to build an object file
+src/hello_coordinate_answer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_coordinate_answer.dir/build.make CMakeFiles/hello_coordinate_answer.dir/src/hello_coordinate_answer.cpp.o
+.PHONY : src/hello_coordinate_answer.cpp.o
+
+src/hello_coordinate_answer.i: src/hello_coordinate_answer.cpp.i
+
+.PHONY : src/hello_coordinate_answer.i
+
+# target to preprocess a source file
+src/hello_coordinate_answer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_coordinate_answer.dir/build.make CMakeFiles/hello_coordinate_answer.dir/src/hello_coordinate_answer.cpp.i
+.PHONY : src/hello_coordinate_answer.cpp.i
+
+src/hello_coordinate_answer.s: src/hello_coordinate_answer.cpp.s
+
+.PHONY : src/hello_coordinate_answer.s
+
+# target to generate assembly for a file
+src/hello_coordinate_answer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_coordinate_answer.dir/build.make CMakeFiles/hello_coordinate_answer.dir/src/hello_coordinate_answer.cpp.s
+.PHONY : src/hello_coordinate_answer.cpp.s
+
 src/hello_different_triangles.o: src/hello_different_triangles.cpp.o
 
 .PHONY : src/hello_different_triangles.o
@@ -972,6 +1358,33 @@ src/hello_different_triangles.s: src/hello_different_triangles.cpp.s
 src/hello_different_triangles.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_different_triangles.dir/build.make CMakeFiles/hello_different_triangles.dir/src/hello_different_triangles.cpp.s
 .PHONY : src/hello_different_triangles.cpp.s
+
+src/hello_disco_container.o: src/hello_disco_container.cpp.o
+
+.PHONY : src/hello_disco_container.o
+
+# target to build an object file
+src/hello_disco_container.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_disco_container.dir/build.make CMakeFiles/hello_disco_container.dir/src/hello_disco_container.cpp.o
+.PHONY : src/hello_disco_container.cpp.o
+
+src/hello_disco_container.i: src/hello_disco_container.cpp.i
+
+.PHONY : src/hello_disco_container.i
+
+# target to preprocess a source file
+src/hello_disco_container.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_disco_container.dir/build.make CMakeFiles/hello_disco_container.dir/src/hello_disco_container.cpp.i
+.PHONY : src/hello_disco_container.cpp.i
+
+src/hello_disco_container.s: src/hello_disco_container.cpp.s
+
+.PHONY : src/hello_disco_container.s
+
+# target to generate assembly for a file
+src/hello_disco_container.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_disco_container.dir/build.make CMakeFiles/hello_disco_container.dir/src/hello_disco_container.cpp.s
+.PHONY : src/hello_disco_container.cpp.s
 
 src/hello_face_texture.o: src/hello_face_texture.cpp.o
 
@@ -1081,6 +1494,114 @@ src/hello_glsl_triangle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_glsl_triangle.dir/build.make CMakeFiles/hello_glsl_triangle.dir/src/hello_glsl_triangle.cpp.s
 .PHONY : src/hello_glsl_triangle.cpp.s
 
+src/hello_light.o: src/hello_light.cpp.o
+
+.PHONY : src/hello_light.o
+
+# target to build an object file
+src/hello_light.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_light.dir/build.make CMakeFiles/hello_light.dir/src/hello_light.cpp.o
+.PHONY : src/hello_light.cpp.o
+
+src/hello_light.i: src/hello_light.cpp.i
+
+.PHONY : src/hello_light.i
+
+# target to preprocess a source file
+src/hello_light.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_light.dir/build.make CMakeFiles/hello_light.dir/src/hello_light.cpp.i
+.PHONY : src/hello_light.cpp.i
+
+src/hello_light.s: src/hello_light.cpp.s
+
+.PHONY : src/hello_light.s
+
+# target to generate assembly for a file
+src/hello_light.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_light.dir/build.make CMakeFiles/hello_light.dir/src/hello_light.cpp.s
+.PHONY : src/hello_light.cpp.s
+
+src/hello_lighting_color.o: src/hello_lighting_color.cpp.o
+
+.PHONY : src/hello_lighting_color.o
+
+# target to build an object file
+src/hello_lighting_color.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_lighting_color.dir/build.make CMakeFiles/hello_lighting_color.dir/src/hello_lighting_color.cpp.o
+.PHONY : src/hello_lighting_color.cpp.o
+
+src/hello_lighting_color.i: src/hello_lighting_color.cpp.i
+
+.PHONY : src/hello_lighting_color.i
+
+# target to preprocess a source file
+src/hello_lighting_color.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_lighting_color.dir/build.make CMakeFiles/hello_lighting_color.dir/src/hello_lighting_color.cpp.i
+.PHONY : src/hello_lighting_color.cpp.i
+
+src/hello_lighting_color.s: src/hello_lighting_color.cpp.s
+
+.PHONY : src/hello_lighting_color.s
+
+# target to generate assembly for a file
+src/hello_lighting_color.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_lighting_color.dir/build.make CMakeFiles/hello_lighting_color.dir/src/hello_lighting_color.cpp.s
+.PHONY : src/hello_lighting_color.cpp.s
+
+src/hello_lighting_reflect.o: src/hello_lighting_reflect.cpp.o
+
+.PHONY : src/hello_lighting_reflect.o
+
+# target to build an object file
+src/hello_lighting_reflect.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_lighting_reflect.dir/build.make CMakeFiles/hello_lighting_reflect.dir/src/hello_lighting_reflect.cpp.o
+.PHONY : src/hello_lighting_reflect.cpp.o
+
+src/hello_lighting_reflect.i: src/hello_lighting_reflect.cpp.i
+
+.PHONY : src/hello_lighting_reflect.i
+
+# target to preprocess a source file
+src/hello_lighting_reflect.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_lighting_reflect.dir/build.make CMakeFiles/hello_lighting_reflect.dir/src/hello_lighting_reflect.cpp.i
+.PHONY : src/hello_lighting_reflect.cpp.i
+
+src/hello_lighting_reflect.s: src/hello_lighting_reflect.cpp.s
+
+.PHONY : src/hello_lighting_reflect.s
+
+# target to generate assembly for a file
+src/hello_lighting_reflect.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_lighting_reflect.dir/build.make CMakeFiles/hello_lighting_reflect.dir/src/hello_lighting_reflect.cpp.s
+.PHONY : src/hello_lighting_reflect.cpp.s
+
+src/hello_material.o: src/hello_material.cpp.o
+
+.PHONY : src/hello_material.o
+
+# target to build an object file
+src/hello_material.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_material.dir/build.make CMakeFiles/hello_material.dir/src/hello_material.cpp.o
+.PHONY : src/hello_material.cpp.o
+
+src/hello_material.i: src/hello_material.cpp.i
+
+.PHONY : src/hello_material.i
+
+# target to preprocess a source file
+src/hello_material.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_material.dir/build.make CMakeFiles/hello_material.dir/src/hello_material.cpp.i
+.PHONY : src/hello_material.cpp.i
+
+src/hello_material.s: src/hello_material.cpp.s
+
+.PHONY : src/hello_material.s
+
+# target to generate assembly for a file
+src/hello_material.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_material.dir/build.make CMakeFiles/hello_material.dir/src/hello_material.cpp.s
+.PHONY : src/hello_material.cpp.s
+
 src/hello_model.o: src/hello_model.cpp.o
 
 .PHONY : src/hello_model.o
@@ -1134,6 +1655,33 @@ src/hello_mouse.s: src/hello_mouse.cpp.s
 src/hello_mouse.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_mouse.dir/build.make CMakeFiles/hello_mouse.dir/src/hello_mouse.cpp.s
 .PHONY : src/hello_mouse.cpp.s
+
+src/hello_mouse_moving.o: src/hello_mouse_moving.cpp.o
+
+.PHONY : src/hello_mouse_moving.o
+
+# target to build an object file
+src/hello_mouse_moving.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_mouse_moving.dir/build.make CMakeFiles/hello_mouse_moving.dir/src/hello_mouse_moving.cpp.o
+.PHONY : src/hello_mouse_moving.cpp.o
+
+src/hello_mouse_moving.i: src/hello_mouse_moving.cpp.i
+
+.PHONY : src/hello_mouse_moving.i
+
+# target to preprocess a source file
+src/hello_mouse_moving.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_mouse_moving.dir/build.make CMakeFiles/hello_mouse_moving.dir/src/hello_mouse_moving.cpp.i
+.PHONY : src/hello_mouse_moving.cpp.i
+
+src/hello_mouse_moving.s: src/hello_mouse_moving.cpp.s
+
+.PHONY : src/hello_mouse_moving.s
+
+# target to generate assembly for a file
+src/hello_mouse_moving.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_mouse_moving.dir/build.make CMakeFiles/hello_mouse_moving.dir/src/hello_mouse_moving.cpp.s
+.PHONY : src/hello_mouse_moving.cpp.s
 
 src/hello_moving.o: src/hello_moving.cpp.o
 
@@ -1215,6 +1763,33 @@ src/hello_obj.s: src/hello_obj.cpp.s
 src/hello_obj.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_obj.dir/build.make CMakeFiles/hello_obj.dir/src/hello_obj.cpp.s
 .PHONY : src/hello_obj.cpp.s
+
+src/hello_parallel_light.o: src/hello_parallel_light.cpp.o
+
+.PHONY : src/hello_parallel_light.o
+
+# target to build an object file
+src/hello_parallel_light.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_parallel_light.dir/build.make CMakeFiles/hello_parallel_light.dir/src/hello_parallel_light.cpp.o
+.PHONY : src/hello_parallel_light.cpp.o
+
+src/hello_parallel_light.i: src/hello_parallel_light.cpp.i
+
+.PHONY : src/hello_parallel_light.i
+
+# target to preprocess a source file
+src/hello_parallel_light.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_parallel_light.dir/build.make CMakeFiles/hello_parallel_light.dir/src/hello_parallel_light.cpp.i
+.PHONY : src/hello_parallel_light.cpp.i
+
+src/hello_parallel_light.s: src/hello_parallel_light.cpp.s
+
+.PHONY : src/hello_parallel_light.s
+
+# target to generate assembly for a file
+src/hello_parallel_light.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_parallel_light.dir/build.make CMakeFiles/hello_parallel_light.dir/src/hello_parallel_light.cpp.s
+.PHONY : src/hello_parallel_light.cpp.s
 
 src/hello_plane_object.o: src/hello_plane_object.cpp.o
 
@@ -1513,6 +2088,33 @@ src/hello_view_port.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_view_port.dir/build.make CMakeFiles/hello_view_port.dir/src/hello_view_port.cpp.s
 .PHONY : src/hello_view_port.cpp.s
 
+src/hello_z_buffer.o: src/hello_z_buffer.cpp.o
+
+.PHONY : src/hello_z_buffer.o
+
+# target to build an object file
+src/hello_z_buffer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_z_buffer.dir/build.make CMakeFiles/hello_z_buffer.dir/src/hello_z_buffer.cpp.o
+.PHONY : src/hello_z_buffer.cpp.o
+
+src/hello_z_buffer.i: src/hello_z_buffer.cpp.i
+
+.PHONY : src/hello_z_buffer.i
+
+# target to preprocess a source file
+src/hello_z_buffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_z_buffer.dir/build.make CMakeFiles/hello_z_buffer.dir/src/hello_z_buffer.cpp.i
+.PHONY : src/hello_z_buffer.cpp.i
+
+src/hello_z_buffer.s: src/hello_z_buffer.cpp.s
+
+.PHONY : src/hello_z_buffer.s
+
+# target to generate assembly for a file
+src/hello_z_buffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_z_buffer.dir/build.make CMakeFiles/hello_z_buffer.dir/src/hello_z_buffer.cpp.s
+.PHONY : src/hello_z_buffer.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1520,42 +2122,65 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
+	@echo "... Quadric_Surface_Draw"
+	@echo "... Polyhedron_Draw"
+	@echo "... hello_parallel_light"
+	@echo "... hello_z_buffer"
+	@echo "... helloRectangle"
+	@echo "... hello_camera_circle_practice"
+	@echo "... hello_material"
 	@echo "... hello_free_moving"
 	@echo "... hello_moving"
 	@echo "... hello_coordinate"
+	@echo "... helloWindow"
 	@echo "... hello_rotation"
+	@echo "... Spline_Approximation"
+	@echo "... hello_awsome_mix"
+	@echo "... hello_two_triangles"
 	@echo "... hello_read_model"
+	@echo "... hello_obj"
 	@echo "... hello_camera_circle"
 	@echo "... hello_plane_obj"
+	@echo "... hello_light"
 	@echo "... hello_multipleHappy"
-	@echo "... hello_awsome_mix"
+	@echo "... edit_cache"
 	@echo "... hello_model"
+	@echo "... hello_container"
+	@echo "... hello_glsl_triangle"
 	@echo "... hello_triangle_change"
 	@echo "... hello_awsomeface"
+	@echo "... OpenGL_test"
 	@echo "... hello_texture"
+	@echo "... hello_lighting_color"
+	@echo "... hello_mouse_moving"
 	@echo "... hello_shader_file"
-	@echo "... helloWindow"
-	@echo "... hello_glsl_triangle"
-	@echo "... hello_obj"
+	@echo "... hello_colors"
 	@echo "... hello_view_port"
 	@echo "... hello_face_texture"
 	@echo "... hello_mouse"
 	@echo "... hello_shader_triangle"
+	@echo "... hello_disco_container"
 	@echo "... hello_different_triangles"
-	@echo "... hello_camera"
-	@echo "... hello_container"
-	@echo "... hello_two_triangles"
-	@echo "... hello_shader_Programing"
 	@echo "... hello_glsl_color"
 	@echo "... hello_change_triangle"
+	@echo "... hello_camera"
+	@echo "... hello_shader_Programing"
+	@echo "... hello_coordinate_answer"
 	@echo "... helloTriangle"
 	@echo "... hello_rectangle"
-	@echo "... helloRectangle"
-	@echo "... OpenGL_test"
+	@echo "... hello_lighting_reflect"
 	@echo "... src/OpenGL_test.o"
 	@echo "... src/OpenGL_test.i"
 	@echo "... src/OpenGL_test.s"
+	@echo "... src/Polyhedron_Draw.o"
+	@echo "... src/Polyhedron_Draw.i"
+	@echo "... src/Polyhedron_Draw.s"
+	@echo "... src/Quadric_Surface_Draw.o"
+	@echo "... src/Quadric_Surface_Draw.i"
+	@echo "... src/Quadric_Surface_Draw.s"
+	@echo "... src/Spline_Approximation.o"
+	@echo "... src/Spline_Approximation.i"
+	@echo "... src/Spline_Approximation.s"
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"
@@ -1580,18 +2205,30 @@ help:
 	@echo "... src/hello_camera_circle.o"
 	@echo "... src/hello_camera_circle.i"
 	@echo "... src/hello_camera_circle.s"
+	@echo "... src/hello_camera_circle_practice.o"
+	@echo "... src/hello_camera_circle_practice.i"
+	@echo "... src/hello_camera_circle_practice.s"
 	@echo "... src/hello_change_triangle.o"
 	@echo "... src/hello_change_triangle.i"
 	@echo "... src/hello_change_triangle.s"
+	@echo "... src/hello_colors.o"
+	@echo "... src/hello_colors.i"
+	@echo "... src/hello_colors.s"
 	@echo "... src/hello_container.o"
 	@echo "... src/hello_container.i"
 	@echo "... src/hello_container.s"
 	@echo "... src/hello_coordinate.o"
 	@echo "... src/hello_coordinate.i"
 	@echo "... src/hello_coordinate.s"
+	@echo "... src/hello_coordinate_answer.o"
+	@echo "... src/hello_coordinate_answer.i"
+	@echo "... src/hello_coordinate_answer.s"
 	@echo "... src/hello_different_triangles.o"
 	@echo "... src/hello_different_triangles.i"
 	@echo "... src/hello_different_triangles.s"
+	@echo "... src/hello_disco_container.o"
+	@echo "... src/hello_disco_container.i"
+	@echo "... src/hello_disco_container.s"
 	@echo "... src/hello_face_texture.o"
 	@echo "... src/hello_face_texture.i"
 	@echo "... src/hello_face_texture.s"
@@ -1604,12 +2241,27 @@ help:
 	@echo "... src/hello_glsl_triangle.o"
 	@echo "... src/hello_glsl_triangle.i"
 	@echo "... src/hello_glsl_triangle.s"
+	@echo "... src/hello_light.o"
+	@echo "... src/hello_light.i"
+	@echo "... src/hello_light.s"
+	@echo "... src/hello_lighting_color.o"
+	@echo "... src/hello_lighting_color.i"
+	@echo "... src/hello_lighting_color.s"
+	@echo "... src/hello_lighting_reflect.o"
+	@echo "... src/hello_lighting_reflect.i"
+	@echo "... src/hello_lighting_reflect.s"
+	@echo "... src/hello_material.o"
+	@echo "... src/hello_material.i"
+	@echo "... src/hello_material.s"
 	@echo "... src/hello_model.o"
 	@echo "... src/hello_model.i"
 	@echo "... src/hello_model.s"
 	@echo "... src/hello_mouse.o"
 	@echo "... src/hello_mouse.i"
 	@echo "... src/hello_mouse.s"
+	@echo "... src/hello_mouse_moving.o"
+	@echo "... src/hello_mouse_moving.i"
+	@echo "... src/hello_mouse_moving.s"
 	@echo "... src/hello_moving.o"
 	@echo "... src/hello_moving.i"
 	@echo "... src/hello_moving.s"
@@ -1619,6 +2271,9 @@ help:
 	@echo "... src/hello_obj.o"
 	@echo "... src/hello_obj.i"
 	@echo "... src/hello_obj.s"
+	@echo "... src/hello_parallel_light.o"
+	@echo "... src/hello_parallel_light.i"
+	@echo "... src/hello_parallel_light.s"
 	@echo "... src/hello_plane_object.o"
 	@echo "... src/hello_plane_object.i"
 	@echo "... src/hello_plane_object.s"
@@ -1652,6 +2307,9 @@ help:
 	@echo "... src/hello_view_port.o"
 	@echo "... src/hello_view_port.i"
 	@echo "... src/hello_view_port.s"
+	@echo "... src/hello_z_buffer.o"
+	@echo "... src/hello_z_buffer.i"
+	@echo "... src/hello_z_buffer.s"
 .PHONY : help
 
 

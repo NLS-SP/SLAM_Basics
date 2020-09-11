@@ -63,28 +63,28 @@ include CMakeFiles/helloTriangle.dir/flags.make
 CMakeFiles/helloTriangle.dir/src/helloTriangle.cpp.o: CMakeFiles/helloTriangle.dir/flags.make
 CMakeFiles/helloTriangle.dir/src/helloTriangle.cpp.o: ../src/helloTriangle.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/helloTriangle.dir/src/helloTriangle.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/helloTriangle.dir/src/helloTriangle.cpp.o -c /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/helloTriangle.cpp
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/helloTriangle.dir/src/helloTriangle.cpp.o -c /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/helloTriangle.cpp
 
 CMakeFiles/helloTriangle.dir/src/helloTriangle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/helloTriangle.dir/src/helloTriangle.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/helloTriangle.cpp > CMakeFiles/helloTriangle.dir/src/helloTriangle.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/helloTriangle.cpp > CMakeFiles/helloTriangle.dir/src/helloTriangle.cpp.i
 
 CMakeFiles/helloTriangle.dir/src/helloTriangle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/helloTriangle.dir/src/helloTriangle.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/helloTriangle.cpp -o CMakeFiles/helloTriangle.dir/src/helloTriangle.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/helloTriangle.cpp -o CMakeFiles/helloTriangle.dir/src/helloTriangle.cpp.s
 
 CMakeFiles/helloTriangle.dir/src/glad.c.o: CMakeFiles/helloTriangle.dir/flags.make
 CMakeFiles/helloTriangle.dir/src/glad.c.o: ../src/glad.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/helloTriangle.dir/src/glad.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/helloTriangle.dir/src/glad.c.o   -c /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/glad.c
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/helloTriangle.dir/src/glad.c.o   -c /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/glad.c
 
 CMakeFiles/helloTriangle.dir/src/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/helloTriangle.dir/src/glad.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/glad.c > CMakeFiles/helloTriangle.dir/src/glad.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/glad.c > CMakeFiles/helloTriangle.dir/src/glad.c.i
 
 CMakeFiles/helloTriangle.dir/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/helloTriangle.dir/src/glad.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/glad.c -o CMakeFiles/helloTriangle.dir/src/glad.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/glad.c -o CMakeFiles/helloTriangle.dir/src/glad.c.s
 
 # Object files for target helloTriangle
 helloTriangle_OBJECTS = \

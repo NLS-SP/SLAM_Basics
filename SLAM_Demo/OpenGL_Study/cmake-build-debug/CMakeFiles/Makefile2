@@ -56,38 +56,52 @@ CMAKE_BINARY_DIR = /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-b
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/Quadric_Surface_Draw.dir/all
+all: CMakeFiles/Polyhedron_Draw.dir/all
+all: CMakeFiles/hello_parallel_light.dir/all
+all: CMakeFiles/hello_z_buffer.dir/all
+all: CMakeFiles/helloRectangle.dir/all
+all: CMakeFiles/hello_camera_circle_practice.dir/all
+all: CMakeFiles/hello_material.dir/all
 all: CMakeFiles/hello_free_moving.dir/all
 all: CMakeFiles/hello_moving.dir/all
 all: CMakeFiles/hello_coordinate.dir/all
+all: CMakeFiles/helloWindow.dir/all
 all: CMakeFiles/hello_rotation.dir/all
+all: CMakeFiles/Spline_Approximation.dir/all
+all: CMakeFiles/hello_awsome_mix.dir/all
+all: CMakeFiles/hello_two_triangles.dir/all
 all: CMakeFiles/hello_read_model.dir/all
+all: CMakeFiles/hello_obj.dir/all
 all: CMakeFiles/hello_camera_circle.dir/all
 all: CMakeFiles/hello_plane_obj.dir/all
+all: CMakeFiles/hello_light.dir/all
 all: CMakeFiles/hello_multipleHappy.dir/all
-all: CMakeFiles/hello_awsome_mix.dir/all
 all: CMakeFiles/hello_model.dir/all
+all: CMakeFiles/hello_container.dir/all
+all: CMakeFiles/hello_glsl_triangle.dir/all
 all: CMakeFiles/hello_triangle_change.dir/all
 all: CMakeFiles/hello_awsomeface.dir/all
+all: CMakeFiles/OpenGL_test.dir/all
 all: CMakeFiles/hello_texture.dir/all
+all: CMakeFiles/hello_lighting_color.dir/all
+all: CMakeFiles/hello_mouse_moving.dir/all
 all: CMakeFiles/hello_shader_file.dir/all
-all: CMakeFiles/helloWindow.dir/all
-all: CMakeFiles/hello_glsl_triangle.dir/all
-all: CMakeFiles/hello_obj.dir/all
+all: CMakeFiles/hello_colors.dir/all
 all: CMakeFiles/hello_view_port.dir/all
 all: CMakeFiles/hello_face_texture.dir/all
 all: CMakeFiles/hello_mouse.dir/all
 all: CMakeFiles/hello_shader_triangle.dir/all
+all: CMakeFiles/hello_disco_container.dir/all
 all: CMakeFiles/hello_different_triangles.dir/all
-all: CMakeFiles/hello_camera.dir/all
-all: CMakeFiles/hello_container.dir/all
-all: CMakeFiles/hello_two_triangles.dir/all
-all: CMakeFiles/hello_shader_Programing.dir/all
 all: CMakeFiles/hello_glsl_color.dir/all
 all: CMakeFiles/hello_change_triangle.dir/all
+all: CMakeFiles/hello_camera.dir/all
+all: CMakeFiles/hello_shader_Programing.dir/all
+all: CMakeFiles/hello_coordinate_answer.dir/all
 all: CMakeFiles/helloTriangle.dir/all
 all: CMakeFiles/hello_rectangle.dir/all
-all: CMakeFiles/helloRectangle.dir/all
-all: CMakeFiles/OpenGL_test.dir/all
+all: CMakeFiles/hello_lighting_reflect.dir/all
 
 .PHONY : all
 
@@ -97,40 +111,243 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/Quadric_Surface_Draw.dir/clean
+clean: CMakeFiles/Polyhedron_Draw.dir/clean
+clean: CMakeFiles/hello_parallel_light.dir/clean
+clean: CMakeFiles/hello_z_buffer.dir/clean
+clean: CMakeFiles/helloRectangle.dir/clean
+clean: CMakeFiles/hello_camera_circle_practice.dir/clean
+clean: CMakeFiles/hello_material.dir/clean
 clean: CMakeFiles/hello_free_moving.dir/clean
 clean: CMakeFiles/hello_moving.dir/clean
 clean: CMakeFiles/hello_coordinate.dir/clean
+clean: CMakeFiles/helloWindow.dir/clean
 clean: CMakeFiles/hello_rotation.dir/clean
+clean: CMakeFiles/Spline_Approximation.dir/clean
+clean: CMakeFiles/hello_awsome_mix.dir/clean
+clean: CMakeFiles/hello_two_triangles.dir/clean
 clean: CMakeFiles/hello_read_model.dir/clean
+clean: CMakeFiles/hello_obj.dir/clean
 clean: CMakeFiles/hello_camera_circle.dir/clean
 clean: CMakeFiles/hello_plane_obj.dir/clean
+clean: CMakeFiles/hello_light.dir/clean
 clean: CMakeFiles/hello_multipleHappy.dir/clean
-clean: CMakeFiles/hello_awsome_mix.dir/clean
 clean: CMakeFiles/hello_model.dir/clean
+clean: CMakeFiles/hello_container.dir/clean
+clean: CMakeFiles/hello_glsl_triangle.dir/clean
 clean: CMakeFiles/hello_triangle_change.dir/clean
 clean: CMakeFiles/hello_awsomeface.dir/clean
+clean: CMakeFiles/OpenGL_test.dir/clean
 clean: CMakeFiles/hello_texture.dir/clean
+clean: CMakeFiles/hello_lighting_color.dir/clean
+clean: CMakeFiles/hello_mouse_moving.dir/clean
 clean: CMakeFiles/hello_shader_file.dir/clean
-clean: CMakeFiles/helloWindow.dir/clean
-clean: CMakeFiles/hello_glsl_triangle.dir/clean
-clean: CMakeFiles/hello_obj.dir/clean
+clean: CMakeFiles/hello_colors.dir/clean
 clean: CMakeFiles/hello_view_port.dir/clean
 clean: CMakeFiles/hello_face_texture.dir/clean
 clean: CMakeFiles/hello_mouse.dir/clean
 clean: CMakeFiles/hello_shader_triangle.dir/clean
+clean: CMakeFiles/hello_disco_container.dir/clean
 clean: CMakeFiles/hello_different_triangles.dir/clean
-clean: CMakeFiles/hello_camera.dir/clean
-clean: CMakeFiles/hello_container.dir/clean
-clean: CMakeFiles/hello_two_triangles.dir/clean
-clean: CMakeFiles/hello_shader_Programing.dir/clean
 clean: CMakeFiles/hello_glsl_color.dir/clean
 clean: CMakeFiles/hello_change_triangle.dir/clean
+clean: CMakeFiles/hello_camera.dir/clean
+clean: CMakeFiles/hello_shader_Programing.dir/clean
+clean: CMakeFiles/hello_coordinate_answer.dir/clean
 clean: CMakeFiles/helloTriangle.dir/clean
 clean: CMakeFiles/hello_rectangle.dir/clean
-clean: CMakeFiles/helloRectangle.dir/clean
-clean: CMakeFiles/OpenGL_test.dir/clean
+clean: CMakeFiles/hello_lighting_reflect.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Quadric_Surface_Draw.dir
+
+# All Build rule for target.
+CMakeFiles/Quadric_Surface_Draw.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quadric_Surface_Draw.dir/build.make CMakeFiles/Quadric_Surface_Draw.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quadric_Surface_Draw.dir/build.make CMakeFiles/Quadric_Surface_Draw.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target Quadric_Surface_Draw"
+.PHONY : CMakeFiles/Quadric_Surface_Draw.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Quadric_Surface_Draw.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Quadric_Surface_Draw.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Quadric_Surface_Draw.dir/rule
+
+# Convenience name for target.
+Quadric_Surface_Draw: CMakeFiles/Quadric_Surface_Draw.dir/rule
+
+.PHONY : Quadric_Surface_Draw
+
+# clean rule for target.
+CMakeFiles/Quadric_Surface_Draw.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Quadric_Surface_Draw.dir/build.make CMakeFiles/Quadric_Surface_Draw.dir/clean
+.PHONY : CMakeFiles/Quadric_Surface_Draw.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Polyhedron_Draw.dir
+
+# All Build rule for target.
+CMakeFiles/Polyhedron_Draw.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Polyhedron_Draw.dir/build.make CMakeFiles/Polyhedron_Draw.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Polyhedron_Draw.dir/build.make CMakeFiles/Polyhedron_Draw.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target Polyhedron_Draw"
+.PHONY : CMakeFiles/Polyhedron_Draw.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Polyhedron_Draw.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Polyhedron_Draw.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Polyhedron_Draw.dir/rule
+
+# Convenience name for target.
+Polyhedron_Draw: CMakeFiles/Polyhedron_Draw.dir/rule
+
+.PHONY : Polyhedron_Draw
+
+# clean rule for target.
+CMakeFiles/Polyhedron_Draw.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Polyhedron_Draw.dir/build.make CMakeFiles/Polyhedron_Draw.dir/clean
+.PHONY : CMakeFiles/Polyhedron_Draw.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/hello_parallel_light.dir
+
+# All Build rule for target.
+CMakeFiles/hello_parallel_light.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_parallel_light.dir/build.make CMakeFiles/hello_parallel_light.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_parallel_light.dir/build.make CMakeFiles/hello_parallel_light.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=72,73 "Built target hello_parallel_light"
+.PHONY : CMakeFiles/hello_parallel_light.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hello_parallel_light.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_parallel_light.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/hello_parallel_light.dir/rule
+
+# Convenience name for target.
+hello_parallel_light: CMakeFiles/hello_parallel_light.dir/rule
+
+.PHONY : hello_parallel_light
+
+# clean rule for target.
+CMakeFiles/hello_parallel_light.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_parallel_light.dir/build.make CMakeFiles/hello_parallel_light.dir/clean
+.PHONY : CMakeFiles/hello_parallel_light.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/hello_z_buffer.dir
+
+# All Build rule for target.
+CMakeFiles/hello_z_buffer.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_z_buffer.dir/build.make CMakeFiles/hello_z_buffer.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_z_buffer.dir/build.make CMakeFiles/hello_z_buffer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=98,99,100 "Built target hello_z_buffer"
+.PHONY : CMakeFiles/hello_z_buffer.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hello_z_buffer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_z_buffer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/hello_z_buffer.dir/rule
+
+# Convenience name for target.
+hello_z_buffer: CMakeFiles/hello_z_buffer.dir/rule
+
+.PHONY : hello_z_buffer
+
+# clean rule for target.
+CMakeFiles/hello_z_buffer.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_z_buffer.dir/build.make CMakeFiles/hello_z_buffer.dir/clean
+.PHONY : CMakeFiles/hello_z_buffer.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/helloRectangle.dir
+
+# All Build rule for target.
+CMakeFiles/helloRectangle.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloRectangle.dir/build.make CMakeFiles/helloRectangle.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloRectangle.dir/build.make CMakeFiles/helloRectangle.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target helloRectangle"
+.PHONY : CMakeFiles/helloRectangle.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/helloRectangle.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/helloRectangle.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/helloRectangle.dir/rule
+
+# Convenience name for target.
+helloRectangle: CMakeFiles/helloRectangle.dir/rule
+
+.PHONY : helloRectangle
+
+# clean rule for target.
+CMakeFiles/helloRectangle.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloRectangle.dir/build.make CMakeFiles/helloRectangle.dir/clean
+.PHONY : CMakeFiles/helloRectangle.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/hello_camera_circle_practice.dir
+
+# All Build rule for target.
+CMakeFiles/hello_camera_circle_practice.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_camera_circle_practice.dir/build.make CMakeFiles/hello_camera_circle_practice.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_camera_circle_practice.dir/build.make CMakeFiles/hello_camera_circle_practice.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=24,25,26 "Built target hello_camera_circle_practice"
+.PHONY : CMakeFiles/hello_camera_circle_practice.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hello_camera_circle_practice.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_camera_circle_practice.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/hello_camera_circle_practice.dir/rule
+
+# Convenience name for target.
+hello_camera_circle_practice: CMakeFiles/hello_camera_circle_practice.dir/rule
+
+.PHONY : hello_camera_circle_practice
+
+# clean rule for target.
+CMakeFiles/hello_camera_circle_practice.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_camera_circle_practice.dir/build.make CMakeFiles/hello_camera_circle_practice.dir/clean
+.PHONY : CMakeFiles/hello_camera_circle_practice.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/hello_material.dir
+
+# All Build rule for target.
+CMakeFiles/hello_material.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_material.dir/build.make CMakeFiles/hello_material.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_material.dir/build.make CMakeFiles/hello_material.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=57,58 "Built target hello_material"
+.PHONY : CMakeFiles/hello_material.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hello_material.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_material.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/hello_material.dir/rule
+
+# Convenience name for target.
+hello_material: CMakeFiles/hello_material.dir/rule
+
+.PHONY : hello_material
+
+# clean rule for target.
+CMakeFiles/hello_material.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_material.dir/build.make CMakeFiles/hello_material.dir/clean
+.PHONY : CMakeFiles/hello_material.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/hello_free_moving.dir
@@ -139,12 +356,12 @@ clean: CMakeFiles/OpenGL_test.dir/clean
 CMakeFiles/hello_free_moving.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_free_moving.dir/build.make CMakeFiles/hello_free_moving.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_free_moving.dir/build.make CMakeFiles/hello_free_moving.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=40,41,42 "Built target hello_free_moving"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=44,45 "Built target hello_free_moving"
 .PHONY : CMakeFiles/hello_free_moving.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hello_free_moving.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_free_moving.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/hello_free_moving.dir/rule
@@ -166,12 +383,12 @@ CMakeFiles/hello_free_moving.dir/clean:
 CMakeFiles/hello_moving.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_moving.dir/build.make CMakeFiles/hello_moving.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_moving.dir/build.make CMakeFiles/hello_moving.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=55,56,57 "Built target hello_moving"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=66,67 "Built target hello_moving"
 .PHONY : CMakeFiles/hello_moving.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hello_moving.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_moving.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/hello_moving.dir/rule
@@ -193,12 +410,12 @@ CMakeFiles/hello_moving.dir/clean:
 CMakeFiles/hello_coordinate.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_coordinate.dir/build.make CMakeFiles/hello_coordinate.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_coordinate.dir/build.make CMakeFiles/hello_coordinate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=31,32,33 "Built target hello_coordinate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target hello_coordinate"
 .PHONY : CMakeFiles/hello_coordinate.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hello_coordinate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_coordinate.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/hello_coordinate.dir/rule
@@ -214,18 +431,45 @@ CMakeFiles/hello_coordinate.dir/clean:
 .PHONY : CMakeFiles/hello_coordinate.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/helloWindow.dir
+
+# All Build rule for target.
+CMakeFiles/helloWindow.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloWindow.dir/build.make CMakeFiles/helloWindow.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloWindow.dir/build.make CMakeFiles/helloWindow.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=14,15 "Built target helloWindow"
+.PHONY : CMakeFiles/helloWindow.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/helloWindow.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/helloWindow.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/helloWindow.dir/rule
+
+# Convenience name for target.
+helloWindow: CMakeFiles/helloWindow.dir/rule
+
+.PHONY : helloWindow
+
+# clean rule for target.
+CMakeFiles/helloWindow.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloWindow.dir/build.make CMakeFiles/helloWindow.dir/clean
+.PHONY : CMakeFiles/helloWindow.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/hello_rotation.dir
 
 # All Build rule for target.
 CMakeFiles/hello_rotation.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_rotation.dir/build.make CMakeFiles/hello_rotation.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_rotation.dir/build.make CMakeFiles/hello_rotation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=73,74,75 "Built target hello_rotation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=81,82 "Built target hello_rotation"
 .PHONY : CMakeFiles/hello_rotation.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hello_rotation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_rotation.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/hello_rotation.dir/rule
@@ -241,18 +485,99 @@ CMakeFiles/hello_rotation.dir/clean:
 .PHONY : CMakeFiles/hello_rotation.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/Spline_Approximation.dir
+
+# All Build rule for target.
+CMakeFiles/Spline_Approximation.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spline_Approximation.dir/build.make CMakeFiles/Spline_Approximation.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spline_Approximation.dir/build.make CMakeFiles/Spline_Approximation.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target Spline_Approximation"
+.PHONY : CMakeFiles/Spline_Approximation.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Spline_Approximation.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Spline_Approximation.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Spline_Approximation.dir/rule
+
+# Convenience name for target.
+Spline_Approximation: CMakeFiles/Spline_Approximation.dir/rule
+
+.PHONY : Spline_Approximation
+
+# clean rule for target.
+CMakeFiles/Spline_Approximation.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spline_Approximation.dir/build.make CMakeFiles/Spline_Approximation.dir/clean
+.PHONY : CMakeFiles/Spline_Approximation.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/hello_awsome_mix.dir
+
+# All Build rule for target.
+CMakeFiles/hello_awsome_mix.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_awsome_mix.dir/build.make CMakeFiles/hello_awsome_mix.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_awsome_mix.dir/build.make CMakeFiles/hello_awsome_mix.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=16,17 "Built target hello_awsome_mix"
+.PHONY : CMakeFiles/hello_awsome_mix.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hello_awsome_mix.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_awsome_mix.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/hello_awsome_mix.dir/rule
+
+# Convenience name for target.
+hello_awsome_mix: CMakeFiles/hello_awsome_mix.dir/rule
+
+.PHONY : hello_awsome_mix
+
+# clean rule for target.
+CMakeFiles/hello_awsome_mix.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_awsome_mix.dir/build.make CMakeFiles/hello_awsome_mix.dir/clean
+.PHONY : CMakeFiles/hello_awsome_mix.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/hello_two_triangles.dir
+
+# All Build rule for target.
+CMakeFiles/hello_two_triangles.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_two_triangles.dir/build.make CMakeFiles/hello_two_triangles.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_two_triangles.dir/build.make CMakeFiles/hello_two_triangles.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=94,95 "Built target hello_two_triangles"
+.PHONY : CMakeFiles/hello_two_triangles.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hello_two_triangles.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_two_triangles.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/hello_two_triangles.dir/rule
+
+# Convenience name for target.
+hello_two_triangles: CMakeFiles/hello_two_triangles.dir/rule
+
+.PHONY : hello_two_triangles
+
+# clean rule for target.
+CMakeFiles/hello_two_triangles.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_two_triangles.dir/build.make CMakeFiles/hello_two_triangles.dir/clean
+.PHONY : CMakeFiles/hello_two_triangles.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/hello_read_model.dir
 
 # All Build rule for target.
 CMakeFiles/hello_read_model.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_read_model.dir/build.make CMakeFiles/hello_read_model.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_read_model.dir/build.make CMakeFiles/hello_read_model.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=67,68,69 "Built target hello_read_model"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=77,78 "Built target hello_read_model"
 .PHONY : CMakeFiles/hello_read_model.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hello_read_model.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_read_model.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/hello_read_model.dir/rule
@@ -268,18 +593,45 @@ CMakeFiles/hello_read_model.dir/clean:
 .PHONY : CMakeFiles/hello_read_model.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/hello_obj.dir
+
+# All Build rule for target.
+CMakeFiles/hello_obj.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_obj.dir/build.make CMakeFiles/hello_obj.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_obj.dir/build.make CMakeFiles/hello_obj.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=70,71 "Built target hello_obj"
+.PHONY : CMakeFiles/hello_obj.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hello_obj.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_obj.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/hello_obj.dir/rule
+
+# Convenience name for target.
+hello_obj: CMakeFiles/hello_obj.dir/rule
+
+.PHONY : hello_obj
+
+# clean rule for target.
+CMakeFiles/hello_obj.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_obj.dir/build.make CMakeFiles/hello_obj.dir/clean
+.PHONY : CMakeFiles/hello_obj.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/hello_camera_circle.dir
 
 # All Build rule for target.
 CMakeFiles/hello_camera_circle.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_camera_circle.dir/build.make CMakeFiles/hello_camera_circle.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_camera_circle.dir/build.make CMakeFiles/hello_camera_circle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=22,23,24 "Built target hello_camera_circle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=22,23 "Built target hello_camera_circle"
 .PHONY : CMakeFiles/hello_camera_circle.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hello_camera_circle.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_camera_circle.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/hello_camera_circle.dir/rule
@@ -301,7 +653,7 @@ CMakeFiles/hello_camera_circle.dir/clean:
 CMakeFiles/hello_plane_obj.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_plane_obj.dir/build.make CMakeFiles/hello_plane_obj.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_plane_obj.dir/build.make CMakeFiles/hello_plane_obj.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=64,65,66 "Built target hello_plane_obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=74,75,76 "Built target hello_plane_obj"
 .PHONY : CMakeFiles/hello_plane_obj.dir/all
 
 # Build rule for subdir invocation for target.
@@ -322,18 +674,45 @@ CMakeFiles/hello_plane_obj.dir/clean:
 .PHONY : CMakeFiles/hello_plane_obj.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/hello_light.dir
+
+# All Build rule for target.
+CMakeFiles/hello_light.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_light.dir/build.make CMakeFiles/hello_light.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_light.dir/build.make CMakeFiles/hello_light.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=51,52 "Built target hello_light"
+.PHONY : CMakeFiles/hello_light.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hello_light.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_light.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/hello_light.dir/rule
+
+# Convenience name for target.
+hello_light: CMakeFiles/hello_light.dir/rule
+
+.PHONY : hello_light
+
+# clean rule for target.
+CMakeFiles/hello_light.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_light.dir/build.make CMakeFiles/hello_light.dir/clean
+.PHONY : CMakeFiles/hello_light.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/hello_multipleHappy.dir
 
 # All Build rule for target.
 CMakeFiles/hello_multipleHappy.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_multipleHappy.dir/build.make CMakeFiles/hello_multipleHappy.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_multipleHappy.dir/build.make CMakeFiles/hello_multipleHappy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=58,59,60 "Built target hello_multipleHappy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=68,69 "Built target hello_multipleHappy"
 .PHONY : CMakeFiles/hello_multipleHappy.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hello_multipleHappy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_multipleHappy.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/hello_multipleHappy.dir/rule
@@ -349,45 +728,18 @@ CMakeFiles/hello_multipleHappy.dir/clean:
 .PHONY : CMakeFiles/hello_multipleHappy.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/hello_awsome_mix.dir
-
-# All Build rule for target.
-CMakeFiles/hello_awsome_mix.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_awsome_mix.dir/build.make CMakeFiles/hello_awsome_mix.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_awsome_mix.dir/build.make CMakeFiles/hello_awsome_mix.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=13,14,15 "Built target hello_awsome_mix"
-.PHONY : CMakeFiles/hello_awsome_mix.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/hello_awsome_mix.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_awsome_mix.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/hello_awsome_mix.dir/rule
-
-# Convenience name for target.
-hello_awsome_mix: CMakeFiles/hello_awsome_mix.dir/rule
-
-.PHONY : hello_awsome_mix
-
-# clean rule for target.
-CMakeFiles/hello_awsome_mix.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_awsome_mix.dir/build.make CMakeFiles/hello_awsome_mix.dir/clean
-.PHONY : CMakeFiles/hello_awsome_mix.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/hello_model.dir
 
 # All Build rule for target.
 CMakeFiles/hello_model.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_model.dir/build.make CMakeFiles/hello_model.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_model.dir/build.make CMakeFiles/hello_model.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=49,50,51 "Built target hello_model"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=59,60 "Built target hello_model"
 .PHONY : CMakeFiles/hello_model.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hello_model.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_model.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/hello_model.dir/rule
@@ -403,18 +755,72 @@ CMakeFiles/hello_model.dir/clean:
 .PHONY : CMakeFiles/hello_model.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/hello_container.dir
+
+# All Build rule for target.
+CMakeFiles/hello_container.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_container.dir/build.make CMakeFiles/hello_container.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_container.dir/build.make CMakeFiles/hello_container.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target hello_container"
+.PHONY : CMakeFiles/hello_container.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hello_container.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_container.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/hello_container.dir/rule
+
+# Convenience name for target.
+hello_container: CMakeFiles/hello_container.dir/rule
+
+.PHONY : hello_container
+
+# clean rule for target.
+CMakeFiles/hello_container.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_container.dir/build.make CMakeFiles/hello_container.dir/clean
+.PHONY : CMakeFiles/hello_container.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/hello_glsl_triangle.dir
+
+# All Build rule for target.
+CMakeFiles/hello_glsl_triangle.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_glsl_triangle.dir/build.make CMakeFiles/hello_glsl_triangle.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_glsl_triangle.dir/build.make CMakeFiles/hello_glsl_triangle.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=48,49,50 "Built target hello_glsl_triangle"
+.PHONY : CMakeFiles/hello_glsl_triangle.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hello_glsl_triangle.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_glsl_triangle.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/hello_glsl_triangle.dir/rule
+
+# Convenience name for target.
+hello_glsl_triangle: CMakeFiles/hello_glsl_triangle.dir/rule
+
+.PHONY : hello_glsl_triangle
+
+# clean rule for target.
+CMakeFiles/hello_glsl_triangle.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_glsl_triangle.dir/build.make CMakeFiles/hello_glsl_triangle.dir/clean
+.PHONY : CMakeFiles/hello_glsl_triangle.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/hello_triangle_change.dir
 
 # All Build rule for target.
 CMakeFiles/hello_triangle_change.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_triangle_change.dir/build.make CMakeFiles/hello_triangle_change.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_triangle_change.dir/build.make CMakeFiles/hello_triangle_change.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=88,89,90 "Built target hello_triangle_change"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=92,93 "Built target hello_triangle_change"
 .PHONY : CMakeFiles/hello_triangle_change.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hello_triangle_change.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_triangle_change.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/hello_triangle_change.dir/rule
@@ -436,12 +842,12 @@ CMakeFiles/hello_triangle_change.dir/clean:
 CMakeFiles/hello_awsomeface.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_awsomeface.dir/build.make CMakeFiles/hello_awsomeface.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_awsomeface.dir/build.make CMakeFiles/hello_awsomeface.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=16,17,18 "Built target hello_awsomeface"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target hello_awsomeface"
 .PHONY : CMakeFiles/hello_awsomeface.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hello_awsomeface.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_awsomeface.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/hello_awsomeface.dir/rule
@@ -457,18 +863,45 @@ CMakeFiles/hello_awsomeface.dir/clean:
 .PHONY : CMakeFiles/hello_awsomeface.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/OpenGL_test.dir
+
+# All Build rule for target.
+CMakeFiles/OpenGL_test.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL_test.dir/build.make CMakeFiles/OpenGL_test.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL_test.dir/build.make CMakeFiles/OpenGL_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target OpenGL_test"
+.PHONY : CMakeFiles/OpenGL_test.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/OpenGL_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/OpenGL_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/OpenGL_test.dir/rule
+
+# Convenience name for target.
+OpenGL_test: CMakeFiles/OpenGL_test.dir/rule
+
+.PHONY : OpenGL_test
+
+# clean rule for target.
+CMakeFiles/OpenGL_test.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL_test.dir/build.make CMakeFiles/OpenGL_test.dir/clean
+.PHONY : CMakeFiles/OpenGL_test.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/hello_texture.dir
 
 # All Build rule for target.
 CMakeFiles/hello_texture.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_texture.dir/build.make CMakeFiles/hello_texture.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_texture.dir/build.make CMakeFiles/hello_texture.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=85,86,87 "Built target hello_texture"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=90,91 "Built target hello_texture"
 .PHONY : CMakeFiles/hello_texture.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hello_texture.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_texture.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/hello_texture.dir/rule
@@ -484,18 +917,72 @@ CMakeFiles/hello_texture.dir/clean:
 .PHONY : CMakeFiles/hello_texture.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/hello_lighting_color.dir
+
+# All Build rule for target.
+CMakeFiles/hello_lighting_color.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_lighting_color.dir/build.make CMakeFiles/hello_lighting_color.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_lighting_color.dir/build.make CMakeFiles/hello_lighting_color.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=53,54 "Built target hello_lighting_color"
+.PHONY : CMakeFiles/hello_lighting_color.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hello_lighting_color.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_lighting_color.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/hello_lighting_color.dir/rule
+
+# Convenience name for target.
+hello_lighting_color: CMakeFiles/hello_lighting_color.dir/rule
+
+.PHONY : hello_lighting_color
+
+# clean rule for target.
+CMakeFiles/hello_lighting_color.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_lighting_color.dir/build.make CMakeFiles/hello_lighting_color.dir/clean
+.PHONY : CMakeFiles/hello_lighting_color.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/hello_mouse_moving.dir
+
+# All Build rule for target.
+CMakeFiles/hello_mouse_moving.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_mouse_moving.dir/build.make CMakeFiles/hello_mouse_moving.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_mouse_moving.dir/build.make CMakeFiles/hello_mouse_moving.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=64,65 "Built target hello_mouse_moving"
+.PHONY : CMakeFiles/hello_mouse_moving.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hello_mouse_moving.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_mouse_moving.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/hello_mouse_moving.dir/rule
+
+# Convenience name for target.
+hello_mouse_moving: CMakeFiles/hello_mouse_moving.dir/rule
+
+.PHONY : hello_mouse_moving
+
+# clean rule for target.
+CMakeFiles/hello_mouse_moving.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_mouse_moving.dir/build.make CMakeFiles/hello_mouse_moving.dir/clean
+.PHONY : CMakeFiles/hello_mouse_moving.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/hello_shader_file.dir
 
 # All Build rule for target.
 CMakeFiles/hello_shader_file.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_shader_file.dir/build.make CMakeFiles/hello_shader_file.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_shader_file.dir/build.make CMakeFiles/hello_shader_file.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=79,80,81 "Built target hello_shader_file"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=85,86 "Built target hello_shader_file"
 .PHONY : CMakeFiles/hello_shader_file.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hello_shader_file.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_shader_file.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/hello_shader_file.dir/rule
@@ -511,85 +998,31 @@ CMakeFiles/hello_shader_file.dir/clean:
 .PHONY : CMakeFiles/hello_shader_file.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/helloWindow.dir
+# Target rules for target CMakeFiles/hello_colors.dir
 
 # All Build rule for target.
-CMakeFiles/helloWindow.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloWindow.dir/build.make CMakeFiles/helloWindow.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloWindow.dir/build.make CMakeFiles/helloWindow.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=10,11,12 "Built target helloWindow"
-.PHONY : CMakeFiles/helloWindow.dir/all
+CMakeFiles/hello_colors.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_colors.dir/build.make CMakeFiles/hello_colors.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_colors.dir/build.make CMakeFiles/hello_colors.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target hello_colors"
+.PHONY : CMakeFiles/hello_colors.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/helloWindow.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/helloWindow.dir/all
+CMakeFiles/hello_colors.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_colors.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/helloWindow.dir/rule
+.PHONY : CMakeFiles/hello_colors.dir/rule
 
 # Convenience name for target.
-helloWindow: CMakeFiles/helloWindow.dir/rule
+hello_colors: CMakeFiles/hello_colors.dir/rule
 
-.PHONY : helloWindow
-
-# clean rule for target.
-CMakeFiles/helloWindow.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloWindow.dir/build.make CMakeFiles/helloWindow.dir/clean
-.PHONY : CMakeFiles/helloWindow.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/hello_glsl_triangle.dir
-
-# All Build rule for target.
-CMakeFiles/hello_glsl_triangle.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_glsl_triangle.dir/build.make CMakeFiles/hello_glsl_triangle.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_glsl_triangle.dir/build.make CMakeFiles/hello_glsl_triangle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=46,47,48 "Built target hello_glsl_triangle"
-.PHONY : CMakeFiles/hello_glsl_triangle.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/hello_glsl_triangle.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_glsl_triangle.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/hello_glsl_triangle.dir/rule
-
-# Convenience name for target.
-hello_glsl_triangle: CMakeFiles/hello_glsl_triangle.dir/rule
-
-.PHONY : hello_glsl_triangle
+.PHONY : hello_colors
 
 # clean rule for target.
-CMakeFiles/hello_glsl_triangle.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_glsl_triangle.dir/build.make CMakeFiles/hello_glsl_triangle.dir/clean
-.PHONY : CMakeFiles/hello_glsl_triangle.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/hello_obj.dir
-
-# All Build rule for target.
-CMakeFiles/hello_obj.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_obj.dir/build.make CMakeFiles/hello_obj.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_obj.dir/build.make CMakeFiles/hello_obj.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=61,62,63 "Built target hello_obj"
-.PHONY : CMakeFiles/hello_obj.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/hello_obj.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_obj.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/hello_obj.dir/rule
-
-# Convenience name for target.
-hello_obj: CMakeFiles/hello_obj.dir/rule
-
-.PHONY : hello_obj
-
-# clean rule for target.
-CMakeFiles/hello_obj.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_obj.dir/build.make CMakeFiles/hello_obj.dir/clean
-.PHONY : CMakeFiles/hello_obj.dir/clean
+CMakeFiles/hello_colors.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_colors.dir/build.make CMakeFiles/hello_colors.dir/clean
+.PHONY : CMakeFiles/hello_colors.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/hello_view_port.dir
@@ -598,12 +1031,12 @@ CMakeFiles/hello_obj.dir/clean:
 CMakeFiles/hello_view_port.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_view_port.dir/build.make CMakeFiles/hello_view_port.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_view_port.dir/build.make CMakeFiles/hello_view_port.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=94,95,96 "Built target hello_view_port"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=96,97 "Built target hello_view_port"
 .PHONY : CMakeFiles/hello_view_port.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hello_view_port.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_view_port.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/hello_view_port.dir/rule
@@ -625,12 +1058,12 @@ CMakeFiles/hello_view_port.dir/clean:
 CMakeFiles/hello_face_texture.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_face_texture.dir/build.make CMakeFiles/hello_face_texture.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_face_texture.dir/build.make CMakeFiles/hello_face_texture.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=37,38,39 "Built target hello_face_texture"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=42,43 "Built target hello_face_texture"
 .PHONY : CMakeFiles/hello_face_texture.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hello_face_texture.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_face_texture.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/hello_face_texture.dir/rule
@@ -652,7 +1085,7 @@ CMakeFiles/hello_face_texture.dir/clean:
 CMakeFiles/hello_mouse.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_mouse.dir/build.make CMakeFiles/hello_mouse.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_mouse.dir/build.make CMakeFiles/hello_mouse.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=52,53,54 "Built target hello_mouse"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=61,62,63 "Built target hello_mouse"
 .PHONY : CMakeFiles/hello_mouse.dir/all
 
 # Build rule for subdir invocation for target.
@@ -679,7 +1112,7 @@ CMakeFiles/hello_mouse.dir/clean:
 CMakeFiles/hello_shader_triangle.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_shader_triangle.dir/build.make CMakeFiles/hello_shader_triangle.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_shader_triangle.dir/build.make CMakeFiles/hello_shader_triangle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=82,83,84 "Built target hello_shader_triangle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=87,88,89 "Built target hello_shader_triangle"
 .PHONY : CMakeFiles/hello_shader_triangle.dir/all
 
 # Build rule for subdir invocation for target.
@@ -700,13 +1133,40 @@ CMakeFiles/hello_shader_triangle.dir/clean:
 .PHONY : CMakeFiles/hello_shader_triangle.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/hello_disco_container.dir
+
+# All Build rule for target.
+CMakeFiles/hello_disco_container.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_disco_container.dir/build.make CMakeFiles/hello_disco_container.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_disco_container.dir/build.make CMakeFiles/hello_disco_container.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=40,41 "Built target hello_disco_container"
+.PHONY : CMakeFiles/hello_disco_container.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hello_disco_container.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_disco_container.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/hello_disco_container.dir/rule
+
+# Convenience name for target.
+hello_disco_container: CMakeFiles/hello_disco_container.dir/rule
+
+.PHONY : hello_disco_container
+
+# clean rule for target.
+CMakeFiles/hello_disco_container.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_disco_container.dir/build.make CMakeFiles/hello_disco_container.dir/clean
+.PHONY : CMakeFiles/hello_disco_container.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/hello_different_triangles.dir
 
 # All Build rule for target.
 CMakeFiles/hello_different_triangles.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_different_triangles.dir/build.make CMakeFiles/hello_different_triangles.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_different_triangles.dir/build.make CMakeFiles/hello_different_triangles.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=34,35,36 "Built target hello_different_triangles"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=37,38,39 "Built target hello_different_triangles"
 .PHONY : CMakeFiles/hello_different_triangles.dir/all
 
 # Build rule for subdir invocation for target.
@@ -727,126 +1187,18 @@ CMakeFiles/hello_different_triangles.dir/clean:
 .PHONY : CMakeFiles/hello_different_triangles.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/hello_camera.dir
-
-# All Build rule for target.
-CMakeFiles/hello_camera.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_camera.dir/build.make CMakeFiles/hello_camera.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_camera.dir/build.make CMakeFiles/hello_camera.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=19,20,21 "Built target hello_camera"
-.PHONY : CMakeFiles/hello_camera.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/hello_camera.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_camera.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/hello_camera.dir/rule
-
-# Convenience name for target.
-hello_camera: CMakeFiles/hello_camera.dir/rule
-
-.PHONY : hello_camera
-
-# clean rule for target.
-CMakeFiles/hello_camera.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_camera.dir/build.make CMakeFiles/hello_camera.dir/clean
-.PHONY : CMakeFiles/hello_camera.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/hello_container.dir
-
-# All Build rule for target.
-CMakeFiles/hello_container.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_container.dir/build.make CMakeFiles/hello_container.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_container.dir/build.make CMakeFiles/hello_container.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=28,29,30 "Built target hello_container"
-.PHONY : CMakeFiles/hello_container.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/hello_container.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_container.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/hello_container.dir/rule
-
-# Convenience name for target.
-hello_container: CMakeFiles/hello_container.dir/rule
-
-.PHONY : hello_container
-
-# clean rule for target.
-CMakeFiles/hello_container.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_container.dir/build.make CMakeFiles/hello_container.dir/clean
-.PHONY : CMakeFiles/hello_container.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/hello_two_triangles.dir
-
-# All Build rule for target.
-CMakeFiles/hello_two_triangles.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_two_triangles.dir/build.make CMakeFiles/hello_two_triangles.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_two_triangles.dir/build.make CMakeFiles/hello_two_triangles.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=91,92,93 "Built target hello_two_triangles"
-.PHONY : CMakeFiles/hello_two_triangles.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/hello_two_triangles.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_two_triangles.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/hello_two_triangles.dir/rule
-
-# Convenience name for target.
-hello_two_triangles: CMakeFiles/hello_two_triangles.dir/rule
-
-.PHONY : hello_two_triangles
-
-# clean rule for target.
-CMakeFiles/hello_two_triangles.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_two_triangles.dir/build.make CMakeFiles/hello_two_triangles.dir/clean
-.PHONY : CMakeFiles/hello_two_triangles.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/hello_shader_Programing.dir
-
-# All Build rule for target.
-CMakeFiles/hello_shader_Programing.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_shader_Programing.dir/build.make CMakeFiles/hello_shader_Programing.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_shader_Programing.dir/build.make CMakeFiles/hello_shader_Programing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=76,77,78 "Built target hello_shader_Programing"
-.PHONY : CMakeFiles/hello_shader_Programing.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/hello_shader_Programing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_shader_Programing.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/hello_shader_Programing.dir/rule
-
-# Convenience name for target.
-hello_shader_Programing: CMakeFiles/hello_shader_Programing.dir/rule
-
-.PHONY : hello_shader_Programing
-
-# clean rule for target.
-CMakeFiles/hello_shader_Programing.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_shader_Programing.dir/build.make CMakeFiles/hello_shader_Programing.dir/clean
-.PHONY : CMakeFiles/hello_shader_Programing.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/hello_glsl_color.dir
 
 # All Build rule for target.
 CMakeFiles/hello_glsl_color.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_glsl_color.dir/build.make CMakeFiles/hello_glsl_color.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_glsl_color.dir/build.make CMakeFiles/hello_glsl_color.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=43,44,45 "Built target hello_glsl_color"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=46,47 "Built target hello_glsl_color"
 .PHONY : CMakeFiles/hello_glsl_color.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hello_glsl_color.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_glsl_color.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/hello_glsl_color.dir/rule
@@ -868,12 +1220,12 @@ CMakeFiles/hello_glsl_color.dir/clean:
 CMakeFiles/hello_change_triangle.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_change_triangle.dir/build.make CMakeFiles/hello_change_triangle.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_change_triangle.dir/build.make CMakeFiles/hello_change_triangle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=25,26,27 "Built target hello_change_triangle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target hello_change_triangle"
 .PHONY : CMakeFiles/hello_change_triangle.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hello_change_triangle.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_change_triangle.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/hello_change_triangle.dir/rule
@@ -889,13 +1241,94 @@ CMakeFiles/hello_change_triangle.dir/clean:
 .PHONY : CMakeFiles/hello_change_triangle.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/hello_camera.dir
+
+# All Build rule for target.
+CMakeFiles/hello_camera.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_camera.dir/build.make CMakeFiles/hello_camera.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_camera.dir/build.make CMakeFiles/hello_camera.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=20,21 "Built target hello_camera"
+.PHONY : CMakeFiles/hello_camera.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hello_camera.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_camera.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/hello_camera.dir/rule
+
+# Convenience name for target.
+hello_camera: CMakeFiles/hello_camera.dir/rule
+
+.PHONY : hello_camera
+
+# clean rule for target.
+CMakeFiles/hello_camera.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_camera.dir/build.make CMakeFiles/hello_camera.dir/clean
+.PHONY : CMakeFiles/hello_camera.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/hello_shader_Programing.dir
+
+# All Build rule for target.
+CMakeFiles/hello_shader_Programing.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_shader_Programing.dir/build.make CMakeFiles/hello_shader_Programing.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_shader_Programing.dir/build.make CMakeFiles/hello_shader_Programing.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=83,84 "Built target hello_shader_Programing"
+.PHONY : CMakeFiles/hello_shader_Programing.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hello_shader_Programing.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_shader_Programing.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/hello_shader_Programing.dir/rule
+
+# Convenience name for target.
+hello_shader_Programing: CMakeFiles/hello_shader_Programing.dir/rule
+
+.PHONY : hello_shader_Programing
+
+# clean rule for target.
+CMakeFiles/hello_shader_Programing.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_shader_Programing.dir/build.make CMakeFiles/hello_shader_Programing.dir/clean
+.PHONY : CMakeFiles/hello_shader_Programing.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/hello_coordinate_answer.dir
+
+# All Build rule for target.
+CMakeFiles/hello_coordinate_answer.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_coordinate_answer.dir/build.make CMakeFiles/hello_coordinate_answer.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_coordinate_answer.dir/build.make CMakeFiles/hello_coordinate_answer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target hello_coordinate_answer"
+.PHONY : CMakeFiles/hello_coordinate_answer.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hello_coordinate_answer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_coordinate_answer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/hello_coordinate_answer.dir/rule
+
+# Convenience name for target.
+hello_coordinate_answer: CMakeFiles/hello_coordinate_answer.dir/rule
+
+.PHONY : hello_coordinate_answer
+
+# clean rule for target.
+CMakeFiles/hello_coordinate_answer.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_coordinate_answer.dir/build.make CMakeFiles/hello_coordinate_answer.dir/clean
+.PHONY : CMakeFiles/hello_coordinate_answer.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/helloTriangle.dir
 
 # All Build rule for target.
 CMakeFiles/helloTriangle.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloTriangle.dir/build.make CMakeFiles/helloTriangle.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloTriangle.dir/build.make CMakeFiles/helloTriangle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=7,8,9 "Built target helloTriangle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=11,12,13 "Built target helloTriangle"
 .PHONY : CMakeFiles/helloTriangle.dir/all
 
 # Build rule for subdir invocation for target.
@@ -922,12 +1355,12 @@ CMakeFiles/helloTriangle.dir/clean:
 CMakeFiles/hello_rectangle.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_rectangle.dir/build.make CMakeFiles/hello_rectangle.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_rectangle.dir/build.make CMakeFiles/hello_rectangle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=70,71,72 "Built target hello_rectangle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=79,80 "Built target hello_rectangle"
 .PHONY : CMakeFiles/hello_rectangle.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hello_rectangle.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_rectangle.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/hello_rectangle.dir/rule
@@ -943,58 +1376,31 @@ CMakeFiles/hello_rectangle.dir/clean:
 .PHONY : CMakeFiles/hello_rectangle.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/helloRectangle.dir
+# Target rules for target CMakeFiles/hello_lighting_reflect.dir
 
 # All Build rule for target.
-CMakeFiles/helloRectangle.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloRectangle.dir/build.make CMakeFiles/helloRectangle.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloRectangle.dir/build.make CMakeFiles/helloRectangle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=4,5,6 "Built target helloRectangle"
-.PHONY : CMakeFiles/helloRectangle.dir/all
+CMakeFiles/hello_lighting_reflect.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_lighting_reflect.dir/build.make CMakeFiles/hello_lighting_reflect.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_lighting_reflect.dir/build.make CMakeFiles/hello_lighting_reflect.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=55,56 "Built target hello_lighting_reflect"
+.PHONY : CMakeFiles/hello_lighting_reflect.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/helloRectangle.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/helloRectangle.dir/all
+CMakeFiles/hello_lighting_reflect.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello_lighting_reflect.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/helloRectangle.dir/rule
+.PHONY : CMakeFiles/hello_lighting_reflect.dir/rule
 
 # Convenience name for target.
-helloRectangle: CMakeFiles/helloRectangle.dir/rule
+hello_lighting_reflect: CMakeFiles/hello_lighting_reflect.dir/rule
 
-.PHONY : helloRectangle
-
-# clean rule for target.
-CMakeFiles/helloRectangle.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloRectangle.dir/build.make CMakeFiles/helloRectangle.dir/clean
-.PHONY : CMakeFiles/helloRectangle.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/OpenGL_test.dir
-
-# All Build rule for target.
-CMakeFiles/OpenGL_test.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL_test.dir/build.make CMakeFiles/OpenGL_test.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL_test.dir/build.make CMakeFiles/OpenGL_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target OpenGL_test"
-.PHONY : CMakeFiles/OpenGL_test.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/OpenGL_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/OpenGL_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/OpenGL_test.dir/rule
-
-# Convenience name for target.
-OpenGL_test: CMakeFiles/OpenGL_test.dir/rule
-
-.PHONY : OpenGL_test
+.PHONY : hello_lighting_reflect
 
 # clean rule for target.
-CMakeFiles/OpenGL_test.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL_test.dir/build.make CMakeFiles/OpenGL_test.dir/clean
-.PHONY : CMakeFiles/OpenGL_test.dir/clean
+CMakeFiles/hello_lighting_reflect.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_lighting_reflect.dir/build.make CMakeFiles/hello_lighting_reflect.dir/clean
+.PHONY : CMakeFiles/hello_lighting_reflect.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

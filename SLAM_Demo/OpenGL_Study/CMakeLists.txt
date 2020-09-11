@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
-project(GUI_TOOL)
+project(OpenGL_Study)
 
 include_directories(include)
 
@@ -154,3 +154,12 @@ target_link_libraries(hello_z_buffer ${Third_PARTY_LIBS})
 
 add_executable(hello_parallel_light src/hello_parallel_light.cpp ${SOURCE_FILES})
 target_link_libraries(hello_parallel_light ${Third_PARTY_LIBS})
+
+add_executable(Polyhedron_Draw src/Polyhedron_Draw.cpp ${SOURCE_FILES})
+target_link_libraries(Polyhedron_Draw ${Third_PARTY_LIBS})
+
+add_executable(Quadric_Surface_Draw src/Quadric_Surface_Draw.cpp ${SOURCE_FILES})
+target_link_libraries(Quadric_Surface_Draw ${Third_PARTY_LIBS})
+
+add_executable(Spline_Approximation src/Spline_Approximation.cpp ${SOURCE_FILES})
+target_link_libraries(Spline_Approximation ${Third_PARTY_LIBS})

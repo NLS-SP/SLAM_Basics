@@ -2,49 +2,49 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="GUI_TOOL" targetName="hello_plane_obj" />
-      <config projectName="GUI_TOOL" targetName="hello_camera_circle_practice" />
-      <config projectName="GUI_TOOL" targetName="hello_two_triangles" />
-      <config projectName="GUI_TOOL" targetName="hello_read_model" />
-      <config projectName="GUI_TOOL" targetName="hello_parallel_light" />
-      <config projectName="GUI_TOOL" targetName="hello_lighting_color" />
+      <config projectName="GUI_TOOL" targetName="hello_obj" />
+      <config projectName="GUI_TOOL" targetName="hello_free_moving" />
+      <config projectName="GUI_TOOL" targetName="hello_shader_triangle" />
+      <config projectName="GUI_TOOL" targetName="OpenGL_test" />
       <config projectName="GUI_TOOL" targetName="hello_mouse_moving" />
-      <config projectName="GUI_TOOL" targetName="hello_container" />
+      <config projectName="GUI_TOOL" targetName="hello_two_triangles" />
+      <config projectName="GUI_TOOL" targetName="hello_shader_Programing" />
+      <config projectName="GUI_TOOL" targetName="hello_moving" />
+      <config projectName="GUI_TOOL" targetName="hello_material" />
+      <config projectName="GUI_TOOL" targetName="hello_read_model" />
       <config projectName="GUI_TOOL" targetName="hello_mouse" />
+      <config projectName="GUI_TOOL" targetName="hello_lighting_color" />
+      <config projectName="GUI_TOOL" targetName="hello_texture" />
+      <config projectName="GUI_TOOL" targetName="hello_rectangle" />
+      <config projectName="GUI_TOOL" targetName="helloRectangle" />
+      <config projectName="GUI_TOOL" targetName="hello_camera" />
+      <config projectName="GUI_TOOL" targetName="hello_z_buffer" />
+      <config projectName="GUI_TOOL" targetName="helloTriangle" />
       <config projectName="GUI_TOOL" targetName="hello_different_triangles" />
+      <config projectName="GUI_TOOL" targetName="hello_disco_container" />
+      <config projectName="GUI_TOOL" targetName="hello_model" />
+      <config projectName="GUI_TOOL" targetName="hello_change_triangle" />
+      <config projectName="GUI_TOOL" targetName="hello_glsl_triangle" />
+      <config projectName="GUI_TOOL" targetName="hello_plane_obj" />
+      <config projectName="GUI_TOOL" targetName="hello_lighting_reflect" />
+      <config projectName="GUI_TOOL" targetName="hello_parallel_light" />
+      <config projectName="GUI_TOOL" targetName="hello_shader_file" />
+      <config projectName="GUI_TOOL" targetName="helloWindow" />
+      <config projectName="GUI_TOOL" targetName="hello_camera_circle_practice" />
+      <config projectName="GUI_TOOL" targetName="hello_coordinate_answer" />
       <config projectName="GUI_TOOL" targetName="hello_colors" />
       <config projectName="GUI_TOOL" targetName="hello_rotation" />
-      <config projectName="GUI_TOOL" targetName="hello_triangle_change" />
-      <config projectName="GUI_TOOL" targetName="hello_lighting_reflect" />
-      <config projectName="GUI_TOOL" targetName="hello_shader_file" />
-      <config projectName="GUI_TOOL" targetName="hello_face_texture" />
-      <config projectName="GUI_TOOL" targetName="hello_change_triangle" />
-      <config projectName="GUI_TOOL" targetName="helloRectangle" />
-      <config projectName="GUI_TOOL" targetName="hello_z_buffer" />
-      <config projectName="GUI_TOOL" targetName="hello_camera" />
-      <config projectName="GUI_TOOL" targetName="hello_rectangle" />
-      <config projectName="GUI_TOOL" targetName="helloTriangle" />
-      <config projectName="GUI_TOOL" targetName="hello_multipleHappy" />
-      <config projectName="GUI_TOOL" targetName="hello_material" />
-      <config projectName="GUI_TOOL" targetName="hello_shader_Programing" />
-      <config projectName="GUI_TOOL" targetName="hello_awsome_mix" />
-      <config projectName="GUI_TOOL" targetName="hello_model" />
       <config projectName="GUI_TOOL" targetName="hello_camera_circle" />
-      <config projectName="GUI_TOOL" targetName="hello_awsomeface" />
-      <config projectName="GUI_TOOL" targetName="helloWindow" />
-      <config projectName="GUI_TOOL" targetName="hello_obj" />
-      <config projectName="GUI_TOOL" targetName="hello_shader_triangle" />
-      <config projectName="GUI_TOOL" targetName="hello_moving" />
-      <config projectName="GUI_TOOL" targetName="hello_disco_container" />
-      <config projectName="GUI_TOOL" targetName="hello_coordinate_answer" />
-      <config projectName="GUI_TOOL" targetName="hello_light" />
-      <config projectName="GUI_TOOL" targetName="hello_free_moving" />
-      <config projectName="GUI_TOOL" targetName="hello_texture" />
       <config projectName="GUI_TOOL" targetName="hello_view_port" />
-      <config projectName="GUI_TOOL" targetName="hello_coordinate" />
-      <config projectName="GUI_TOOL" targetName="hello_glsl_triangle" />
-      <config projectName="GUI_TOOL" targetName="OpenGL_test" />
+      <config projectName="GUI_TOOL" targetName="hello_light" />
       <config projectName="GUI_TOOL" targetName="hello_glsl_color" />
+      <config projectName="GUI_TOOL" targetName="hello_face_texture" />
+      <config projectName="GUI_TOOL" targetName="hello_awsomeface" />
+      <config projectName="GUI_TOOL" targetName="hello_coordinate" />
+      <config projectName="GUI_TOOL" targetName="hello_multipleHappy" />
+      <config projectName="GUI_TOOL" targetName="hello_container" />
+      <config projectName="GUI_TOOL" targetName="hello_awsome_mix" />
+      <config projectName="GUI_TOOL" targetName="hello_triangle_change" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -53,10 +53,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85e25718-edd3-4d8a-8408-cf59cbf4f63e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-    </list>
+    <list default="true" id="85e25718-edd3-4d8a-8408-cf59cbf4f63e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -469,6 +466,7 @@
       <workItem from="1596771114875" duration="242000" />
       <workItem from="1596800508002" duration="723000" />
       <workItem from="1596881203150" duration="5712000" />
+      <workItem from="1598261069828" duration="33000" />
     </task>
     <servers />
   </component>

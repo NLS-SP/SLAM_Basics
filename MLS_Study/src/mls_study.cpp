@@ -7,10 +7,7 @@ main(int argc, char** argv)
 {// 将一个适当类型的输入文件加载到对象PointCloud中
     pcl::PointCloud<pcl::PointXYZ>::Ptr cloud(new pcl::PointCloud<pcl::PointXYZ>());
     // 加载bun0.pcd文件，加载的文件在 PCL的测试数据中是存在的
-    pcl::io::loadPCDFile("/Users/robotics_qi/Data/kitti_dataset/lidar/pcds/000886.pcd", *cloud);
-    for(int i = 0; i < cloud->size() / 2; i++){
-        cloud->erase(cloud->begin() + i);
-    }
+    pcl::io::loadPCDFile("rabbit.pcd", *cloud);
     // 创建一个KD树
     pcl::search::KdTree<pcl::PointXYZ>::Ptr tree(new pcl::search::KdTree<pcl::PointXYZ>);
     // 输出文件中有PointNormal类型，用来存储移动最小二乘法算出的法线
@@ -21,9 +18,8 @@ main(int argc, char** argv)
     //设置参数
     mls.setInputCloud(cloud);
     mls.setPolynomialFit(true);
-    mls.setPolynomialOrder(2);
     mls.setSearchMethod(tree);
-    mls.setSearchRadius(0.015);
+    mls.setSearchRadius(0.03);
     // 曲面重建
     mls.process(mls_points);
     // 保存结果

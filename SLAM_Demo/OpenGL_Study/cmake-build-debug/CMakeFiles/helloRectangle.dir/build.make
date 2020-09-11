@@ -63,28 +63,28 @@ include CMakeFiles/helloRectangle.dir/flags.make
 CMakeFiles/helloRectangle.dir/src/helloRectangle.cpp.o: CMakeFiles/helloRectangle.dir/flags.make
 CMakeFiles/helloRectangle.dir/src/helloRectangle.cpp.o: ../src/helloRectangle.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/helloRectangle.dir/src/helloRectangle.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/helloRectangle.dir/src/helloRectangle.cpp.o -c /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/helloRectangle.cpp
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/helloRectangle.dir/src/helloRectangle.cpp.o -c /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/helloRectangle.cpp
 
 CMakeFiles/helloRectangle.dir/src/helloRectangle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/helloRectangle.dir/src/helloRectangle.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/helloRectangle.cpp > CMakeFiles/helloRectangle.dir/src/helloRectangle.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/helloRectangle.cpp > CMakeFiles/helloRectangle.dir/src/helloRectangle.cpp.i
 
 CMakeFiles/helloRectangle.dir/src/helloRectangle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/helloRectangle.dir/src/helloRectangle.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/helloRectangle.cpp -o CMakeFiles/helloRectangle.dir/src/helloRectangle.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/helloRectangle.cpp -o CMakeFiles/helloRectangle.dir/src/helloRectangle.cpp.s
 
 CMakeFiles/helloRectangle.dir/src/glad.c.o: CMakeFiles/helloRectangle.dir/flags.make
 CMakeFiles/helloRectangle.dir/src/glad.c.o: ../src/glad.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/helloRectangle.dir/src/glad.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/helloRectangle.dir/src/glad.c.o   -c /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/glad.c
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/helloRectangle.dir/src/glad.c.o   -c /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/glad.c
 
 CMakeFiles/helloRectangle.dir/src/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/helloRectangle.dir/src/glad.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/glad.c > CMakeFiles/helloRectangle.dir/src/glad.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/glad.c > CMakeFiles/helloRectangle.dir/src/glad.c.i
 
 CMakeFiles/helloRectangle.dir/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/helloRectangle.dir/src/glad.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/glad.c -o CMakeFiles/helloRectangle.dir/src/glad.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/glad.c -o CMakeFiles/helloRectangle.dir/src/glad.c.s
 
 # Object files for target helloRectangle
 helloRectangle_OBJECTS = \

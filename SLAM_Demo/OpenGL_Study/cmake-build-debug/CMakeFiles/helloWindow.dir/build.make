@@ -63,28 +63,28 @@ include CMakeFiles/helloWindow.dir/flags.make
 CMakeFiles/helloWindow.dir/src/helloWindow.cpp.o: CMakeFiles/helloWindow.dir/flags.make
 CMakeFiles/helloWindow.dir/src/helloWindow.cpp.o: ../src/helloWindow.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/helloWindow.dir/src/helloWindow.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/helloWindow.dir/src/helloWindow.cpp.o -c /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/helloWindow.cpp
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/helloWindow.dir/src/helloWindow.cpp.o -c /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/helloWindow.cpp
 
 CMakeFiles/helloWindow.dir/src/helloWindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/helloWindow.dir/src/helloWindow.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/helloWindow.cpp > CMakeFiles/helloWindow.dir/src/helloWindow.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/helloWindow.cpp > CMakeFiles/helloWindow.dir/src/helloWindow.cpp.i
 
 CMakeFiles/helloWindow.dir/src/helloWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/helloWindow.dir/src/helloWindow.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/helloWindow.cpp -o CMakeFiles/helloWindow.dir/src/helloWindow.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/helloWindow.cpp -o CMakeFiles/helloWindow.dir/src/helloWindow.cpp.s
 
 CMakeFiles/helloWindow.dir/src/glad.c.o: CMakeFiles/helloWindow.dir/flags.make
 CMakeFiles/helloWindow.dir/src/glad.c.o: ../src/glad.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/helloWindow.dir/src/glad.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/helloWindow.dir/src/glad.c.o   -c /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/glad.c
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/helloWindow.dir/src/glad.c.o   -c /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/glad.c
 
 CMakeFiles/helloWindow.dir/src/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/helloWindow.dir/src/glad.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/glad.c > CMakeFiles/helloWindow.dir/src/glad.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/glad.c > CMakeFiles/helloWindow.dir/src/glad.c.i
 
 CMakeFiles/helloWindow.dir/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/helloWindow.dir/src/glad.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/glad.c -o CMakeFiles/helloWindow.dir/src/glad.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/robotics_qi/SLAM_Basics/SLAM_Demo/OpenGL_Study/src/glad.c -o CMakeFiles/helloWindow.dir/src/glad.c.s
 
 # Object files for target helloWindow
 helloWindow_OBJECTS = \
