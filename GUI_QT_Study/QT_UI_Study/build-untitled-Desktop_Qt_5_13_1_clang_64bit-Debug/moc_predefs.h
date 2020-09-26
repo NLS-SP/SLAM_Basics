@@ -1,4 +1,3 @@
-#define OBJC_NEW_PROPERTIES 1
 #define _LP64 1
 #define __APPLE_CC__ 6000
 #define __APPLE__ 1
@@ -209,6 +208,8 @@
 #define __PTRDIFF_WIDTH__ 64
 #define __REGISTER_PREFIX__ 
 #define __SCHAR_MAX__ 127
+#define __SEG_FS 1
+#define __SEG_GS 1
 #define __SHRT_MAX__ 32767
 #define __SIG_ATOMIC_MAX__ 2147483647
 #define __SIG_ATOMIC_WIDTH__ 32
@@ -338,7 +339,7 @@
 #define __UINT_LEAST8_MAX__ 255
 #define __UINT_LEAST8_TYPE__ unsigned char
 #define __USER_LABEL_PREFIX__ _
-#define __VERSION__ "4.2.1 Compatible Apple LLVM 11.0.3 (clang-1103.0.32.62)"
+#define __VERSION__ "Apple LLVM 12.0.0 (clang-1200.0.32.2)"
 #define __WCHAR_MAX__ 2147483647
 #define __WCHAR_TYPE__ int
 #define __WCHAR_WIDTH__ 32
@@ -347,13 +348,13 @@
 #define __WINT_WIDTH__ 32
 #define __amd64 1
 #define __amd64__ 1
-#define __apple_build_version__ 11030032
+#define __apple_build_version__ 12000032
 #define __block __attribute__((__blocks__(byref)))
 #define __clang__ 1
-#define __clang_major__ 11
+#define __clang_major__ 12
 #define __clang_minor__ 0
-#define __clang_patchlevel__ 3
-#define __clang_version__ "11.0.3 (clang-1103.0.32.62)"
+#define __clang_patchlevel__ 0
+#define __clang_version__ "12.0.0 (clang-1200.0.32.2)"
 #define __code_model_small_ 1
 #define __core2 1
 #define __core2__ 1
@@ -361,6 +362,7 @@
 #define __cpp_alias_templates 200704L
 #define __cpp_attributes 200809L
 #define __cpp_constexpr 200704
+#define __cpp_constexpr_in_decltype 201711L
 #define __cpp_decltype 200707L
 #define __cpp_delegating_constructors 200604L
 #define __cpp_exceptions 199711L
@@ -386,6 +388,8 @@
 #define __nullable _Nullable
 #define __pic__ 2
 #define __private_extern__ extern
+#define __seg_fs __attribute__((address_space(257)))
+#define __seg_gs __attribute__((address_space(256)))
 #define __strong 
 #define __tune_core2__ 1
 #define __unsafe_unretained 
