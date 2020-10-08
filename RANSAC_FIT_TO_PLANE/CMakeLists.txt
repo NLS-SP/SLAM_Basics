@@ -4,4 +4,4 @@ project(RANSAC_FIT_TO_PLANE)
 include_directories(/usr/local/include/eigen3)
 include_directories(include)
 
-add_executable(PLANE_FITTING src/Ransac.cpp main.cpp)
+add_executable(PLANE_FITTING src/Ransac.cpp src/PlaneModel.cpp main.cpp)
