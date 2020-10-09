@@ -13,7 +13,7 @@ public:
     PlaneModel(){}
 
     void initialize(std::vector<Point3D>& data);
-private:
+public:
     float plane_a, plane_b, plane_c, plane_d;
     float plane_denominator;
 };
