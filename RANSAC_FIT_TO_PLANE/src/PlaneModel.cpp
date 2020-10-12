@@ -5,28 +5,26 @@
 #include <PlaneModel.h>
 
 
-void PlaneModel::initialize(std::vector<Point3D> &data) {
-    if(data.size() != 3)
-        throw std::runtime_error("Plane3D Model- Number of input parameters doesn't match minimum model requirement");
+void PlaneModel::parameter_estimate(const std::vector<Point3D> &fitting_points) {
+    std::vector<Eigen::Vector3d> plane_pts;
+    for(int i = 0; i < fitting_points.size(); ++i){
+        Eigen::Vector3d pt(fitting_points[i].x, fitting_points[i].y, fitting_points[i].z);
+        plane_pts.push_back(pt);
+    }
+    Eigen::Vector3d center = Eigen::Vector3d::Zero();
+    for(const auto &pt : plane_pts) center += pt;
+    center /= plane_pts.size();
 
-    // Compute the plane parameters.
-    double x0 = data[0].x;
-    double y0 = data[0].y;
-    double z0 = data[0].z;
+    Eigen::MatrixXd A(plane_pts.size(), 3);
+    for(int i = 0; i < plane_pts.size(); ++i){
+        A(i, 0) = plane_pts[i][0] - center[0];
+        A(i, 1) = plane_pts[i][1] - center[1];
+        A(i, 2) = plane_pts[i][2] - center[2];
+    }
 
-    double x1 = data[1].x;
-    double y1 = data[1].y;
-    double z1 = data[1].z;
-
-    double x2 = data[2].x;
-    double y2 = data[2].y;
-    double z2 = data[2].z;
-
-    // TODO: Calculate the parameter for 3D plane parameter.
-    plane_a = (x0 + y0);
-    plane_b = (x1 + y1);
-    plane_c = -1.0;
-    plane_d = (x2 + y2);
-
-    plane_denominator = sqrt(plane_a * plane_a + plane_b * plane_b + plane_c * plane_c);
+    Eigen::JacobiSVD<Eigen::MatrixXd> svd(A, Eigen::ComputeThinV);
+    plane_a = svd.matrixV()(0, 2);
+    plane_b = svd.matrixV()(1, 2);
+    plane_c = svd.matrixV()(2, 2);
+    plane_d = -(plane_a * center[0] + plane_b * center[1] + plane_c * center[2]);
 }

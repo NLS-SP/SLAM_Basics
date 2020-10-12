@@ -7,15 +7,23 @@
 
 #include <Geometry.h>
 #include <vector>
+#include <Eigen/Core>
+#include <Eigen/SVD>
 
 class PlaneModel{
 public:
     PlaneModel(){}
+    PlaneModel(double a, double b, double c, double d):
+              plane_a(a), plane_b(b), plane_c(c), plane_d(d){
+        plane_denominator = plane_a * plane_a + plane_b * plane_b + plane_c * plane_c + plane_d * plane_d;
+    }
 
-    void initialize(std::vector<Point3D>& data);
+    void parameter_estimate(const std::vector<Point3D>& fitting_points);
+
 public:
     float plane_a, plane_b, plane_c, plane_d;
     float plane_denominator;
 };
 
 #endif //RANSAC_FIT_TO_PLANE_PLANEMODEL_H
+

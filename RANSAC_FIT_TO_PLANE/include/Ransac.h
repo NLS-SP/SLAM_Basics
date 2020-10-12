@@ -90,6 +90,7 @@ void RANSAC_Fitting<T>::Roubust_Fitting(T* plane_model, std::vector<Point3D> &da
     // 1.2 创建随机数,将之前的数据放入内点中
     int iteration = 0;
 
+    /*
     while(iteration++ < m_MaxIterations) {
         double random_variable[4] = {0, 0, 0, 0};
         std::vector<Point3D> fitting_points;
@@ -97,7 +98,7 @@ void RANSAC_Fitting<T>::Roubust_Fitting(T* plane_model, std::vector<Point3D> &da
         random_variable[1] = rand() % 300;
         random_variable[2] = rand() % 300;
         random_variable[3] = rand() % 300;
-        // TODO: 目前这里是4D计算，比较low，实际上应该多点计算
+
         fitting_points.push_back(data[random_variable[0]]);
         fitting_points.push_back(data[random_variable[1]]);
         fitting_points.push_back(data[random_variable[2]]);
@@ -127,9 +128,9 @@ void RANSAC_Fitting<T>::Roubust_Fitting(T* plane_model, std::vector<Point3D> &da
                 break;
         }
 
-    }
-    std::cout << "Couldn't find model in the threshold, after iterating " << iteration << " times, the plane model is: "
-              << plane_model << std::endl;
+    }*/
+//    std::cout << "Couldn't find model in the threshold, after iterating " << iteration << " times, the plane model is: "
+//              << plane_model << std::endl;
     return;
 
     // 3. 如果不行，则继续迭代
