@@ -41,3 +41,10 @@ target_link_libraries(PCL_TRIANGULATE ${PCL_LIBRARIES} ${Boost_LIBRARIES})
 
 add_executable(PLY_Viewer src/PLY_Viewer.cpp)
 target_link_libraries(PLY_Viewer ${PCL_LIBRARIES} ${Boost_LIBRARIES})
+
+add_executable(PCL_BSpline_Reconstruction src/PCL_BSpline_Surface_Reconstruction.cpp)
+target_link_libraries(PCL_BSpline_Reconstruction ${PCL_LIBRARIES} ${Boost_LIBRARIES})
+
+
+add_executable(PCL_KDTREE src/PCL_KDTREE.cpp)
+target_link_libraries(PCL_KDTREE ${PCL_LIBRARIES} ${Boost_LIBRARIES})

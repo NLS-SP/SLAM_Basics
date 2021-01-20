@@ -8,6 +8,7 @@
 #include <Geometry.h>
 #include <PlaneModel.h>
 #include <data_generator.h>
+#include <pcl/io/pcd_io.h>
 #include <pcl/point_types.h>
 #include <pcl/visualization/pcl_visualizer.h>
 #include <lineParameterEstimator.h>
@@ -42,10 +43,6 @@ int main() {
     std::cout << "The test plane model is: " << test_svd_plane_model.plane_a << ", " << test_svd_plane_model.plane_b
               << ", " << test_svd_plane_model.plane_c << ", " << test_svd_plane_model.plane_d << std::endl;
 
-//    RANSAC_Fitting<PlaneModel> ransac_fitting;
-//    for(int i = 0; i < 10; ++i)
-//        ransac_fitting.Roubust_Fitting(&plane_model, sample_points);
-
     /********************************************************
      * !@brief The viewing window to see the test data.
      ********************************************************/
@@ -57,6 +54,8 @@ int main() {
         sample_point.z = sample_points[i].z;
         test_point_cloud->push_back(sample_point);
     }
+    std::string pcd_save_file = "/Users/robotics_qi/SLAM_Basics/RANSAC_FIT_TO_PLANE/result/plane_sample.pcd";
+    pcl::io::savePCDFileASCII(pcd_save_file, *test_point_cloud);
     // Visualization
     pcl::visualization::PCLVisualizer viewer("TEST DATA");
     // Original point cloud is white

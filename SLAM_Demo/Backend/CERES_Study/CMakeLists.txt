@@ -1,5 +1,7 @@
 project(CERES_Study)
 
+include_directories(CERES_Study)
+
 add_executable(hello_world hello_world.cpp)
 target_link_libraries(hello_world ${CERES_LIBRARIES} glog::glog ${GFLAGS_LIBRARIES})
 
@@ -18,5 +20,5 @@ target_link_libraries(hello_curve_fitting ${CERES_LIBRARIES} glog::glog ${GFLAGS
 add_executable(hello_robust_fitting hello_robust_fitting.cpp)
 target_link_libraries(hello_robust_fitting ${CERES_LIBRARIES} glog::glog ${GFLAGS_LIBRARIES})
 
-add_executable(hello_bundle hello_bundle.cpp)
+add_executable(hello_bundle hello_bundle.cpp bal_problem.cpp)
 target_link_libraries(hello_bundle ${CERES_LIBRARIES} glog::glog ${GFLAGS_LIBRARIES})

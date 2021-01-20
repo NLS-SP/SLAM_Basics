@@ -23,23 +23,23 @@
       <config projectName="OpenGL_Study" targetName="Spline_Approximation" />
       <config projectName="OpenGL_Study" targetName="hello_lighting_color" />
       <config projectName="OpenGL_Study" targetName="hello_glsl_color" />
-      <config projectName="OpenGL_Study" targetName="hello_awsome_mix" />
       <config projectName="OpenGL_Study" targetName="hello_multipleHappy" />
-      <config projectName="OpenGL_Study" targetName="hello_shader_Programing" />
+      <config projectName="OpenGL_Study" targetName="hello_awsome_mix" />
       <config projectName="OpenGL_Study" targetName="hello_material" />
+      <config projectName="OpenGL_Study" targetName="hello_shader_Programing" />
       <config projectName="OpenGL_Study" targetName="hello_texture" />
-      <config projectName="OpenGL_Study" targetName="hello_camera" />
       <config projectName="OpenGL_Study" targetName="hello_rectangle" />
+      <config projectName="OpenGL_Study" targetName="hello_camera" />
       <config projectName="OpenGL_Study" targetName="helloTriangle" />
-      <config projectName="OpenGL_Study" targetName="hello_colors" />
       <config projectName="OpenGL_Study" targetName="Polyhedron_Draw" />
+      <config projectName="OpenGL_Study" targetName="hello_colors" />
       <config projectName="OpenGL_Study" targetName="hello_awsomeface" />
       <config projectName="OpenGL_Study" targetName="hello_view_port" />
       <config projectName="OpenGL_Study" targetName="hello_coordinate_answer" />
-      <config projectName="OpenGL_Study" targetName="hello_triangle_change" />
       <config projectName="OpenGL_Study" targetName="helloRectangle" />
-      <config projectName="OpenGL_Study" targetName="hello_face_texture" />
+      <config projectName="OpenGL_Study" targetName="hello_triangle_change" />
       <config projectName="OpenGL_Study" targetName="hello_shader_triangle" />
+      <config projectName="OpenGL_Study" targetName="hello_face_texture" />
       <config projectName="OpenGL_Study" targetName="hello_free_moving" />
       <config projectName="OpenGL_Study" targetName="hello_read_model" />
       <config projectName="OpenGL_Study" targetName="hello_camera_circle" />
@@ -57,10 +57,84 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85e25718-edd3-4d8a-8408-cf59cbf4f63e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GUI_QT_Study/Thread_Practice/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GUI_QT_Study/Thread_Practice/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GUI_QT_Study/Thread_Practice/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GUI_QT_Study/Thread_Practice/mainwindow.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GUI_QT_Study/Thread_Practice/mainwindow.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GUI_QT_Study/Thread_Practice/mainwindow.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GUI_QT_Study/Thread_Practice/qdicethread.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GUI_QT_Study/Thread_Practice/qdicethread.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/ICP_Basic/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/ICP_Basic/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/ICP_Basic/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/ICP_Basic/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.14.5/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.14.5/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.14.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.14.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.14.5/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.15.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.15.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.15.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.15.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.15.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.15.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.15.2/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.15.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.15.2/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_sophus.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_sophus.dir/Rotation_sophus.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_sophus.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_sophus.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_sophus.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_sophus.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_sophus.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_sophus.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_sophus.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_sophus.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_sophus.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_test.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_test.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_test.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_test.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_test.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_test.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_test.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_test.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_test.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/sophusTest_common.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/sophusTest_common.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/sophusTest_common.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/sophusTest_common.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/sophusTest_common.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/sophusTest_common.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/sophusTest_common.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/sophusTest_geometry.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/sophusTest_geometry.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/sophusTest_geometry.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/sophusTest_geometry.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/sophusTest_geometry.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/sophusTest_geometry.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/sophusTest_geometry.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/myRotation.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/myRotation.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,9 +150,14 @@
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectId" id="1VMjSS8gE00ocpoFNpEM7spjZuI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -97,247 +176,245 @@
       <recent name="$PROJECT_DIR$/model" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="CMake Application.hello_parallel_light">
-    <configuration name="OpenGL_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="OpenGL_test" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="OpenGL_test">
+    <configuration name="OpenGL_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="OpenGL_test" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="OpenGL_test">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Polyhedron_Draw" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="Polyhedron_Draw" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="Polyhedron_Draw">
+    <configuration name="Polyhedron_Draw" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="Polyhedron_Draw" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="Polyhedron_Draw">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Quadric_Surface_Draw" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="Quadric_Surface_Draw" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="Quadric_Surface_Draw">
+    <configuration name="Quadric_Surface_Draw" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="Quadric_Surface_Draw" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="Quadric_Surface_Draw">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spline_Approximation" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="Spline_Approximation" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="Spline_Approximation">
+    <configuration name="Spline_Approximation" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="Spline_Approximation" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="Spline_Approximation">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="helloRectangle" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="helloRectangle" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="helloRectangle">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="helloTriangle" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="helloTriangle" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="helloTriangle">
+    <configuration name="helloRectangle" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="helloRectangle" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="helloRectangle">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="helloWindow" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="helloWindow" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="helloWindow">
+    <configuration name="helloTriangle" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="helloTriangle" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="helloTriangle">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_awsome_mix" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_awsome_mix" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_awsome_mix">
+    <configuration name="helloWindow" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="helloWindow" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="helloWindow">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_awsomeface" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_awsomeface" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_awsomeface">
+    <configuration name="hello_awsome_mix" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_awsome_mix" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_awsome_mix">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_camera" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_camera" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_camera">
+    <configuration name="hello_awsomeface" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_awsomeface" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_awsomeface">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_camera_circle" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_camera_circle" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_camera_circle">
+    <configuration name="hello_camera" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_camera" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_camera">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_camera_circle_practice" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_camera_circle_practice" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_camera_circle_practice">
+    <configuration name="hello_camera_circle" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_camera_circle" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_camera_circle">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_change_triangle" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_change_triangle" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_change_triangle">
+    <configuration name="hello_camera_circle_practice" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_camera_circle_practice" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_camera_circle_practice">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_colors" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_colors" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_colors">
+    <configuration name="hello_change_triangle" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_change_triangle" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_change_triangle">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_container" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_container" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_container">
+    <configuration name="hello_colors" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_colors" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_colors">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_coordinate" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_coordinate" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_coordinate">
+    <configuration name="hello_container" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_container" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_container">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_coordinate_answer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_coordinate_answer" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_coordinate_answer">
+    <configuration name="hello_coordinate" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_coordinate" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_coordinate">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_different_triangles" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_different_triangles" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_different_triangles">
+    <configuration name="hello_coordinate_answer" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_coordinate_answer" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_coordinate_answer">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_disco_container" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_disco_container" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_disco_container">
+    <configuration name="hello_different_triangles" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_different_triangles" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_different_triangles">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_face_texture" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_face_texture" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_face_texture">
+    <configuration name="hello_disco_container" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_disco_container" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_disco_container">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_free_moving" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_free_moving" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_free_moving">
+    <configuration name="hello_face_texture" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_face_texture" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_face_texture">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_glsl_color" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_glsl_color" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_glsl_color">
+    <configuration name="hello_free_moving" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_free_moving" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_free_moving">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_glsl_triangle" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_glsl_triangle" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_glsl_triangle">
+    <configuration name="hello_glsl_color" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_glsl_color" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_glsl_color">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_light" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_light" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_light">
+    <configuration name="hello_glsl_triangle" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_glsl_triangle" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_glsl_triangle">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_lighting_color" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_lighting_color" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_lighting_color">
+    <configuration name="hello_light" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_light" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_light">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_lighting_reflect" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_lighting_reflect" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_lighting_reflect">
+    <configuration name="hello_lighting_color" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_lighting_color" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_lighting_color">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_material" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_material" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_material">
+    <configuration name="hello_lighting_reflect" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_lighting_reflect" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_lighting_reflect">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_model" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_model" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_model">
+    <configuration name="hello_material" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_material" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_material">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_mouse" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_mouse" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_mouse">
+    <configuration name="hello_model" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_model" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_model">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_mouse_moving" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_mouse_moving" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_mouse_moving">
+    <configuration name="hello_mouse" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_mouse" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_mouse">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_moving" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_moving" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_moving">
+    <configuration name="hello_mouse_moving" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_mouse_moving" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_mouse_moving">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_multipleHappy" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_multipleHappy" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_multipleHappy">
+    <configuration name="hello_moving" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_moving" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_moving">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_obj" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_obj" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_obj">
+    <configuration name="hello_multipleHappy" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_multipleHappy" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_multipleHappy">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_parallel_light" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_parallel_light" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_parallel_light">
+    <configuration name="hello_obj" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_obj" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_obj">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_plane_obj" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_plane_obj" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_plane_obj">
+    <configuration name="hello_parallel_light" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_parallel_light" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_parallel_light">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_read_model" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_read_model" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_read_model">
+    <configuration name="hello_plane_obj" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_plane_obj" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_plane_obj">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_rectangle" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_rectangle" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_rectangle">
+    <configuration name="hello_read_model" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_read_model" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_read_model">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_rotation" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_rotation" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_rotation">
+    <configuration name="hello_rectangle" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_rectangle" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_rectangle">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_shader_Programing" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_shader_Programing" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_shader_Programing">
+    <configuration name="hello_rotation" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_rotation" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_rotation">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_shader_file" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_shader_file" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_shader_file">
+    <configuration name="hello_shader_Programing" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_shader_Programing" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_shader_Programing">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_shader_triangle" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_shader_triangle" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_shader_triangle">
+    <configuration name="hello_shader_file" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_shader_file" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_shader_file">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_texture" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_texture" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_texture">
+    <configuration name="hello_shader_triangle" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_shader_triangle" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_shader_triangle">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_triangle_change" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_triangle_change" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_triangle_change">
+    <configuration name="hello_texture" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_texture" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_texture">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_two_triangles" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_two_triangles" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_two_triangles">
+    <configuration name="hello_triangle_change" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_triangle_change" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_triangle_change">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_view_port" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_view_port" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_view_port">
+    <configuration name="hello_two_triangles" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_two_triangles" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_two_triangles">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_z_buffer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_z_buffer" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_z_buffer">
+    <configuration name="hello_view_port" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_view_port" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_view_port">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hello_z_buffer" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OpenGL_Study" TARGET_NAME="hello_z_buffer" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="OpenGL_Study" RUN_TARGET_NAME="hello_z_buffer">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
@@ -389,6 +466,7 @@
       <item itemvalue="CMake Application.Spline_Approximation" />
     </list>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -492,11 +570,16 @@
       <workItem from="1596881203150" duration="5712000" />
       <workItem from="1598261069828" duration="33000" />
       <workItem from="1602212891217" duration="284000" />
+      <workItem from="1602598060465" duration="17000" />
+      <workItem from="1602600281600" duration="48000" />
+      <workItem from="1602603109566" duration="10000" />
+      <workItem from="1602639391837" duration="415000" />
+      <workItem from="1604971513390" duration="35000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.fs" />
@@ -506,13 +589,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="masterDetails">
     <states>

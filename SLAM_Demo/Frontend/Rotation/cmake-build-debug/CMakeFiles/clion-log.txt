@@ -1,4 +1,12 @@
-/usr/local/Cellar/cmake/3.17.0_1/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/Rotation
+/usr/local/Cellar/cmake/3.19.2/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/Rotation
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/Rotation/cmake-build-debug

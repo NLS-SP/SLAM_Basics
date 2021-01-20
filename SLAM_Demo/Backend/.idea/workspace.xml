@@ -2,102 +2,123 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="SLAM_BACKEND" targetName="hello_robust_fitting" />
-      <config projectName="SLAM_BACKEND" targetName="hello_bundle" />
-      <config projectName="SLAM_BACKEND" targetName="hello_world_analytic_diff" />
       <config projectName="SLAM_BACKEND" targetName="hellow_world_numeric_diff" />
+      <config projectName="SLAM_BACKEND" targetName="hello_world_analytic_diff" />
       <config projectName="SLAM_BACKEND" targetName="hello_power" />
-      <config projectName="SLAM_BACKEND" targetName="hello_curve_fitting" />
       <config projectName="SLAM_BACKEND" targetName="hello_world" />
+      <config projectName="SLAM_BACKEND" targetName="hello_bundle" />
+      <config projectName="SLAM_BACKEND" targetName="hello_robust_fitting" />
+      <config projectName="SLAM_BACKEND" targetName="hello_curve_fitting" />
     </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09a9fcc5-7728-410c-9f83-95ea41ba499d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../GUI_QT_Study/Thread_Practice/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GUI_QT_Study/Thread_Practice/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GUI_QT_Study/Thread_Practice/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GUI_QT_Study/Thread_Practice/mainwindow.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GUI_QT_Study/Thread_Practice/mainwindow.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GUI_QT_Study/Thread_Practice/mainwindow.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GUI_QT_Study/Thread_Practice/qdicethread.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../GUI_QT_Study/Thread_Practice/qdicethread.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CERES_Study/random.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ICP_Study/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ICP_Study/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RANSAC_FIT_TO_PLANE/include/data_generator.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../RANSAC_FIT_TO_PLANE/include/data_generator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RANSAC_FIT_TO_PLANE/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../RANSAC_FIT_TO_PLANE/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CERES_Study/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CERES_Study/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CERES_Study/hello_bundle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CERES_Study/hello_bundle.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CERES_Study/hello_curve_fitting.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CERES_Study/hello_curve_fitting.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CERES_Study/hello_power.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CERES_Study/hello_power.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CERES_Study/hello_world.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CERES_Study/hello_world.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CERES_Study/hello_world_analytic_diff.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CERES_Study/hello_world_analytic_diff.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CERES_Study/hello_world_numeric_diff.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CERES_Study/hello_world_numeric_diff.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.out" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Project.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Project.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Frontend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/Rotation_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/Rotation_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/ICP_Basic/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/ICP_Basic/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/ICP_Basic/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/ICP_Basic/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.14.5/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.14.5/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.14.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.14.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.14.5/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.15.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.15.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.15.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.15.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.15.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.15.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.15.2/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.15.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.15.2/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_test.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_test.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_test.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_test.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_sophus.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_sophus.dir/Rotation_sophus.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_sophus.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_sophus.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_sophus.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_sophus.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_sophus.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_sophus.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_sophus.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_sophus.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_sophus.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_test.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_test.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_test.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_test.dir/depend.internal" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_test.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_test.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_test.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_test.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/Rotation_test.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolin.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolin.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolin.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolin.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolin.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolin.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolin.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolin.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolin.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolin.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinOffScreen.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinOffScreen.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinOffScreen.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinOffScreen.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinOffScreen.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinOffScreen.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinOffScreen.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinOffScreen.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinOffScreen.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinOffScreen.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinThreads.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinThreads.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinThreads.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinThreads.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinThreads.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinThreads.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinThreads.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/HelloPangolinThreads.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/Window_Viewer.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Viewer/cmake-build-debug/Window_Viewer.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/sophusTest_common.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/sophusTest_common.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/sophusTest_common.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/sophusTest_common.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/sophusTest_common.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/sophusTest_common.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/sophusTest_common.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/sophusTest_geometry.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/sophusTest_geometry.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/sophusTest_geometry.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/sophusTest_geometry.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/sophusTest_geometry.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/sophusTest_geometry.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/CMakeFiles/sophusTest_geometry.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/myRotation.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Rotation/cmake-build-debug/myRotation.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OpenGL_Study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenGL_Study/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenGL_Study/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenGL_Study/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenGL_Study/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenGL_Study/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenGL_Study/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenGL_Study/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenGL_Study/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenGL_Study/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenGL_Study/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenGL_Study/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenGL_Study/cmake-build-debug/GUI_TOOL.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenGL_Study/cmake-build-debug/GUI_TOOL.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenGL_Study/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenGL_Study/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenGL_Study/include/learnOpenGL/mesh.h" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenGL_Study/include/learnOpenGL/mesh.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenGL_Study/include/learnOpenGL/model.h" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenGL_Study/include/learnOpenGL/model.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thread_Study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread_Study/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thread_Study/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread_Study/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/Thread_Study.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread_Study/cmake-build-debug/Thread_Study.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Thread_Study/hello_joinable.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Thread_Study/hello_joinable.cpp" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,8 +140,13 @@
   </component>
   <component name="ProjectId" id="1XkLTewnmd2CNaaXcwHj4VPx4NW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -131,50 +157,38 @@
       <recent name="$PROJECT_DIR$/CERES_Study" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="CMake Application.hello_bundle">
-    <configuration name="hello_bundle" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="$PROJECT_DIR$/CERES_Study/large_bundle_dataset.txt" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SLAM_BACKEND" TARGET_NAME="hello_bundle" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SLAM_BACKEND" RUN_TARGET_NAME="hello_bundle">
+    <configuration name="hello_bundle" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="$PROJECT_DIR$/CERES_Study/large_bundle_dataset.txt" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SLAM_BACKEND" TARGET_NAME="hello_bundle" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SLAM_BACKEND" RUN_TARGET_NAME="hello_bundle">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_curve_fitting" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SLAM_BACKEND" TARGET_NAME="hello_curve_fitting" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SLAM_BACKEND" RUN_TARGET_NAME="hello_curve_fitting">
+    <configuration name="hello_curve_fitting" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SLAM_BACKEND" TARGET_NAME="hello_curve_fitting" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SLAM_BACKEND" RUN_TARGET_NAME="hello_curve_fitting">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_power" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SLAM_BACKEND" TARGET_NAME="hello_power" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SLAM_BACKEND" RUN_TARGET_NAME="hello_power">
+    <configuration name="hello_power" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SLAM_BACKEND" TARGET_NAME="hello_power" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SLAM_BACKEND" RUN_TARGET_NAME="hello_power">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_robust_fitting" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="large_bundle_dataset.txt" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SLAM_BACKEND" TARGET_NAME="hello_bundle" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SLAM_BACKEND" RUN_TARGET_NAME="hello_bundle">
+    <configuration name="hello_robust_fitting" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="large_bundle_dataset.txt" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SLAM_BACKEND" TARGET_NAME="hello_bundle" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SLAM_BACKEND" RUN_TARGET_NAME="hello_bundle">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_world" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SLAM_BACKEND" TARGET_NAME="hello_world" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SLAM_BACKEND" RUN_TARGET_NAME="hello_world">
+    <configuration name="hello_world" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SLAM_BACKEND" TARGET_NAME="hello_world" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SLAM_BACKEND" RUN_TARGET_NAME="hello_world">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello_world_analytic_diff" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SLAM_BACKEND" TARGET_NAME="hello_world_analytic_diff" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SLAM_BACKEND" RUN_TARGET_NAME="hello_world_analytic_diff">
+    <configuration name="hello_world_analytic_diff" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SLAM_BACKEND" TARGET_NAME="hello_world_analytic_diff" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SLAM_BACKEND" RUN_TARGET_NAME="hello_world_analytic_diff">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hellow_world_numeric_diff" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SLAM_BACKEND" TARGET_NAME="hellow_world_numeric_diff" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SLAM_BACKEND" RUN_TARGET_NAME="hellow_world_numeric_diff">
+    <configuration name="hellow_world_numeric_diff" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SLAM_BACKEND" TARGET_NAME="hellow_world_numeric_diff" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SLAM_BACKEND" RUN_TARGET_NAME="hellow_world_numeric_diff">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -189,6 +203,7 @@
       <item itemvalue="CMake Application.hellow_world_numeric_diff" />
     </list>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -213,23 +228,59 @@
       <workItem from="1582015734647" duration="654000" />
       <workItem from="1582021769754" duration="614000" />
       <workItem from="1582272998204" duration="7000" />
+      <workItem from="1605771787442" duration="308000" />
+      <workItem from="1605785510306" duration="586000" />
+      <workItem from="1605839468792" duration="821000" />
+      <workItem from="1606101576319" duration="16000" />
+      <workItem from="1606726899715" duration="492000" />
+      <workItem from="1606787316599" duration="3271000" />
+      <workItem from="1606792558806" duration="9000" />
+      <workItem from="1606804785450" duration="5635000" />
+      <workItem from="1607344093306" duration="31000" />
+      <workItem from="1607526707086" duration="6000" />
+      <workItem from="1607528444716" duration="18000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1922" height="812" key="GridCell.Tab.0.bottom" timestamp="1606821309288">
+      <screen x="0" y="25" width="3840" height="2135" />
+    </state>
+    <state width="1922" height="812" key="GridCell.Tab.0.bottom/0.25.3840.2135@0.25.3840.2135" timestamp="1606821309288" />
+    <state width="3778" height="632" key="GridCell.Tab.0.bottom/1920.-536.3840.2160/0.25.1920.1055@1920.-536.3840.2160" timestamp="1605787945511" />
+    <state width="1922" height="812" key="GridCell.Tab.0.center" timestamp="1606821309287">
+      <screen x="0" y="25" width="3840" height="2135" />
+    </state>
+    <state width="1922" height="812" key="GridCell.Tab.0.center/0.25.3840.2135@0.25.3840.2135" timestamp="1606821309287" />
+    <state width="3778" height="632" key="GridCell.Tab.0.center/1920.-536.3840.2160/0.25.1920.1055@1920.-536.3840.2160" timestamp="1605787945510" />
+    <state width="1922" height="812" key="GridCell.Tab.0.left" timestamp="1606821309286">
+      <screen x="0" y="25" width="3840" height="2135" />
+    </state>
+    <state width="1922" height="812" key="GridCell.Tab.0.left/0.25.3840.2135@0.25.3840.2135" timestamp="1606821309286" />
+    <state width="3778" height="632" key="GridCell.Tab.0.left/1920.-536.3840.2160/0.25.1920.1055@1920.-536.3840.2160" timestamp="1605787945509" />
+    <state width="1922" height="812" key="GridCell.Tab.0.right" timestamp="1606821309287">
+      <screen x="0" y="25" width="3840" height="2135" />
+    </state>
+    <state width="1922" height="812" key="GridCell.Tab.0.right/0.25.3840.2135@0.25.3840.2135" timestamp="1606821309287" />
+    <state width="3778" height="632" key="GridCell.Tab.0.right/1920.-536.3840.2160/0.25.1920.1055@1920.-536.3840.2160" timestamp="1605787945511" />
+    <state x="489" y="514" width="1005" height="1466" key="search.everywhere.popup" timestamp="1606805665463">
+      <screen x="0" y="25" width="3840" height="2135" />
+    </state>
+    <state x="489" y="514" width="1005" height="1466" key="search.everywhere.popup/0.25.3840.2135@0.25.3840.2135" timestamp="1606805665463" />
   </component>
 </project>

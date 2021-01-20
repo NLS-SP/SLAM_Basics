@@ -36,8 +36,8 @@ int main (int argc, char* argv[])
     PointCloudT::Ptr cloud_icp (new PointCloudT);  // ICP output point cloud
     pcl::PointCloud<pcl::PointXYZ>::Ptr source_cloud_pcd(new pcl::PointCloud<pcl::PointXYZ>());
     pcl::PointCloud<pcl::PointXYZ>::Ptr target_cloud_pcd(new pcl::PointCloud<pcl::PointXYZ>());
-    std::string source_cloud_path = "/Users/robotics_qi/Data/kitti_dataset/lidar/pcds/000886.pcd";
-    std::string target_cloud_path = "/Users/robotics_qi/Data/kitti_dataset/lidar/pcds/000889.pcd";
+    std::string source_cloud_path = "/Users/robotics_qi/Data/Kitti/sequences/00/EDGE_PCD/2.pcd";
+    std::string target_cloud_path = "/Users/robotics_qi/Data/Kitti/sequences/00/EDGE_PCD/10.pcd";
 
 
     int iterations = 1000;

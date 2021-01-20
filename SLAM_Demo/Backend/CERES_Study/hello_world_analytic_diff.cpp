@@ -7,25 +7,21 @@
 #include "glog/logging.h"
 
 using ceres::CostFunction;
-using ceres::SizedCostFunction;
 using ceres::Problem;
+using ceres::SizedCostFunction;
 using ceres::Solver;
 using ceres::Solve;
 
-class QuadraticCostFunction : public SizedCostFunction<1, 1>{
+
+class QuadraticCostFunction : public SizedCostFunction<1/* Number of Residual */, 1 /* Size of first parameter */>{
 public:
     virtual ~QuadraticCostFunction(){}
-
-    virtual bool Evaluate(double const* const* parameters, double* residuals,
-                          double** jacobians) const{
+    virtual bool Evaluate(double const* const* parameters, double* residuals, double** jacobians) const{
         double x = parameters[0][0];
 
-        // f(x) = 10 - x
-        residuals[0] = 10 - x;
-
-        if(jacobians != NULL && jacobians[0] != NULL){
-            jacobians[0][0] = -1;
-        }
+        // f(x) = 10.0 - x
+        residuals[0] = 10.0 - x;
+        if(jacobians != NULL && jacobians[0] != NULL) jacobians[0][0] = -1;
         return true;
     }
 };
@@ -35,11 +31,12 @@ int main(int argc, char** argv)
     google::InitGoogleLogging(argv[0]);
 
     double x = 0.5;
-    const double initial_x = 0.5;
+    const double initial_x = x;
 
-    // build the problem.
+    // Build the problem.
     Problem problem;
 
+    // Set up the only cost function.
     CostFunction* cost_function = new QuadraticCostFunction;
     problem.AddResidualBlock(cost_function, NULL, &x);
 
@@ -49,7 +46,7 @@ int main(int argc, char** argv)
     Solver::Summary summary;
     Solve(options, &problem, &summary);
 
-    std::cout << summary.BriefReport() << "\n";
+    std::cout << summary.BriefReport() << std::endl;
     std::cout << "x: " << initial_x << " -> " << x << std::endl;
     return 0;
 }
