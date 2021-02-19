@@ -8,11 +8,10 @@ project(SLAM_FRONTED)
 # link_directories(${OpenCV_LIBRARY_DIRS} /usr/local/opencv2.4.13/lib)
 
 # OpenCV 3
-set(OpenCV_DIR /usr/local/opencv3.4.10/share/OpenCV)
-find_package(OpenCV 3.4 REQUIRED)
-include_directories(SYSTEM ${OpenCV_INCLUDE_DIRS} /usr/local/opencv3.4.10/include)
-link_directories(${OpenCV_LIBRARY_DIRS} /usr/local/opencv3.4.10/lib)
-include_directories(${OpenCV_INCLUDE_DIRS})
+set(OpenCV_DIR /usr/local/opencv3.4.1/share/OpenCV)
+find_package(OpenCV 3.4.1 REQUIRED)
+include_directories(SYSTEM ${OpenCV_INCLUDE_DIRS} /usr/local/opencv3.4.1/include)
+link_directories(${OpenCV_LIBRARY_DIRS} /usr/local/opencv3.4.1/lib)
 
 # C++11 Standard
 set(CMAKE_CXX_STANDARD 11)
@@ -34,3 +33,4 @@ add_subdirectory(Pose_Estimation)
 add_subdirectory(Map)
 add_subdirectory(Viewer)
 add_subdirectory(LASER_Projection)
+add_subdirectory(LK_Example)

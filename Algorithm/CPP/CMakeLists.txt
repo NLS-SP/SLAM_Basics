@@ -4,8 +4,4 @@ project(basic_algorithm)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_subdirectory(Vector)
-add_subdirectory(List)
-
-add_subdirectory(enumerate)
-add_subdirectory(Rescursive)
+add_subdirectory(Chapter1)

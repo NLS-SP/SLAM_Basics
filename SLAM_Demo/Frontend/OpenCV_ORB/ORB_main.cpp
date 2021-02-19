@@ -10,8 +10,8 @@ using namespace cv;
 int main()
 {
     // load images.
-    Mat img_1 = imread("/Users/gatsby/Desktop/1.png");
-    Mat img_2 = imread("./2.png");
+    Mat img_1 = imread("/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/Features/000896.png");
+    Mat img_2 = imread("/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/Features/000888.png");
 
     chrono::steady_clock::time_point t_detectStart = chrono::steady_clock::now();
     std::vector<KeyPoint> keypoints_1, keypoints_2;

@@ -16,6 +16,11 @@ include_directories(include)
 find_package(Boost COMPONENTS thread)
 include_directories(${Boost_INCLUDE_DIRS})
 
+set(OpenCV_DIR /usr/local/opencv3.4.1/share/OpenCV)
+find_package(OpenCV 3.4.1 REQUIRED)
+include_directories(SYSTEM ${OpenCV_INCLUDE_DIRS} /usr/local/opencv3.4.1/include)
+link_directories(${OpenCV_LIBRARY_DIRS} /usr/local/opencv3.4.1/lib)
+
 add_executable(BASIC_ICP src/ICP.cpp)
 
 add_executable(Registration src/Registration.cpp src/main.cpp src/Tool.cpp)
@@ -29,6 +34,9 @@ target_link_libraries(PCL_ICP_Registration ${PCL_LIBRARIES} ${Boost_LIBRARIES})
 
 add_executable(PCL_NORMAL_EXTRACTION src/PCL_NORMAL_EXTRACTION.cpp)
 target_link_libraries(PCL_NORMAL_EXTRACTION ${PCL_LIBRARIES} ${Boost_LIBRARIES})
+
+add_executable(PCL_LINE_EXTRACTION src/PCL_Line.cpp)
+target_link_libraries(PCL_LINE_EXTRACTION ${PCL_LIBRARIES} ${Boost_LIBRARIES})
 
 add_executable(PCL_HARRIS3D_EXTRACTION src/PCL_HARRIS3D_EXTRACTION.cpp)
 target_link_libraries(PCL_HARRIS3D_EXTRACTION ${PCL_LIBRARIES} ${Boost_LIBRARIES})
@@ -47,4 +55,4 @@ target_link_libraries(PCL_BSpline_Reconstruction ${PCL_LIBRARIES} ${Boost_LIBRAR
 
 
 add_executable(PCL_KDTREE src/PCL_KDTREE.cpp)
-target_link_libraries(PCL_KDTREE ${PCL_LIBRARIES} ${Boost_LIBRARIES})
+target_link_libraries(PCL_KDTREE ${PCL_LIBRARIES} ${Boost_LIBRARIES} ${OpenCV_LIBS})
