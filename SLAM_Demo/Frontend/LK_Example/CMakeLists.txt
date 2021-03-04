@@ -13,3 +13,6 @@ include_directories("/usr/local/include/eigen3")
 include_directories(include)
 add_executable(LK_Example src/optic_flow.cpp)
 target_link_libraries(LK_Example ${OpenCV_LIBS})
+
+add_executable(direct_matching src/direct_matching.cpp)
+target_link_libraries(direct_matching ${OpenCV_LIBS})

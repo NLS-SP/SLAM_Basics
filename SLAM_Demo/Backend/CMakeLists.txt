@@ -11,3 +11,4 @@ find_package(glog REQUIRED)
 find_package(gflags REQUIRED)
 
 add_subdirectory(CERES_Study)
+add_subdirectory(GaussNewton_CPP)
