@@ -1,5 +1,6 @@
 project(CERES_Study)
 
+include_directories(include)
 include_directories(CERES_Study)
 
 add_executable(hello_world hello_world.cpp)
@@ -22,3 +23,6 @@ target_link_libraries(hello_robust_fitting ${CERES_LIBRARIES} glog::glog ${GFLAG
 
 add_executable(hello_bundle hello_bundle.cpp bal_problem.cpp)
 target_link_libraries(hello_bundle ${CERES_LIBRARIES} glog::glog ${GFLAGS_LIBRARIES})
+
+add_executable(hello_ceres_pnp hello_ceres_pnp.cpp matcher.cpp)
+target_link_libraries(hello_ceres_pnp ${CERES_LIBRARIES} glog::glog ${GFLAGS_LIBRARIES} ${OpenCV_LIBS})
