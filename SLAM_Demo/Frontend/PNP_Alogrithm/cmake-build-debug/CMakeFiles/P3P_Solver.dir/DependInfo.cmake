@@ -4,12 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/gatsby/SLAM_Basic/SLAM_Demo/Frontend/PNP_Alogrithm/P3P_Solve.cpp" "/Users/gatsby/SLAM_Basic/SLAM_Demo/Frontend/PNP_Alogrithm/cmake-build-debug/CMakeFiles/P3P_Solver.dir/P3P_Solve.cpp.o"
+  "/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/PNP_Alogrithm/P3P_Solve.cpp" "/Users/robotics_qi/SLAM_Basics/SLAM_Demo/Frontend/PNP_Alogrithm/cmake-build-debug/CMakeFiles/P3P_Solver.dir/P3P_Solve.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/usr/local/include/eigen3"
+  "/usr/local/include"
+  "/usr/local/lib/cmake/Sophus/../../../include"
+  "/usr/local/opencv3.4.1/include"
+  "/usr/local/opencv3.4.1/include/opencv"
   )
 
 # Targets to which this target links.

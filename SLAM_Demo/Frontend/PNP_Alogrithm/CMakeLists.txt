@@ -11,7 +11,8 @@ include_directories("/usr/local/include/eigen3")
 
 find_package(G2O REQUIRED)
 include_directories(/usr/local/include)
-
+find_package(Ceres REQUIRED)
+include_directories(${CERES_INCLUDE_DIRS})
 find_package(Sophus REQUIRED)
 include_directories(${Sophus_INCLUDE_DIRS})
 
@@ -19,4 +20,4 @@ add_executable(P3P_Solver P3P_Solve.cpp)
 target_link_libraries(P3PSolve)
 
 add_executable(PNP_BA PNP_BA.cpp)
-target_link_libraries(PNP_BA ${OpenCV_LIBS} /usr/local/lib/libg2o_core.dylib)
+target_link_libraries(PNP_BA ${OpenCV_LIBS}  ${CERES_LIBRARIES} /usr/local/lib/libg2o_core.dylib)

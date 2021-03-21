@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/P3P_Solver.dir/P3P_Solve.cpp.o"
-  "P3P_Solver.pdb"
+  "CMakeFiles/P3P_Solver.dir/P3P_Solve.o"
   "P3P_Solver"
+  "P3P_Solver.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

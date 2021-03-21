@@ -1,25 +1,8 @@
-/usr/local/Cellar/cmake/3.19.1/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/robotics_qi/SLAM_Basics/SLAM_Demo/Backend
--- The C compiler identification is AppleClang 12.0.0.12000032
--- The CXX compiler identification is AppleClang 12.0.0.12000032
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Looking for pthread.h
--- Looking for pthread.h - found
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
--- Found Threads: TRUE  
--- Found required Ceres dependency: Eigen version 3.3.8 in /usr/local/include/eigen3
+/Applications/CMake.app/Contents/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/robotics_qi/SLAM_Basics/SLAM_Demo/Backend
+-- Found required Ceres dependency: Eigen version 3.3.9 in /usr/local/include/eigen3
 -- Found required Ceres dependency: glog
 -- Found required Ceres dependency: gflags
--- Found Ceres version: 2.0.0 installed in: /usr/local with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+-- Found Ceres version: 2.0.0 installed in: /usr/local with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, AccelerateSparse, SchurSpecializations, Multithreading]
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /Users/robotics_qi/SLAM_Basics/SLAM_Demo/Backend/cmake-build-debug
